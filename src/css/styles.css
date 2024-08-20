@@ -4,7 +4,7 @@
 /* These are marked with an underscore: */
 @import url("./variables.css");
 /* Feel free to add as many of these imports as you need */
-
+@import url("./welcomePage.css");
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -36,47 +36,30 @@ a, button {
   text-align: center;
 }
 
-
-
-/*welcome page*/
-.welcomePageContainer{
+.main-container{
+  overflow: hidden;
+  margin: 0;
   height: 100vh;
-  width: 100%;
-  background-image: url(../../assets/images/turgåere.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
 }
 
-.welcomePageContainer .pngShadow{
-  width: 800px;
-  margin-top: 15vh;
+.main-container>header{
+  grid-area: header;
+}
+.main-container>main{
+  grid-area: main;
+  overflow: auto;
+}
+
+.main-container>footer{
+  grid-area: footer;
 }
 
 
-.logoContainer{
-  filter: brightness(50%); 
-}
 
-
-.pngShadow{
-  -webkit-filter: drop-shadow(10px 5px 3px #0000006a);
-  filter: drop-shadow(10px 5px 3px #0000006a);
-  
-}
-
-.welcomePageContainer h1{
-  color: var(--color-primary);
-  height: 200px; 
-  position: fixed; 
-  bottom:0%;
-  width:100%; 
-  
-  font-size: 40px;
-  text-shadow: 5px 5px 5px  black;
-  
-}
-.welcomePageContainer a{
-  color: var(--color-primary);
-}

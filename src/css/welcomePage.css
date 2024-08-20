@@ -1,0 +1,41 @@
+.welcomePageContainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/images/turgåere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .welcomePageContainer .pngShadow{
+    width: 800px;
+    margin-top: 15vh;
+  }
+  
+  
+  .logoContainer{
+    filter: brightness(50%); 
+  }
+  
+  
+  .pngShadow{
+    -webkit-filter: drop-shadow(10px 5px 3px #0000006a);
+    filter: drop-shadow(10px 5px 3px #0000006a);
+    
+  }
+  
+  .welcomePageContainer h1{
+    color: var(--color-primary);
+    height: 200px; 
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+    
+    font-size: 40px;
+    text-shadow: 5px 5px 5px  black;
+    
+  }
+  .welcomePageContainer a{
+    color: var(--color-primary);
+  }
