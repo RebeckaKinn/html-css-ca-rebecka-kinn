@@ -59,6 +59,12 @@ a, button {
 
 .main-container>footer{
   grid-area: footer;
+  background-color: #0A3641;
+  color: var(--color-white);
+}
+
+.footer-menu a{
+  color: var(--color-white);
 }
 
 
