@@ -37,16 +37,17 @@ a, button {
 }
 
 .main-container{
-  overflow: hidden;
   margin: 0;
-  height: 100vh;
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr 1fr .5fr;
   grid-template-areas: 
-    'header'
-    'main'
-    'footer';
+    'header header header'
+    'main main main'
+    'main main main'
+    'footer footer footer';
+  gap: 2%;
 }
 
 .main-container>header{
@@ -54,12 +55,12 @@ a, button {
 }
 .main-container>main{
   grid-area: main;
-  overflow: auto;
+
 }
 
 .main-container>footer{
   grid-area: footer;
-  background-color: #0A3641;
+  background-color: var(--main-color);
   color: var(--color-white);
 }
 
