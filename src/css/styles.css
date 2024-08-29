@@ -41,13 +41,12 @@ a, button {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .5fr 1fr 1fr .5fr;
+  grid-template-rows: .5fr auto auto .5fr;
   grid-template-areas: 
     'header header header'
     'main main main'
     'main main main'
     'footer footer footer';
-  gap: 2%;
 }
 
 .main-container>header{
@@ -70,3 +69,24 @@ a, button {
 
 
 
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.search>div{
+  width: 50%;
+  border: 1px solid var(--main-color);
+  border-radius: 20%;
+
+}
+
+.search input{
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  font-size: 40px;
+}
