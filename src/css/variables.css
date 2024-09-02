@@ -5,4 +5,7 @@
   --color-white: #eff3ee;
   --color-dark: #000000;
   --main-color: #0A3641;
+
+  --main-font: "Poppins", sans-serif;
+  --font-size-p: 18px;
 }
