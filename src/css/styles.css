@@ -20,9 +20,9 @@ h1{
   font-style: normal;
 }
 
-img{
+/* img{
   max-width: 100%;
-}
+} */
 
 a, button {
   font-weight: 500;
@@ -43,6 +43,7 @@ a, button {
 .main-container{
   margin: 0;
   height: 100vh;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: .5fr auto auto .5fr;
@@ -53,6 +54,7 @@ a, button {
     'footer footer footer';
   gap: 2%;
 }
+
 
 .main-container>header{
   grid-area: header;
@@ -69,7 +71,7 @@ header .header-logo{
 
 .main-container>main{
   grid-area: main;
-
+  
 }
 
 .main-container>footer{
@@ -89,14 +91,14 @@ header .header-logo{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
+  
 }
 
 .search>div{
   width: 50%;
   border: 1px solid var(--main-color);
   border-radius: 20%;
-
+  
 }
 
 .search input{
@@ -104,4 +106,10 @@ header .header-logo{
   background-color: transparent;
   width: 80%;
   font-size: 40px;
+}
+
+@media only screen and (min-width: 900px){
+  header .header-logo {
+    width: 10%;
+  }
 }
