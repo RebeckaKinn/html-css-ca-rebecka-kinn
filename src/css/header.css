@@ -1,4 +1,4 @@
-.main-container>header{
+.main-container .header{
     grid-area: header;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     gap: 10px;
     
   }
-  header .header-logo{
+  .header .header-logo{
     width: 40%;
     max-width: 200px;
   }
@@ -124,7 +124,7 @@
   
     .menu-items li {
       padding: 10px 0;
-      font-size: 22px;
+      font-size: var(--font-size-menu);
     }
   
     #menu input:checked ~ ul {
@@ -133,20 +133,103 @@
    
     }
   
-  
+  .menu-layout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
   
   
   
   @media screen and (min-width: 900px){
-    .main-container>header{
+    .main-container .header{
       margin: 0 5% 0 5%;
       flex-direction: row;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
-      gap: 2%;
+      gap: 1%;
       
     }
-    header .header-logo {
+    .header .header-logo {
       width: 10%;
+      max-width: 150px;
     }
+
+
+
+    .search{
+        min-width: 150px;
+        width: 30%;
+        max-width: 400px;
+      }
+      
+      .search img{
+        width: 20px;
+      }
+
+
+
+    #menu{
+        position:initial;
+     
+        z-index: 13;
+        
+        background-color: none;
+      }
+      #menu input{
+        display: none;
+        z-index: -1;
+      }
+      #menu span{
+        display: none;
+        z-index: -1;
+      }
+      
+ 
+      
+      
+      
+      
+        .menu-items{
+          position: initial;
+
+          width: auto; 
+          height: auto;
+          
+          z-index: 10;
+          opacity: 1;
+      
+          transform: none;
+          transition: none;
+          
+          padding: 0px;
+          background-color: none;
+          box-shadow: none;
+      
+        
+        }
+      
+        .menu-items li {
+          padding: 0;
+          
+        }
+      
+        #menu input:checked ~ ul {
+          transform: none;
+
+       
+        }
+
+        .menu-layout{
+            width: 100%;
+            flex-direction: row;
+
+            justify-content: space-between;
+            align-items: center;
+            white-space: nowrap;
+
+            gap: 3%;
+          }
   }
