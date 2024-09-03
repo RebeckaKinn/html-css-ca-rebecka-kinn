@@ -30,6 +30,7 @@ a, button {
   font-style: normal;
   letter-spacing: 2px;
   text-decoration: none;
+  color: var(--color-dark);
 }
 
 ul{
@@ -81,5 +82,16 @@ ul{
 }
 
 
-
-
+@media screen and (max-width: 999px){
+  .hidden-on-mobile{
+    display: none;
+    z-index: -1;
+  }
+  
+}
+@media screen and (min-width: 1000px){
+  .hidden-on-desktop{
+    display: none;
+    z-index: -1;
+  }
+}
