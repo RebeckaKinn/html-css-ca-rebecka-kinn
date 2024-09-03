@@ -259,3 +259,10 @@
             
           }
   }
+
+
+  @media screen and (min-width: 1400px){
+    .menu-layout{
+        gap: 3rem;
+      }
+  }
