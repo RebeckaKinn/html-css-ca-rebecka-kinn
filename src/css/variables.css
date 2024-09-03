@@ -2,9 +2,11 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-white: #eff3ee;
+  --color-white: #FFFFFF;
   --color-dark: #000000;
   --main-color: #0A3641;
+
+  --shadow-color: rgba(0, 0, 0, 0.507);
 
   --main-font: "Poppins", sans-serif;
   --font-size-p: 18px;
