@@ -13,7 +13,10 @@
   }
   
   .search{
+  
     width: 70%;
+    max-width: 500px;
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -142,27 +145,48 @@
   }
   
   
+
+  .shoppingCart-button{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+  }
+  .shoppingCart-button img{
+    width: 80%;
+  }
+
+
   
-  @media screen and (min-width: 900px){
+  @media screen and (min-width: 1000px){
     .main-container .header{
-      margin: 0 5% 0 5%;
+      padding: 10px 5% 10px 5%;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      gap: 1%;
+      gap: 0%;
+
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
       
     }
     .header .header-logo {
       width: 10%;
-      max-width: 150px;
+      max-width: 120px;
     }
 
 
 
     .search{
-        min-width: 150px;
-        width: 30%;
-        max-width: 400px;
+        align-self: flex-end;
+        min-width: 120px;
+        width: 25%;
+        max-width: 300px;
+      }
+
+      .search>div{
+        border: none;
+      
+        
+        
       }
       
       .search img{
@@ -172,11 +196,12 @@
 
 
     #menu{
+        align-self: flex-end;
         position:initial;
      
         z-index: 13;
         
-        background-color: none;
+        background-color: transparent;
       }
       #menu input{
         display: none;
@@ -205,7 +230,7 @@
           transition: none;
           
           padding: 0px;
-          background-color: none;
+          background-color: transparent;
           box-shadow: none;
       
         
@@ -223,13 +248,14 @@
         }
 
         .menu-layout{
-            width: 100%;
+            width: auto;
             flex-direction: row;
 
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             white-space: nowrap;
-
-            gap: 3%;
+            gap: 1rem;
+            
+            
           }
   }

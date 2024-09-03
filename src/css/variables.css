@@ -11,7 +11,7 @@
   --font-size-menu: 20px;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1000px){
   :root {
     --font-size-p: 14px;
     --font-size-menu: 13px;
