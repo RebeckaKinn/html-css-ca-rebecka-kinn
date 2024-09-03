@@ -118,7 +118,7 @@
       transform: translateX(100%);
       transition: transform 0.5s ease, opacity 0.5s ease;
       
-      padding: 0px 10px 0px 3%;
+      padding: 10px 10px 10px 3%;
       background-color: var(--color-white);
       box-shadow: 0px 0px 5px var(--shadow-color);
   
@@ -162,7 +162,17 @@
     width: 80%;
   }
 
-
+  @media screen and (max-width: 999px){
+    .menu-items :nth-child(n+4){
+        padding-left: 10%;
+    }
+    .menu-items :nth-last-child(-n+3){
+        padding-left: 0%;
+    }
+    .menu-items :nth-child(7){
+        padding-bottom: 80%;
+    }
+  }
   
   @media screen and (min-width: 1000px){
     .main-container .header{
