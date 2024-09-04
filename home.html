@@ -17,13 +17,15 @@
             <img class="header-logo" src="assets/images/RainyDays_Logo.png" alt="logo"> 
             
             <div id="menu">
-                <input type="checkbox"/>
+                <input id="burgerMenu" type="checkbox"/>
                 <span></span>
                 <span></span>
                 <span></span>
 
                 <ul class="menu-items menu-layout">
-                    <img class="hidden-on-desktop" src="assets/images/RainyDays_Logo.png" alt="RainyDays-logo">
+                        <img class="hidden-on-desktop" 
+                            src="assets/images/RainyDays_Logo.png" 
+                            alt="RainyDays-logo">
                     <li><a href="" class="bold-font">Home</a></li>
                     <p class="hidden-on-desktop">Products ></p>
                     <li><a href="">New Arrivals</a></li>
@@ -32,9 +34,9 @@
                     <li><a href="">All</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">About</a></li>
-                    <a href="" class="shoppingCart-button hidden-on-desktop">
+                    <div class="shoppingCart-button hidden-on-desktop">
                         <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
-                    </a>
+                    </div>
                 </ul>
             </div>
             
@@ -44,10 +46,21 @@
                     <input id="search-bar" type="text" placeholder="search" class="search-bar">
                 </div>
             </section>
+                
+                    <div class="shopping-cart">
+                        <input class="hidden-on-mobile" type="checkbox" id="shopping-cart-toggle">
+                        <label class="shoppingCart-button hidden-on-mobile" for="shopping-cart-toggle">
+                            <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
+                        </label>
 
-            <a href="" class="shoppingCart-button hidden-on-mobile">
-                <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
-            </a>
+                    <section id="shopping-cart">
+                        <p>test test</p>
+                    </section>
+                </div>
+                    
+
+
+
         </header>
 
         <main>
