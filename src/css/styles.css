@@ -54,10 +54,9 @@ ul{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: .5fr auto auto .5fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas: 
     'header header header'
-    'main main main'
     'main main main'
     'footer footer footer';
   gap: 2%;
@@ -68,7 +67,6 @@ ul{
 
 .main-container>main{
   grid-area: main;
-  
 }
 
 .main-container>footer{
@@ -90,8 +88,19 @@ ul{
   
 }
 @media screen and (min-width: 1000px){
+  
+  .sticky{
+    width: 100%;
+    position: fixed;
+    top: 0; 
+  }
+  
+  
+
   .hidden-on-desktop{
     display: none;
     z-index: -1;
   }
+  
+
 }
