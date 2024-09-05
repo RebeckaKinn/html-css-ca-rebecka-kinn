@@ -80,6 +80,38 @@ ul{
   color: var(--color-white);
 }
 
+.closeButton{
+  height: auto;
+  cursor: pointer;
+}
+.closeButton span{
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 8px;
+  
+  background-color: var(--main-color);
+  border-radius: 3px;
+  z-index: 13;
+
+
+
+}
+.closeButton span {
+  transform: rotate(45deg);
+}
+.closeButton span:nth-last-child(2) {
+  transform: rotate(-45deg);
+  
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 999px){
   .hidden-on-mobile{
