@@ -57,7 +57,7 @@
   flex-direction: column;
 }
 
-.cart-items div{
+.cart-items .added-items{
   display: flex;
   flex-direction: row;
 }
