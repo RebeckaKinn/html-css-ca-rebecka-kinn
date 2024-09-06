@@ -72,13 +72,6 @@
   -webkit-touch-callout: none;
 }
 
-#menu label {
-  display: block;
-  width: 55px; 
-  cursor: pointer;
-  z-index: 13;
-  position: relative;
-}
 
 
 #menu label span {
