@@ -136,6 +136,11 @@ ul{
   align-self: flex-end;
 }
 
+.column{
+  flex-direction: column;
+  
+}
+
 
 
 
