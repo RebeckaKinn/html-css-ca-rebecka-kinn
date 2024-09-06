@@ -52,6 +52,16 @@
 }
 
 
+.cart-items{
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-items div{
+  display: flex;
+  flex-direction: row;
+}
+
 
 
 @media screen and (min-width: 1000px){
