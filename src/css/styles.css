@@ -132,9 +132,7 @@ ul{
   border-radius: 2em;
 }
 
-.centered .colored-button{
-  align-self: flex-end;
-}
+
 
 .column{
   flex-direction: column;
