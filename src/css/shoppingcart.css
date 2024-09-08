@@ -94,7 +94,12 @@
 }
 
 
-
+.cart-order-info div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10%;
+}
 
 
 @media screen and (min-width: 1000px){
