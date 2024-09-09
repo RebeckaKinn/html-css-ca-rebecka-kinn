@@ -131,7 +131,9 @@ ul{
   margin: 3% 0 3% 0;
 }
 
-
+.bottom{
+  margin-top: auto;
+}
 
 .column{
   flex-direction: column;
