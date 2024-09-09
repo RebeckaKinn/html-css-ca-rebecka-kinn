@@ -79,7 +79,7 @@
   height: 150px;
   padding: 3%;
 
-  border-right: 2px solid var(--gray-color);
+  
 
 
   display: flex;
@@ -93,10 +93,11 @@
 }
 
 .added-items table{
-  font-size: smaller;
+  font-size:x-small;
   grid-area: info;
   text-align: start;
   padding: 0 3% 0 3%;
+  border-left: 1px solid var(--gray-color);
 }
 
 
