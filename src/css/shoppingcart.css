@@ -144,22 +144,22 @@ td h3{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .item-img .color-circle{
   align-self: flex-end;
 }
 
 
+
+
+.delete-item{
+  /* grid-area: info; */
+  height: 30px;
+  width: 30px;
+  color: var(--color-white);
+  background-color: red;
+  border-radius: 100%;
+  
+}
 
 
 
