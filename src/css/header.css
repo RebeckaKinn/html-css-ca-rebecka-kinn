@@ -145,7 +145,7 @@
 
 
 
-  @media screen and (max-width: 999px){
+  @media screen and (max-width: 991px){
     .menu-items :nth-child(n+4){
         padding-left: 10%;
     }
@@ -157,7 +157,7 @@
     }
   }
   
-  @media screen and (min-width: 1000px){
+  @media screen and (min-width: 992px){
     .main-container .header{
       padding: 10px 5% 10px 5%;
       flex-direction: row;
@@ -271,7 +271,7 @@
   }
 
 
-  @media screen and (min-width: 1400px){
+  @media screen and (min-width: 1200px){
     .menu-layout{
         gap: 2rem;
       }

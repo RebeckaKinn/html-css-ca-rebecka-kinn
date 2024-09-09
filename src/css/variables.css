@@ -12,16 +12,25 @@
   --main-font: "Poppins", sans-serif;
   --font-size-p: 18px;
   --font-size-menu: 20px;
+
+  --desktop-width: 992px;
+  --desktop-width-large: 1200px;
 }
 
-@media screen and (min-width: 1000px){
+/*
+small-devices-width: 600px;
+desktop-width: 992px;
+desktop-width-large: 1200px;
+*/
+
+@media screen and (min-width: 992px){
   :root {
     --font-size-p: 14px;
     --font-size-menu: 13px;
   }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1200px){
   :root {
     --font-size-menu: 15px;
   }
