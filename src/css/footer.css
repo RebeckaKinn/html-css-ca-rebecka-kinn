@@ -73,9 +73,9 @@ footer{
   }
   
 
-/* .footer-some{
-    
-} */
+.footer-some{
+    text-align: center;
+} 
 
 .bottom-footer{
     grid-area: bottom;
