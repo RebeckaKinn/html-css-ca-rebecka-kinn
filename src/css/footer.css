@@ -29,7 +29,29 @@ footer{
 
 .footer-contact-info{
     grid-area: contact;
+
 }
+.footer-contact-info ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto;
+    grid-template-areas: 'contactIcon contactInfo';
+    justify-items: start;
+    
+    li{
+        grid-area: contactInfo;
+    }
+    img{
+        grid-area: contactIcon;
+        justify-self: center;
+    } 
+
+}
+
+
+
+
 
 
 .footer-menu{
@@ -51,10 +73,11 @@ footer{
   }
   
 
-.footer-some{
+/* .footer-some{
     
-}
+} */
 
 .bottom-footer{
     grid-area: bottom;
+    text-align: center;
 }
