@@ -87,7 +87,7 @@
   grid-area: image;
   width: 100%;
   height: 150px;
-  padding: 5%;
+  padding: 0 5% 5% 5%;
 
   
 
@@ -102,13 +102,42 @@
   object-fit: contain;
 }
 
+.item-info{
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+}
+
 .added-items table{
   font-size:x-small;
-  grid-area: info;
+  
   text-align: start;
   padding: 0 3% 0 3%;
   border-left: 1px solid var(--gray-color);
 }
+
+.delete-item{
+  align-self: flex-end;
+  height: 30px;
+  width: 30px;
+  color: var(--color-white);
+  background-color: red;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: -15px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.delete-item::before{
+  content: "-";
+  font-size: xx-large;
+}
+
+
 
 
 .cart-order-info{
@@ -151,15 +180,7 @@ td h3{
 
 
 
-.delete-item{
-  /* grid-area: info; */
-  height: 30px;
-  width: 30px;
-  color: var(--color-white);
-  background-color: red;
-  border-radius: 100%;
-  
-}
+
 
 
 
@@ -181,6 +202,24 @@ td h3{
     .item-img{
       height: 100px;
 
+    }
+
+    .delete-item{
+      order: 2;
+      
+      height: 20px;
+      width: 60px;
+      color: var(--dark-gray-color);
+      background-color: transparent;
+      border-radius: 0;
+      margin-bottom: 0;
+      margin-top: -20px;
+      
+    }
+
+    .delete-item::before{
+      content: "delete";
+      font-size: x-small;
     }
 }
 @media screen and (min-width: 1200px){
