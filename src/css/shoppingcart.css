@@ -138,9 +138,32 @@
 }
 
 #cart-item-1:checked ~ #item-1,
-#cart-item-2:checked ~ #item-2{
+#cart-item-2:checked ~ #item-2,
+#cart-item-1:checked ~ .cart-order-info #info-item-1,
+#cart-item-2:checked ~ .cart-order-info #info-item-2{
   display: none;
 }
+
+#cart-item-1:checked ~ .cart-order-info #info-total{
+  h4{
+    visibility: hidden;
+  }
+  h4::after{
+    visibility: visible;
+    content: "349,-";
+  }
+}
+#cart-item-2:checked ~ .cart-order-info #info-total{
+  h4{
+    visibility: hidden;
+  }
+  h4::after{
+    visibility: visible;
+    content: "598,-";
+  }
+}
+
+
 
 
 
