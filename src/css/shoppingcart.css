@@ -137,6 +137,10 @@
   font-size: xx-large;
 }
 
+#cart-item-1:checked ~ #item-1,
+#cart-item-2:checked ~ #item-2{
+  display: none;
+}
 
 
 
