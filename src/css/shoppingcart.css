@@ -169,11 +169,35 @@
 
 #cart-item-1:checked:checked ~ #cart-item-2:checked ~ .empty-cart{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cart-item-1:checked:checked ~ #cart-item-2:checked ~ .checkout-button{
+  display: none;
 }
 
 
 .empty-cart{
   display: none;
+  font-size: medium;
+}
+.empty-cart p{
+  margin-top: 0;
+  margin-bottom: 40%;
+}
+.empty-cart h1:first-child{
+  margin-top: 20%;
+}
+.empty-cart h1{
+  margin: 0;
+}
+.empty-cart h1{
+  font-weight: 600;
+  font-size: x-large;
+}
+.empty-cart button{
+  width: 100%;
 }
 
 
