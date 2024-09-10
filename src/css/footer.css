@@ -1,9 +1,10 @@
 footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto .5fr;
-    grid-template-areas: 'info contact'
-                        'bottom bottom';
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 'img .'
+                        'info contact'
+                        'bottomText bottomText';
     padding: 3%;
     gap: 5%;
 }
@@ -16,8 +17,9 @@ footer{
 }
 
 .footer-logo{
+    grid-area: img;
     height: auto;
-    width: 150px;
+    width: 130px;
     
 }
 .footer-logo img{
@@ -29,6 +31,7 @@ footer{
 
 .footer-contact-info{
     grid-area: contact;
+    align-self: start;
 
 }
 .footer-contact-info ul{
@@ -42,6 +45,10 @@ footer{
     
     li{
         grid-area: contactInfo;
+        align-self: start;
+    }
+    li p{
+        margin: 0;
     }
     img{
         grid-area: contactIcon;
@@ -79,6 +86,7 @@ footer{
 } 
 
 .bottom-footer{
-    grid-area: bottom;
+    grid-area: bottomText;
     text-align: center;
+    font-size: small;
 }
