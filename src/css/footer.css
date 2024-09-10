@@ -1,0 +1,60 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto .5fr;
+    grid-template-areas: 'info contact'
+                        'bottom bottom';
+    padding: 3%;
+    gap: 5%;
+}
+
+.info-grid-name{
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.footer-logo{
+    height: auto;
+    width: 150px;
+    
+}
+.footer-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.footer-contact-info{
+    grid-area: contact;
+}
+
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-menu a{
+    color: var(--color-white);
+    padding: 0 3% 0 3%;
+    border-right: 1px solid var(--gray-color);
+  }
+  .footer-menu a:nth-child(1){
+      padding-left: 0;
+}
+.footer-menu a:last-child{
+      padding-right: 0;
+      border: none;
+  }
+  
+
+.footer-some{
+    
+}
+
+.bottom-footer{
+    grid-area: bottom;
+}
