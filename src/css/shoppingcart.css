@@ -165,9 +165,16 @@
 
 #cart-item-1:checked:checked ~ #cart-item-2:checked ~ .cart-order-info #info-total{
   display: none;
-
 }
 
+#cart-item-1:checked:checked ~ #cart-item-2:checked ~ .empty-cart{
+  display: flex;
+}
+
+
+.empty-cart{
+  display: none;
+}
 
 
 
