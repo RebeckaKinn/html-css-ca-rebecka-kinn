@@ -30,14 +30,14 @@
                         <img class="hidden-on-desktop" 
                             src="assets/images/RainyDays_Logo.png" 
                             alt="RainyDays-logo">  
-                    <li><a href="" class="bold-font">Home</a></li>
+                    <li><a href="home.html" class="bold-font">Home</a></li>
                     <p class="hidden-on-desktop">Products ></p>
-                    <li><a href="">New Arrivals</a></li>
+                    <li><a href="new-arrivals.html">New Arrivals</a></li>
                     <li><a href="">Men</a></li>
                     <li><a href="">Women</a></li>
                     <li><a href="">All</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
                     <label for="shopping-cart-toggle" class="shoppingCart-button hidden-on-desktop">
                         <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
                     </label>
@@ -67,7 +67,7 @@
 
                             <section class="centered-col">
                                 <input id="cart-item-1" type="checkbox"/>
-                                <div id="item-1" class="added-items">
+                                <div id="item-1" class="added-items box-shadow">
                                     <div class="item-img">
                                         <img src="assets/images/products/RainyDays_Jacket1transparent.png" alt="cart-item-male-jacket">
                                         <div class="color-circle orange-color"></div>
@@ -93,7 +93,7 @@
                                 </div>
 
                                 <input id="cart-item-2" type="checkbox"/>
-                                <div id="item-2" class="added-items">
+                                <div id="item-2" class="added-items box-shadow">
                                     <div class="item-img">
                                         <img src="assets\images\products\RainyDays_Jacket244.png" alt="cart-item-womens-jacket">
                                         <div class="color-circle"></div>
@@ -136,11 +136,17 @@
                                 <div class="empty-cart">
                                     <h1>Oops!</h1>
                                     <p>Looks like your Cart is Empty!</p>
-                                    <button class="white-button">View the New Arrivals</button>
+                                    <a class="white-button">
+                                        <button>View the New Arrivals</button>
+                                    </a>
                                     <h1>OR</h1>
-                                    <button class="colored-button">Continue shopping</button>
+                                    <a class="colored-button">
+                                        <button>Continue shopping</button>
+                                    </a>
                                 </div>
-                                <button class="colored-button bottom checkout-button">Checkout</button>
+                                <a class="colored-button bottom checkout-button" href="checkout.html">
+                                    <button>Checkout</button>
+                                </a>
                             </section>
                             
 
