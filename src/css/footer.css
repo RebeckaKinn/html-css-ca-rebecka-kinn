@@ -1,4 +1,8 @@
-footer{
+.main-container>footer{
+    grid-area: footer;
+    background-color: var(--main-color);
+    color: var(--color-white);
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -6,7 +10,6 @@ footer{
                         'info contact'
                         'bottomText bottomText';
     padding: 3%;
-    gap: 5%;
 }
 
 .info-grid-name{
