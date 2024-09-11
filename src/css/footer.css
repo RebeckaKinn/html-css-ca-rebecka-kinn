@@ -10,6 +10,8 @@
                         'info contact'
                         'bottomText bottomText';
     padding: 3%;
+
+    font-size: small;
 }
 
 .info-grid-name{
@@ -45,6 +47,7 @@
     grid-template-areas: 'contactIcon contactInfo';
     justify-items: start;
     justify-content: end;
+    margin-bottom: 5%;
     
     li{
         grid-area: contactInfo;
@@ -56,8 +59,11 @@
     img{
         grid-area: contactIcon;
         justify-self: center;
+        width: 20px;
     } 
-
+}
+.footer-contact-info ul:nth-of-type(-n+2) img {
+    align-self: center;
 }
 
 
@@ -68,6 +74,7 @@
 .footer-menu{
     display: flex;
     flex-direction: row;
+    padding: 5% 0 5% 0;
     
 }
 .footer-menu a{
@@ -85,11 +92,27 @@
   
 
 .footer-some{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    
+    h2{
+      margin-bottom: 0;  
+    }
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 7%;
+    }
 } 
 
 .bottom-footer{
     grid-area: bottomText;
+    padding: 0 5% 0 5%;
     text-align: center;
-    font-size: small;
+    font-size: x-small;
+    color: var(--dark-gray-color);
 }
