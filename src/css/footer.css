@@ -5,9 +5,10 @@
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: 'img .'
                         'info contact'
+                        'some contact'
                         'bottomText bottomText';
     padding: 3%;
 }
@@ -16,7 +17,7 @@ footer p, footer li{
     font-size: 10px;
 }
 footer a, footer h2{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .info-grid-name{
@@ -47,7 +48,7 @@ footer a, footer h2{
 .footer-contact-info ul{
   
     display: grid;
-    grid-template-columns: 50px 200px;
+    grid-template-columns: 20px 150px;
     grid-template-rows: auto;
     grid-template-areas: 'contactIcon contactInfo';
     justify-items: start;
@@ -64,7 +65,7 @@ footer a, footer h2{
     img{
         grid-area: contactIcon;
         justify-self: center;
-        width: 20px;
+        width: 15px;
     } 
 }
 .footer-contact-info ul:nth-of-type(-n+2) img {
@@ -80,11 +81,12 @@ footer a, footer h2{
     display: flex;
     flex-direction: row;
     padding: 5% 0 5% 0;
+    align-items: center;
     
 }
 .footer-menu a{
     color: var(--color-white);
-    padding: 0 3% 0 3%;
+    padding: 0 2% 0 2%;
     border-right: 1px solid var(--gray-color);
   }
   .footer-menu a:nth-child(1){
@@ -97,6 +99,7 @@ footer a, footer h2{
   
 
 .footer-some{
+    grid-area: some;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,6 +116,8 @@ footer a, footer h2{
         gap: 7%;
         padding-bottom: 5%;
     }
+
+
 } 
 
 .bottom-footer{
@@ -122,29 +127,50 @@ footer a, footer h2{
     color: var(--dark-gray-color);
 }
 
-@media screen and (min-width: 880px){
+@media screen and (min-width: 550px){
 
-    footer p, footer li{
+    footer p:not(.bottom-footer p, .info-grid-name p),
+    footer li{
         font-size: 14px;
     }
     footer a, footer h2{
         font-size: 16px;
     }
+    .footer-contact-info ul{
+        grid-template-columns: 50px 200px;
+
+        img{
+            width: 20px;
+        } 
+    }
+
 }
 
 @media screen and (min-width: 992px){
     .main-container>footer{
 
-        grid-template-columns: .5fr repeat(3, 1fr) .5fr;
+        grid-template-columns: 10% repeat(3, 1fr) 10%;
         grid-template-rows: repeat(3, auto);
-        grid-template-areas: '. info info contact .'
-                            '. info info contact .'
+        grid-template-areas: '. img some contact .'
+                            '. info some contact .'
                             '. bottomText bottomText bottomText .';
         padding-left: 0;
         padding-right: 0;
     }
-    .footer-logo{
-        grid-area: info;
-        width: 150px;
+    .info-grid-name p{
+        color: var(--dark-gray-color);
+    }
+    .bottom-footer{
+        padding: 0 20% 0 20%;
+    }
+   
+}
+
+@media screen and (min-width: 1400px){
+    .main-container>footer{
+
+        grid-template-columns: repeat(5, 1fr) ;
+
+
     }
 }
