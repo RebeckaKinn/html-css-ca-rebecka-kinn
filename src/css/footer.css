@@ -121,3 +121,30 @@ footer a, footer h2{
     text-align: center;
     color: var(--dark-gray-color);
 }
+
+@media screen and (min-width: 880px){
+
+    footer p, footer li{
+        font-size: 14px;
+    }
+    footer a, footer h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .main-container>footer{
+
+        grid-template-columns: .5fr repeat(3, 1fr) .5fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: '. info info contact .'
+                            '. info info contact .'
+                            '. bottomText bottomText bottomText .';
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-logo{
+        grid-area: info;
+        width: 150px;
+    }
+}
