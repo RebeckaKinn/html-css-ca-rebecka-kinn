@@ -58,12 +58,12 @@
   
   
   .search-menu{
-    display: none;
-  
+    display: flex;
     flex-direction: column;
     box-shadow: -3px 5px 5px -3px var(--shadow-color);
     padding: 3% 5% 5% 5%;
     margin: 0 5% 0 5%;
+    white-space: nowrap;
 
     ul li{
       display: flex;
@@ -74,6 +74,11 @@
     ul li a h3,
     ul li p{
       margin: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    ul li a h3{
+      padding-right: 20px;
     }
     a{
       align-self: center;
