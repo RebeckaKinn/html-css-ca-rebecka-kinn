@@ -22,9 +22,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
   }
   
-  .search>div{
+  .search>label{
     width: 100%;
     border: .15em solid var(--main-color);
     padding: .2em .2em;
@@ -46,15 +47,16 @@
   .search input:focus {
     outline: none;
   }
-  .search input:focus ~ .search-menu {
+  .search:focus-within .search-menu  {
     display: flex;
+    flex-direction: column;
   }
   
   .search img{
     width: 30px;
   }
   
-  /*menu when you click on the input search field. Does not work now. */
+  
   .search-menu{
     display: none;
   }
@@ -197,7 +199,7 @@
         max-width: 300px;
       }
 
-      .search>div{
+      .search>label{
         border: none;
         padding: 0;
         
