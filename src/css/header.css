@@ -67,7 +67,7 @@
   }
   
   .search-menu-container{
-    display: none;
+    display: flex;
 
     position: absolute;
     top: 100%;
@@ -85,30 +85,33 @@
     width: 100%;
     
 
-    ul li{
+    ul li a{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding-bottom: 2%;
     }
     ul li a h3,
-    ul li p{
+    ul li a p{
       margin: 0;
+      font-size: 12px;
+      letter-spacing: normal;
+    }
+    ul li a p{
       text-overflow: ellipsis;
       overflow: hidden;
-      font-size: 10px;
+      color: var(--dark-gray-color);
     }
     ul li a h3{
       padding-right: 20px;
-      font-size: 13px;
-      letter-spacing: normal;
+      font-size: 14px;
     }
     a{
       align-self: center;
     }
-    a h3{
+    a h2{
       margin: 50% 0 0 0; 
-      font-size: 15px;
+      font-size: 17px;
     }
   }
 
@@ -261,6 +264,23 @@
         width: 20px;
       }
 
+
+      .search-menu-container{
+        left: 0;
+        width: 150%;
+      }
+      .search-menu{
+        ul li a h3,
+        ul li a p{
+          font-size: 15px;
+        }
+        ul li a h3{
+          font-size: 17px;
+        }
+        a h2{
+          font-size: 18px;
+        }
+      }
 
 
     #menu{
