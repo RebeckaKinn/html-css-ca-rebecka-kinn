@@ -1,4 +1,47 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
 
+
+.main-top-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main-top-section div{
+    width: 100%;
+    padding: 5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .card-img{
+        background-color: var(--color-white);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
 .turgåere2-background{
     background-image: url(../../assets/images/turgåere2.jpg);
@@ -6,6 +49,8 @@
 
 .turgåere1-background{
     background-image: url(../../assets/images/turgåere.jpg);
+    background-position: top;
+
 }
 
 .background-img-gradient-left{
@@ -17,12 +62,6 @@
               rgba(255,255,255,1)), url(../../assets/images/woman_and_mountains.jpg);
 }
 
-.card-img{
-    background-color: var(--color-white);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .img-icon{
     width: 60px;
@@ -35,4 +74,12 @@
     a{
         padding: 20px;
     }
+}
+
+
+
+@media screen and (min-width: 992px){
+    .main-top-section{
+        flex-direction: row;
+        }
 }
