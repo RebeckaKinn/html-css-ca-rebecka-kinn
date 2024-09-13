@@ -67,7 +67,7 @@
   }
   
   .search-menu-container{
-    display: flex;
+    display: none;
 
     position: absolute;
     top: 100%;
