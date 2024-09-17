@@ -173,6 +173,15 @@ ul{
   color: var(--main-color);
 }
 
+.square-button{
+  border: none;
+  border-radius: .7em;
+  padding: 10px 20px 10px 20px;
+  font-size: smaller;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
 .bottom{
   margin-top: auto;
 }

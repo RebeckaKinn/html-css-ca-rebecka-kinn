@@ -1,7 +1,7 @@
 main{
     display: flex;
     flex-direction: column;
-    gap: 2%;
+    gap: 2em;
 }
 
 
@@ -10,15 +10,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.main-top-section div{
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-    }
-
-
-
-
 
 
 
@@ -51,6 +42,18 @@ align-items: center;
 
     .col1{
         grid-area: col1;
+        h1{
+            font-weight: 600;
+            margin: 0;
+        }
+        p{
+            font-size: small;    
+        }
+        a{
+            font-size: small;
+            letter-spacing: normal;
+            font-weight: 700;
+        }
     }
     .col2{
         grid-area: col2;
@@ -58,11 +61,20 @@ align-items: center;
 
 .turgåere2-background{
     background-image: url(../../assets/images/turgåere2.jpg);
+    border-radius: 1em;
+    width: 90%;
+    height: 100%;
+    padding: 5%;
 }
 
 .turgåere1-background{
-    background-image: url(../../assets/images/turgåere.jpg);
-    background-position: top;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.164) 10%,
+              rgba(255,255,255,1)), url(../../assets/images/turgåere.jpg);
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+
 
 }
 
