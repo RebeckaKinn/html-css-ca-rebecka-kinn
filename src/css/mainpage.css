@@ -42,6 +42,18 @@ align-items: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 'col1 col2';
+    }
+
+    .col1{
+        grid-area: col1;
+    }
+    .col2{
+        grid-area: col2;
     }
 
 .turgåere2-background{

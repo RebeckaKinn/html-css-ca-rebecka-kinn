@@ -193,6 +193,11 @@ ul{
   background-color: var(--item-color-orange);
 }
 
+
+.white-text{
+  color: var(--color-white);
+}
+
 @media screen and (max-width: 991px){
   .hidden-on-mobile{
     display: none;
