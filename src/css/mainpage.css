@@ -92,12 +92,25 @@ align-items: center;
     width: 60px;
 }
 
-.white-buttons{
-    background-color: var(--color-white);
-    color: var(--main-color);
-    border-radius: 1em;
+.category-icons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
     a{
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    a img{
+        height: 50px;
+    }
+    a b{
+        font-size: small;
     }
 }
 
