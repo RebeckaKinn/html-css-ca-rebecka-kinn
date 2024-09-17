@@ -1,7 +1,7 @@
 main{
+    grid-area: main;
     display: flex;
     flex-direction: column;
-    gap: 2em;
 }
 
 
@@ -55,12 +55,14 @@ align-items: center;
             font-weight: 700;
         }
     }
+    
     .col2{
         grid-area: col2;
     }
 
 .turgåere2-background{
     background-image: url(../../assets/images/turgåere2.jpg);
+    background-position: center left;
     border-radius: 1em;
     width: 90%;
     height: 100%;
@@ -70,12 +72,10 @@ align-items: center;
 .turgåere1-background{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.164) 10%,
               rgba(255,255,255,1)), url(../../assets/images/turgåere.jpg);
-    background-position: center top;
+    background-position: left top;
     width: 100%;
     height: 100%;
     padding: 5%;
-
-
 }
 
 .background-img-gradient-left{
@@ -95,11 +95,15 @@ align-items: center;
 .category-icons{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+    row-gap: 10px;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10%;
+    gap: 10%; */
     a{
         display: flex;
         flex-direction: column;
@@ -107,17 +111,43 @@ align-items: center;
         align-items: center;
     }
     a img{
-        height: 50px;
+        width: 40%;
+        max-width: 40px;
     }
     a b{
         font-size: small;
     }
 }
 
+@media screen and (max-width: 991px){
+    .col1-full{
+        grid-column-start: col1;
+        grid-column-end: col2;
+    }
+}
 
-
-@media screen and (min-width: 992px){
+@media screen and (min-width: 850px){
     .main-top-section{
         flex-direction: row;
         }
+        .turgåere2-background{
+            border-radius: 0;
+            width: 100%;
+        }
+
+        .turgåere2-background,
+        .turgåere1-background{
+            padding: 3%;
+        }
+}
+
+@media screen and (min-width: 992px){
+    main{
+        margin-top: 70px;
+    }
+        
+}
+@media screen and (min-width: 1200px){
+    
+        
 }
