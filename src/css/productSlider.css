@@ -1,11 +1,25 @@
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+
 .item-slider{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    flex-wrap: wrap;
+    /* height: 500px; */
+
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .item-slider>div{
+    scroll-snap-align: start;
+
     width: 100%;
     height: 450px;
     display: flex;
