@@ -47,7 +47,7 @@ align-items: center;
             margin: 0;
         }
         p{
-            font-size: small;    
+            font-size: 12px;    
         }
         a{
             font-size: small;
@@ -58,6 +58,9 @@ align-items: center;
     
     .col2{
         grid-area: col2;
+        p{
+            font-size: 12px;    
+        }
     }
 
 .turgåere2-background{
@@ -81,10 +84,18 @@ align-items: center;
 .background-img-gradient-left{
     background-image: linear-gradient(to left, rgba(255,255,255,0) 60%,
               rgba(255,255,255,1)), url(../../assets/images/man_with_sunshine.jpg);
+              background-position: left top;
+    width: 100%;
+    height: auto;
+    padding: 5%;
 }
 .background-img-gradient-right{
     background-image: linear-gradient(to right, rgba(255,255,255,0) 60%,
               rgba(255,255,255,1)), url(../../assets/images/woman_and_mountains.jpg);
+    background-position: left top;
+    width: 100%;
+    height: auto;
+    padding: 5%;
 }
 
 
