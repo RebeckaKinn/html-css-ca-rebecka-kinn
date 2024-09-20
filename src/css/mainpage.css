@@ -82,25 +82,35 @@ align-items: center;
 }
 
 .background-img-gradient-right{
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 30%,
-    var(--color-white)), url(../../assets/images/man_with_sunshine.jpg);
-    background-position: left top;
+    background-image: linear-gradient(to right,rgba(2,0,36,0) 40%,
+     rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
+      url(../../assets/images/man_with_sunshine.jpg);
+    background-position: left center;
     width: 100%;
-    height: auto;
+    height: 230px;
     padding: 5%;
 }
 .background-img-gradient-left{
-    background-image: linear-gradient(to left, rgba(255,255,255,0) 60%,
-              var(--color-white)), url(../../assets/images/woman_and_mountains.jpg);
+    background-image: linear-gradient(to left,rgba(2,0,36,0) 40%,
+     rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
+      url(../../assets/images/woman_and_mountains.jpg);
     background-position: left top;
     width: 100%;
-    height: auto;
+    height: 230px;
     padding: 5%;
 }
 
 
 .img-icon{
     width: 60px;
+}
+.img-logo-left{
+    justify-self: start;
+    align-self: end;
+}
+.img-logo-right{
+    justify-self: end;
+    align-self: end;
 }
 
 .category-icons{
