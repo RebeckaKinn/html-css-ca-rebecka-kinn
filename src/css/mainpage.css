@@ -48,7 +48,7 @@ align-items: center;
         .col2{
             text-align: end;
         }
-        .col1, .col2{
+        .col1 .margin-right-8, .col2 .margin-right-8{
             align-self: center;
             p{
                 margin: 0;
