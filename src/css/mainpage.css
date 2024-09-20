@@ -48,6 +48,13 @@ align-items: center;
         .col2{
             text-align: end;
         }
+        .col1, .col2{
+            align-self: center;
+            p{
+                margin: 0;
+                padding-bottom: 20px;
+            }
+        }
 
     }
 
