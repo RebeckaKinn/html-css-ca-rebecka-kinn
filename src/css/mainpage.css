@@ -40,6 +40,17 @@ align-items: center;
         grid-template-areas: 'col1 col2';
     }
 
+
+    .card-img-precent{
+        grid-template-columns: 45% 10% 45%;
+        grid-template-areas: 'col1 . col2';
+
+        .col2{
+            text-align: end;
+        }
+
+    }
+
     .col1{
         grid-area: col1;
         h1{
@@ -85,10 +96,10 @@ align-items: center;
     background-image: linear-gradient(to right,rgba(2,0,36,0) 40%,
      rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
       url(../../assets/images/man_with_sunshine.jpg);
-    background-position: left center;
+    background-position: left top;
     width: 100%;
     height: 230px;
-    padding: 5%;
+    padding: 3%;
 }
 .background-img-gradient-left{
     background-image: linear-gradient(to left,rgba(2,0,36,0) 40%,
@@ -97,7 +108,7 @@ align-items: center;
     background-position: left top;
     width: 100%;
     height: 230px;
-    padding: 5%;
+    padding: 3%;
 }
 
 
