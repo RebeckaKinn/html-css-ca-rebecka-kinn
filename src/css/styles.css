@@ -221,6 +221,13 @@ ul{
   margin-bottom: 3%;
 }
 
+.margin-left{
+  margin-left: 10%;
+}
+.margin-right{
+  margin-right: 10%;
+}
+
 @media screen and (max-width: 991px){
   .hidden-on-mobile{
     display: none;
