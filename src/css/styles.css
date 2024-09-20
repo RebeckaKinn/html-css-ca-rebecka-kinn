@@ -244,3 +244,11 @@ ul{
     width: 15px;
   }
 }
+
+@media screen and (min-width: 1400px){
+  .side-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+}
