@@ -121,6 +121,9 @@ align-items: center;
 }
 
 
+
+
+
 .img-icon{
     width: 60px;
 }
@@ -167,8 +170,9 @@ align-items: center;
     }
 }
 @media screen and (min-width: 700px){
-    .background-img-gradient-left{
-
+    .background-img-gradient-left,
+    .background-img-gradient-right{
+        padding: 1%;
         
 
     }
