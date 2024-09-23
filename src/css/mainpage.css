@@ -112,8 +112,9 @@ align-items: center;
     background-image: linear-gradient(to left,rgba(2,0,36,0) 40%,
      rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
       url(../../assets/images/woman_and_mountains.jpg);
-    background-position: left top;
-    width: 100%;
+      background-size: 90% auto;
+    background-position: right top;
+    
     height: 230px;
     padding: 3%;
 }
@@ -164,7 +165,14 @@ align-items: center;
         grid-column-end: col2;
     }
 }
+@media screen and (min-width: 700px){
+    .background-img-gradient-left{
 
+          background-size: 70% auto;
+
+
+    }
+}
 @media screen and (min-width: 850px){
     .main-top-section{
         flex-direction: row;
