@@ -121,9 +121,11 @@ align-items: center;
 
 .grid-placement-end{
     justify-self: end;
+    text-align: start;
 }
 .grid-placement-start{
     justify-self: start;
+    text-align: end;
 }
 
 .img-icon{
@@ -176,12 +178,17 @@ align-items: center;
     .background-img-gradient-left{
         background-image: linear-gradient(to left,rgba(2,0,36,0) 60%,
          rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%),
-          url(../../assets/images/woman_and_mountains.jpg);
+          url(../../assets/images/woman_and_mountains2.jpg);
     }
     .background-img-gradient-left,
     .background-img-gradient-right{
         background-size: 550px auto;
         min-height: 250px;      
+}
+.grid-placement-end,
+.grid-placement-start{
+
+    text-align: start;
 }
 }
 @media screen and (min-width: 850px){
@@ -197,6 +204,14 @@ align-items: center;
         .turgåere1-background{
             padding: 3%;
         }
+        .coli-flex{
+            width: 80%;
+        }
+        .grid-placement-end,
+    .grid-placement-start{
+        justify-self: center;
+
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -207,14 +222,14 @@ align-items: center;
     .background-img-gradient-right{
         background-image: linear-gradient(to right,rgba(2,0,36,0) 70%,
          rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%),
-          url(../../assets/images/man_with_sunshine.jpg);
+          url(../../assets/images/man_with_sunshine2.jpg);
           background-position: left 20%;
     }
     .background-img-gradient-left{
         background-image: linear-gradient(to left,rgba(2,0,36,0) 70%,
          rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%),
-          url(../../assets/images/woman_and_mountains.jpg);
-          background-position: right 20%;
+          url(../../assets/images/woman_and_mountains2.jpg);
+          background-position: right 10%;
     }
 
     .background-img-gradient-left,
@@ -226,13 +241,18 @@ align-items: center;
     .coli-flex{
         width: 60%;
     }
-    .grid-placement-end,
-    .grid-placement-start{
-        justify-self: center;
-    }
+    
       
 }
-@media screen and (min-width: 1200px){
-    
+@media screen and (min-width: 1400px){
+    .background-img-gradient-left,
+    .background-img-gradient-right{
+        background-size: 800px auto;
+        min-height: 300px;  
+}
+
+    .coli-flex{
+        width: 50%;
+    }
         
 }
