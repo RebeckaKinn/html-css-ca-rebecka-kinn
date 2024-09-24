@@ -203,7 +203,34 @@ align-items: center;
     main{
         margin-top: 70px;
     }
-        
+
+    .background-img-gradient-right{
+        background-image: linear-gradient(to right,rgba(2,0,36,0) 70%,
+         rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%),
+          url(../../assets/images/man_with_sunshine.jpg);
+          background-position: left 20%;
+    }
+    .background-img-gradient-left{
+        background-image: linear-gradient(to left,rgba(2,0,36,0) 70%,
+         rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%),
+          url(../../assets/images/woman_and_mountains.jpg);
+          background-position: right 20%;
+    }
+
+    .background-img-gradient-left,
+    .background-img-gradient-right{
+        background-size: 700px auto;
+ 
+}
+
+    .coli-flex{
+        width: 60%;
+    }
+    .grid-placement-end,
+    .grid-placement-start{
+        justify-self: center;
+    }
+      
 }
 @media screen and (min-width: 1200px){
     
