@@ -89,21 +89,20 @@ align-items: center;
 
 .background-img-gradient-right{
     background-image: linear-gradient(to right,rgba(2,0,36,0) 40%,
-     rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
+     rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
       url(../../assets/images/man_with_sunshine.jpg);
-      background-size: 500px auto;
     background-position: left top;
-    
-    min-height: 230px;
-    padding: 3%;
 }
 .background-img-gradient-left{
     background-image: linear-gradient(to left,rgba(2,0,36,0) 40%,
-     rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%),
+     rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
       url(../../assets/images/woman_and_mountains.jpg);
-      background-size: 500px auto;
     background-position: right top;
-    
+}
+
+.background-img-gradient-left,
+.background-img-gradient-right{
+    background-size: 500px auto;
     min-height: 230px;
     padding: 3%;
 }
@@ -169,12 +168,21 @@ align-items: center;
     }
 }
 @media screen and (min-width: 700px){
+    .background-img-gradient-right{
+        background-image: linear-gradient(to right,rgba(2,0,36,0) 60%,
+         rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%),
+          url(../../assets/images/man_with_sunshine.jpg);
+    }
+    .background-img-gradient-left{
+        background-image: linear-gradient(to left,rgba(2,0,36,0) 60%,
+         rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%),
+          url(../../assets/images/woman_and_mountains.jpg);
+    }
     .background-img-gradient-left,
     .background-img-gradient-right{
-        padding: 1%;
-        
-
-    }
+        background-size: 550px auto;
+        min-height: 250px;      
+}
 }
 @media screen and (min-width: 850px){
     .main-top-section{
