@@ -1,0 +1,19 @@
+/*FONT-SIZES*/
+p.img-font,
+b.img-font{
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width: 850px){
+    p.img-font,
+    b.img-font{
+        font-size: 14px;
+      }
+    
+  }
