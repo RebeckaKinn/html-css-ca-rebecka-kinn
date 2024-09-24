@@ -237,6 +237,12 @@ ul{
   
 }
 @media screen and (min-width: 992px){
+  .square-button{
+  
+    button{
+      font-size: 18px;
+    }
+  }
   
   .sticky{
     width: 100%;
