@@ -49,9 +49,7 @@ align-items: center;
             font-weight: 600;
             margin: 0;
         }
-        p{
-            font-size: 12px;    
-        }
+
       
         
     }
@@ -60,9 +58,7 @@ align-items: center;
     
     .col2{
         grid-area: col2;
-        p{
-            font-size: 12px;    
-        }
+
     }
 
     
@@ -212,9 +208,7 @@ align-items: center;
         justify-self: center;
 
     }
-    .col1 p, .col2 p{
-        font-size: 14px;
-    }
+
 }
 
 @media screen and (min-width: 992px){
@@ -261,9 +255,6 @@ align-items: center;
 
     .coli-flex{
         width: 50%;
-    }
-    .col1 p, .col2 p{
-        font-size: 18px;
     }
         
 }

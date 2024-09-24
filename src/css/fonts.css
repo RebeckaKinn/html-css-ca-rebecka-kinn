@@ -10,10 +10,17 @@ b.img-font{
 
 
 
-  @media screen and (min-width: 850px){
+  @media screen and (min-width: 700px){
     p.img-font,
     b.img-font{
         font-size: 14px;
       }
     
+  }
+
+  @media screen and (min-width: 1400px){
+    p.img-font,
+    b.img-font{
+        font-size: 18px;
+      }
   }
