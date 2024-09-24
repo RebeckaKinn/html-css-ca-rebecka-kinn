@@ -162,7 +162,7 @@ ul{
   background-color: var(--color-white);
   color: var(--main-color);
   border: 1px solid var(--main-color);
-  width: 60%;
+  
   max-width: 400px;
   padding: 15px;
   border-radius: 2em;
@@ -183,6 +183,10 @@ ul{
   font-size: smaller;
   font-weight: 700;
   letter-spacing: normal;
+
+  button{
+    font-size: 11px;
+  }
 }
 
 .bottom{

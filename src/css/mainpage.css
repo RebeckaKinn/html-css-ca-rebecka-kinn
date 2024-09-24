@@ -41,22 +41,7 @@ align-items: center;
     }
 
 
-    .card-img-precent{
-        grid-template-columns: 45% 10% 45%;
-        grid-template-areas: 'col1 . col2';
-
-        .col2{
-            text-align: end;
-        }
-        .col1 .margin-right-8, .col2 .margin-right-8{
-            align-self: center;
-            p{
-                margin: 0;
-                padding-bottom: 20px;
-            }
-        }
-
-    }
+    
 
     .col1{
         grid-area: col1;
@@ -68,10 +53,11 @@ align-items: center;
             font-size: 12px;    
         }
         a{
-            font-size: small;
+            font-size: 14px;
             letter-spacing: normal;
             font-weight: 700;
         }
+        
     }
     
     .col2{
@@ -80,6 +66,8 @@ align-items: center;
             font-size: 12px;    
         }
     }
+
+    
 
 .turgåere2-background{
     background-image: url(../../assets/images/turgåere2.jpg);
@@ -122,7 +110,22 @@ align-items: center;
 
 
 
+.coli-flex{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a{
+        align-self: center;
+    }
+}
 
+.grid-placement-end{
+    justify-self: end;
+}
+.grid-placement-start{
+    justify-self: start;
+}
 
 .img-icon{
     width: 60px;
@@ -143,11 +146,7 @@ align-items: center;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: auto;
     row-gap: 10px;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10%; */
+
     a{
         display: flex;
         flex-direction: column;
