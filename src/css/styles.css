@@ -224,10 +224,7 @@ ul{
   margin-left: 5%;
   margin-right: 5%;
 }
-.margin-top-bottom{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+
 
 
 
@@ -240,9 +237,7 @@ ul{
   
 }
 @media screen and (min-width: 992px){
-  .margin-top-bottom{
-    margin: 0;
-  }
+  
   .sticky{
     width: 100%;
     position: fixed;

@@ -105,6 +105,7 @@ align-items: center;
     background-size: 500px auto;
     min-height: 230px;
     padding: 3%;
+    margin-top: 3%;
 }
 
 
@@ -183,7 +184,8 @@ align-items: center;
     .background-img-gradient-left,
     .background-img-gradient-right{
         background-size: 550px auto;
-        min-height: 250px;      
+        min-height: 250px;     
+        margin-top: 2%; 
 }
 .grid-placement-end,
 .grid-placement-start{
@@ -224,6 +226,7 @@ align-items: center;
          rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%),
           url(../../assets/images/man_with_sunshine2.jpg);
           background-position: left 20%;
+          
     }
     .background-img-gradient-left{
         background-image: linear-gradient(to left,rgba(2,0,36,0) 70%,
@@ -249,6 +252,10 @@ align-items: center;
     .background-img-gradient-right{
         background-size: 800px auto;
         min-height: 300px;  
+        margin-top: 0; 
+}
+.background-img-gradient-right{
+    margin-top: 5%;
 }
 
     .coli-flex{
