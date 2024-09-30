@@ -126,6 +126,25 @@
   
 }
 
+.back-button{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  z-index: 13;
+
+  span{
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 4px 0 4px 0;
+  background-color: var(--main-color);
+  border-radius: 3px;
+  position: relative;
+  z-index: 13;
+  }
+  
+}
+
 
 #menu input {
   position: absolute;
