@@ -44,7 +44,7 @@
 
     p{
  
-       
+        color: var(--dark-gray-color);
         flex-grow: 1;
     }
     div{
