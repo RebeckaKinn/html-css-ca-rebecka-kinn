@@ -237,6 +237,12 @@ td h3{
   }
 }
 
+@media screen and (max-width: 991px){
+  .delete-item{
+    font-size: xx-large; 
+  }
+
+}
 
 @media screen and (min-width: 992px){
     #shopping-cart{
@@ -256,8 +262,8 @@ td h3{
       color: var(--dark-gray-color);
       background-color: transparent;
       border-radius: 0;
-      margin-bottom: 0;
-      margin-top: -20px;
+      margin:-20px 10px 10px 10px;
+
       
     }
 
