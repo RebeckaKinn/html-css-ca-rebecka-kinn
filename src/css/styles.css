@@ -211,6 +211,9 @@ ul{
 .white-text{
   color: var(--color-white);
 }
+.blue-font-color{
+  color: var(--blue-link-color);
+}
 
 .bold{
   font-weight: 700;
@@ -225,6 +228,10 @@ ul{
 
 .center-text{
   text-align: center;
+}
+
+.remove-margin{
+  margin: 0;
 }
 
 
