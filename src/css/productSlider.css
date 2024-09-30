@@ -148,6 +148,7 @@
 }
 
 @media screen and (min-width: 1100px){
+    
     .slider-nav{
         display: none;
     }
@@ -186,15 +187,16 @@
         }
     }
     .img-container{
+  
         box-shadow: 0px 5px 10px -5px var(--shadow-color);
         border-radius: 1em;
-        padding: 3%;
+        padding: 8%;
     }
 
 
     .item-slider .view-more-card{
         display: flex;
-        height: 165px;
+        height: 235px;
         box-shadow: 0px 5px 10px -5px var(--shadow-color);
         border-radius: 1em;
 
