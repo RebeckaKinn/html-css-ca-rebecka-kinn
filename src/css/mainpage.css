@@ -42,7 +42,7 @@ align-items: center;
     
 
 .turgåere2-background{
-    background-image: url(../../assets/images/turgåere2.jpg);
+    background-image: var(--card-img-4);
     background-position: center left;
     border-radius: 1em;
     width: 90%;
@@ -50,7 +50,7 @@ align-items: center;
 
 .turgåere1-background{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.164) 10%,
-              rgba(255,255,255,1)), url(../../assets/images/turgåere.jpg);
+              rgba(255,255,255,1)), var(--background-img);
     background-position: left top;
     width: 100%;
 }
@@ -64,14 +64,20 @@ align-items: center;
 .background-img-gradient-right{
     background-image: linear-gradient(to right,rgba(2,0,36,0) 40%,
      rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
-      url(../../assets/images/man_with_sunshine.jpg);
+      var(--card-img-1);
     background-position: left top;
 }
 .background-img-gradient-left{
     background-image: linear-gradient(to left,rgba(2,0,36,0) 40%,
      rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
-      url(../../assets/images/woman_and_mountains.jpg);
+      var(--card-img-2);
     background-position: right top;
+}
+
+.background-contact-img{
+    background-image: linear-gradient(to right,rgba(2,0,36,0) 40%,
+     rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
+      var(--card-img-3);
 }
 
 .background-img-gradient-left,
