@@ -16,7 +16,7 @@ align-items: center;
 
 
     .card-img{
-        background-color: var(--color-white);
+        /* background-color: var(--color-white); */
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -80,6 +80,9 @@ align-items: center;
      rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
       var(--card-img-3);
 }
+
+
+
 
 .img-position-left{
     background-position: left top;
@@ -181,7 +184,46 @@ align-items: center;
           }
 }
 /*make span class since they are the same? ish?*/
+@media screen and (max-width: 500px){
+    .contact-info-background{
+        background-image: linear-gradient(to left,rgba(2,0,36,0) 20%,
+         rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
+          var(--card-img-5);
+        background-position: right top;
+        margin-right: -6%;
+        background-size: contain;    
+    }
+}
 
+
+@media screen and (min-width: 501px){
+    .contact-info-background-full{
+        background-image: linear-gradient(to left,rgba(2,0,36,0) 20%,
+         rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%),
+          var(--card-img-5);
+        background-position: right top;
+        margin-right: -6%;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 'info1 .'
+                            'info2 .';
+        div{
+            margin-right: 5%;
+        }
+        
+    }
+
+    .info1{
+        grid-area: info1;
+    }
+    .info2{
+        grid-area: info2;
+    }
+}
 
 
 @media screen and (max-width: 991px){
@@ -242,6 +284,22 @@ align-items: center;
     .grid-placement-start{
         justify-self: center;
 
+    }
+
+
+
+    .info-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 'section1 section2 section2';
+
+        .section1{
+            grid-area: section1;
+        }
+        .section2{
+            grid-area: section2;
+        }
     }
 
 }
