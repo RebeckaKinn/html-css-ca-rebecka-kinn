@@ -239,10 +239,10 @@ ul{
 }
 
 .bottom-margin{
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 .top-margin{
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 
@@ -278,10 +278,13 @@ ul{
   }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1300px){
   .side-margin{
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .left-side-margin{
+    margin-left: 10%;
   }
   
 }
