@@ -20,6 +20,11 @@ b.img-font{
     font-size: 16px;
   }
 
+  h1.freehand-title{
+    font-family: "Freehand", cursive;
+        font-size: 30px;
+        color: var(--color-white);
+  }
 
 
 
@@ -32,7 +37,9 @@ b.img-font{
       a.font-size{
         font-size: 18px;
       }  
-    
+      h1.freehand-title{
+            font-size: 40px;
+      }
   }
 
   @media screen and (min-width: 1100px){
@@ -45,6 +52,7 @@ b.img-font{
     h3.title{
       font-size: 17px;
     }
+    
   }
 
   /*gjøre boksen til bildene i card litt større 
@@ -59,4 +67,7 @@ b.img-font{
       .font-size{
         font-size: 20px;
       }
+      h1.freehand-title{
+        font-size: 50px;
+  }
   }
