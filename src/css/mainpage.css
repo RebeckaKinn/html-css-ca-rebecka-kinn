@@ -80,6 +80,13 @@ align-items: center;
      rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
       var(--card-img-3);
 }
+.background-aboutus-img{
+    background-image: linear-gradient(to right,rgba(2,0,36,0) 30%,
+     rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%),
+      var(--about-us-img-2);
+      height: 100%;
+    padding: 3%;
+}
 
 .card-img-full{
     background-repeat: no-repeat;
