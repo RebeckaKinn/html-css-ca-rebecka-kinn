@@ -71,7 +71,7 @@
     }
 }
 .item-display .img-card-item{
-    min-width: 200px;
+    min-width: auto;
     max-width: auto;
     width: auto;
     height: auto;
