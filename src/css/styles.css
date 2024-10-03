@@ -207,6 +207,15 @@ ul{
 .orange-color{
   background-color: var(--item-color-orange);
 }
+.black-color{
+  background-color: var(--color-dark);
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
 
 
 .white-text{
@@ -228,6 +237,10 @@ ul{
 }
 .left-side-margin{
   margin-left: 5%;
+}
+.product-margin{
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .center-text{
@@ -274,7 +287,7 @@ ul{
     z-index: -1;
   }
   
-  .color-circle{
+  .item-img .color-circle{
     height: 15px;
     width: 15px;
   }
@@ -285,6 +298,10 @@ ul{
   .left-side-margin{
     margin-left: 10%;
   }
+  .product-margin{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
 }
 
 @media screen and (min-width: 1300px){
@@ -294,5 +311,9 @@ ul{
   }
   .left-side-margin{
     margin-left: 20%;
+  }
+  .product-margin{
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
