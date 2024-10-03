@@ -30,13 +30,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
-
-    .colored-button{
-        width: auto;
-    }
-    
+    align-content: stretch;
+    justify-content: space-between; 
 }
 .item-slider .img-card-item,
 .item-display .img-card-item{
@@ -72,12 +67,12 @@
 }
 .item-display .img-card-item{
     min-width: auto;
-    max-width: auto;
+    max-width: 200px;
     width: auto;
-    height: auto;
+    height: 500px;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50% auto auto 30% auto;
+    grid-template-rows: 50% 5% auto 25% 10%;
     grid-template-areas: 'image'
                         'colorCircle'
                         'title'
@@ -86,6 +81,7 @@
 
     box-shadow: 0px -5px 10px -8px var(--shadow-color);
     padding: 1%;
+    margin-bottom: 5%;
     .img-container{
         grid-area: image;
         height: 100%;
@@ -98,12 +94,16 @@
     }
     p{
         grid-area: description;
-        flex-grow: 0;
+        
+        margin-top: 1%;
     }
     .colored-button{
+        align-self: end;
+        place-self: center;
         grid-area: button;
-        padding-top: 3%;
-        padding-bottom: 3%;
+        width: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         margin-top: 0;
         margin-bottom: 0;
     }
