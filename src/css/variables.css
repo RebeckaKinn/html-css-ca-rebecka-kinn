@@ -32,6 +32,15 @@
   --about-us-img-1: url(../../assets/images/elderly_smiling.jpg);
   --about-us-img-2: url(../../assets/images/elderly_and_mountain.jpg);
 
+
+  --product-male-1: url(../../assets/images/products/RainyDays_Jacket1transparent.png);
+  --product-male-2: url(../../assets/images/products/RainyDays_Jacket33.png);
+  --product-male-3: url(../../assets/images/products/RainyDays_Jacket6.png);
+  --product-male-4: ;
+
+  --product-women-1: url(../../assets/images/products/RainyDays_Jacket244.png);
+  --product-women-2: url(../../assets/images/products/RainyDays_Jacket4r.png);
+  --product-women-3: ;
 }
 
 /*

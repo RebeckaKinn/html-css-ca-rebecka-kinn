@@ -73,11 +73,11 @@
 .item-display .img-card-item{
     min-width: 200px;
     max-width: auto;
-    width: 200px;
+    width: auto;
     height: auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50% 5% 5% 30% 10%;
+    grid-template-rows: 50% auto auto 30% auto;
     grid-template-areas: 'image'
                         'colorCircle'
                         'title'
@@ -85,7 +85,7 @@
                         'button';
 
     box-shadow: 0px -5px 10px -8px var(--shadow-color);
-    padding: 2%;
+    padding: 1%;
     .img-container{
         grid-area: image;
         height: 100%;
@@ -96,13 +96,16 @@
     .title{
         grid-area: title;
     }
-    .gray-font-s{
+    p{
         grid-area: description;
+        flex-grow: 0;
     }
     .colored-button{
         grid-area: button;
         padding-top: 3%;
         padding-bottom: 3%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
