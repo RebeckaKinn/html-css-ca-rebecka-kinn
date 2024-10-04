@@ -9,11 +9,11 @@ b.img-font{
   }
 
   .gray-font-s{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   h4.title{
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
   }
   h3.title{
@@ -26,19 +26,7 @@ b.img-font{
         color: var(--color-white);
   }
 
-  @media screen and (min-width: 500px){
-    .gray-font-s{
-      font-size: 12px;
-    }
-  
-    h4.title{
-      font-size: 14px;
-      font-weight: 500;
-    }
-    h3.title{
-      font-size: 16px;
-    }
-  }
+ 
 
   @media screen and (min-width: 700px){
     p.img-font,

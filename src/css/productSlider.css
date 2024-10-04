@@ -67,7 +67,7 @@
 }
 .item-display .img-card-item{
     min-width: auto;
-    max-width: auto;
+    max-width: 180px;
     width: auto;
     height: 450px;
     display: grid;
@@ -96,14 +96,17 @@
         grid-area: description;
         
         margin-top: 1%;
+       
+
+  
     }
     .colored-button{
         align-self: end;
         place-self: center;
         grid-area: button;
-        width: 90%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        width: 80%;
+        padding-top: 1%;
+        padding-bottom: 1%;
         margin-top: 0;
         margin-bottom: 0;
     }
