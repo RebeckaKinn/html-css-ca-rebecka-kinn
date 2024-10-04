@@ -67,9 +67,9 @@
 }
 .item-display .img-card-item{
     min-width: auto;
-    max-width: 200px;
+    max-width: auto;
     width: auto;
-    height: 500px;
+    height: 450px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 50% 5% auto 25% 10%;
@@ -189,6 +189,17 @@
     background-color: var(--color-white);
 } 
 
+
+@media screen and (max-width: 375px){
+    .item-display .img-card-item{
+        min-width: auto;
+        max-width: 100%;
+        width: auto;
+        height: 450px;
+
+
+    }
+}
 
 @media screen and (min-width: 992px){
     .slider-wrapper{
