@@ -71,7 +71,7 @@
 }
 .item-display .img-card-item{
     min-width: 100%;
-    max-width: 100%;
+    max-width: 350px;
     
     height: 100%;
     box-shadow: 0px -5px 10px -8px var(--shadow-color);
