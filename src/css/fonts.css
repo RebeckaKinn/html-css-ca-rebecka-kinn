@@ -9,15 +9,16 @@ b.img-font{
   }
 
   .gray-font-s{
-    font-size: 12px;
+    font-size: 11px;
+    /*12*/
   }
 
   h4.title{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
   }
   h3.title{
-    font-size: 14px;
+    font-size: 13px;
   }
 
   h1.freehand-title{
