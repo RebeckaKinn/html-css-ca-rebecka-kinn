@@ -174,7 +174,7 @@
 
 @media screen and (min-width: 500px){
     .item-display .img-container{
-        height: 60%; 
+        height: 250px; 
     }
 }
 
