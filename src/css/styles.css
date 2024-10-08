@@ -331,4 +331,9 @@ ul.bullet{
     margin-left: 15%;
     margin-right: 15%;
   }
+  ul.bullet{
+    
+    padding: 0 3% 0 3%;
+    margin: 0 3% 0 3%;
+  }
 }

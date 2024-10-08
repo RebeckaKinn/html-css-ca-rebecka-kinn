@@ -26,6 +26,7 @@
 @media screen and (min-width: 992px){
     .product-container{
         display: grid;
+        margin-top: 3%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         grid-template-areas: 'productInfo productImg'
@@ -37,6 +38,9 @@
             height: 100%;
             justify-self: center;
             align-self: center;
+
+            border-radius: 0;
+            
         }
         .slideshowButtons{
             grid-area: slideshowButtons;
@@ -57,7 +61,19 @@
         .img-container{
             box-shadow: none;
         }
+        .slideshowButtons{
+            margin-bottom: 5%;
+            
+        }
+        .productInfo{
+            border-right: 1px solid var(--gray-color);
+            padding-right: 10%;
+        }
+    }
 
+    .top-line{
+        border-top: 1px solid var(--gray-color);
+        
     }
     
 
