@@ -256,6 +256,9 @@ ul{
   text-align: end;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
 
 
 @media screen and (max-width: 991px){
