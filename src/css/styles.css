@@ -53,9 +53,9 @@ ul{
 }
 
 ul.bullet{
-  list-style-type:circle;
-  padding: auto;
-  margin: auto;
+  list-style-type:disc;
+  padding:initial;
+  margin: inherit;
 }
 
 
