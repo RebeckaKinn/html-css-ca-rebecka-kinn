@@ -76,5 +76,25 @@
         
     }
     
+}
+@media screen and (min-width: 1200px){
+    .grid-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10%;
+        .side-margin{
+            margin: 0;
+            margin-right: 5%;
+        }
+    }
+    
+   
+}
 
+@media screen and (min-width: 1300px){
+    
+    .grid-section{
+        margin-left: 20%;
+
+}
 }
