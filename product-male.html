@@ -14,7 +14,7 @@
 <body>
     <div class="main-container">
         <header class="header sticky">
-            <img class="header-logo" src="assets/images/RainyDays_Logo.png" alt="logo"> 
+            <img class="header-logo hidden-on-mobile" src="assets/images/RainyDays_Logo.png" alt="logo"> 
             
 
             <a href="home.html" class="hidden-on-desktop back-button">
@@ -199,7 +199,7 @@
                         <div class="img-container">
                             <img src="assets/images/products/RainyDays_Jacket1transparent.png" alt="mens jacket">
                         </div>
-                        <div class="centered flex-row">
+                        <div class="slideshowButtons centered flex-row">
                             <div class="color-circle bottom-shadow gray-color marked"></div>
                             <div class="color-circle bottom-shadow gray-color"></div>
                             <div class="color-circle bottom-shadow gray-color"></div>
@@ -208,19 +208,20 @@
                         </div>
 
 
-                        <div class="flex-colum">
+                        <div class="productInfo flex-colum">
 
-                            <i class="gray-font-s">Rabot Collection</i>
+                            <i class="gray-font-s hidden-on-desktop">Rabot Collection</i>
                             <div class="flex-row space-between">
                                 <h1 class="title remove-margin">Robot V2 3L Jacket</h1>
-                                <h2 class="title remove-margin">598,-</h2>
+                                <h2 class="title remove-margin hidden-on-desktop">598,-</h2>
                             </div>
+                            <i class="gray-font-s hidden-on-mobile">Rabot Collection</i>
 
                             <p>
                                 Prepare for whatever Mother Nature throws your way with our versatile and durable RainGuard™ Waterproof Jacket. Crafted with advanced waterproof technology, this jacket keeps you dry and comfortable even during the heaviest downpours.
                             </p>
 
-                            <a href="">
+                            <a href="#description-section">
                                 <h3>➤ Read More</h3>
                             </a>
 
@@ -243,19 +244,21 @@
 
     
     
-                          
+                        <div class="centered space-between-desktop">
                             <a class="colored-button " href="">
-                                <button>Add To Cart
-                                    <img src="assets/icons/add-shopping-cart.svg" alt="add-to-card-logo">
-                                </button>
+                                <button class="font-size">Add To Cart</button>
+                                <img src="assets/icons/add-shopping-cart.svg" alt="add-to-card-logo">
                             </a>
+                            <h2 class="title remove-margin hidden-on-mobile">598,-</h2>
+                        </div>
+
                         </div>
 
  
                 </section>
 
                 <section class="side-margin">
-                    <h3>Description</h3>
+                    <h3 id="description-section">Description</h3>
                     <p>Experience ultimate versatility and comfort with the Adventure Pro All-Weather Jacket, designed for outdoor enthusiasts who refuse to let the elements stand in their way. Whether you're hiking through rain-soaked trails, skiing down snowy slopes, or navigating windy city streets, this jacket has got you covered.</p>
                     
                     <h3>Key Features</h3>

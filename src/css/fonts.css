@@ -12,6 +12,10 @@ b.img-font{
     font-size: 12px;
     color: var(--dark-gray-color);
   }
+  i.gray-font-s{
+    font-size: 15px;
+    color: var(--dark-gray-color);
+  }
 
   h4.title{
     font-size: 14px;
