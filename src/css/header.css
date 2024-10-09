@@ -196,10 +196,10 @@
   font-size: var(--font-size-menu);
 }
 
-#menu input:checked ~ .menu-items {
+/* #menu input:checked ~ .menu-items {
   transform: translateX(0);
   opacity: 1;
-}
+} */
 
 .menu-layout {
   display: flex;

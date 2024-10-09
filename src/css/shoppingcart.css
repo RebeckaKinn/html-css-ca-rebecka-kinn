@@ -36,11 +36,13 @@
   flex-direction: column;
 }
 
-.shopping-cart input {
+.shopping-cart input,
+#addToCart-toggle {
   display: none;
 }
 
-.shopping-cart input:checked ~ #shopping-cart {
+.shopping-cart input:checked ~ #shopping-cart,
+#menu input:checked ~ .menu-items{
   transform: translateX(0);
   opacity: 1;
 }
