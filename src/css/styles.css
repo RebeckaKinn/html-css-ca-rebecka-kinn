@@ -103,6 +103,8 @@ ul.bullet {
   margin-top: 3%;
 }
 
+
+
 @media screen and (max-width: 991px) {
   .hidden-on-mobile {
     display: none;
@@ -149,5 +151,12 @@ ul.bullet {
   ul.bullet {
     padding: 0 3% 0 3%;
     margin: 0 3% 0 3%;
+  }
+
+  .img-card-padding-right{
+    padding-right: 20%;
+  }
+  .img-card-padding-left{
+    padding-left: 20%;
   }
 }
