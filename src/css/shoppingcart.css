@@ -42,7 +42,8 @@
 }
 
 .shopping-cart input:checked ~ #shopping-cart,
-#menu input:checked ~ .menu-items{
+#menu input:checked ~ .menu-items,
+#addToCart-toggle:checked ~ .addToCart-message{
   transform: translateX(0);
   opacity: 1;
 }
