@@ -22,6 +22,8 @@
   align-items: center;
 }
 
+
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -43,6 +45,10 @@
 
 .align-items-center {
   align-items: center;
+}
+
+.gap{
+  gap: 2em;
 }
 
 .flex-grow {

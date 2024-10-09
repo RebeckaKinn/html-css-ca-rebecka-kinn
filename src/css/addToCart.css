@@ -3,9 +3,9 @@ position: fixed;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 30%;
+  height: auto;
 
-  padding: 2%;
+  padding: 5% 2% 5% 2%;
   opacity: 0;
 
   transform: translateX(100%);
@@ -13,7 +13,7 @@ position: fixed;
 
   background-color: var(--color-white);
   z-index: 50;
-
+    
 
 }
 
