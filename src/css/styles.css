@@ -104,6 +104,10 @@ ul.bullet {
   margin-top: 3%;
 }
 
+.margin-left-small{
+  margin-left: 5%;
+}
+
 
 
 @media screen and (max-width: 991px) {
