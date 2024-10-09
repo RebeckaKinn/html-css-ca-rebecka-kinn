@@ -1,105 +1,100 @@
 /*colors and color-circles*/
-.color-circle{
-    background-color: var(--color-dark);
-    border-radius: 100%;
+.color-circle {
+  background-color: var(--color-dark);
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+}
+
+.product-page-color {
+  height: 28px;
+  width: 28px;
+}
+.product-page-size {
+  height: 35px;
+  width: 35px;
+  color: var(--color-white);
+}
+
+.orange-color {
+  background-color: var(--item-color-orange);
+}
+.black-color {
+  background-color: var(--item-color-black);
+}
+.red-color {
+  background-color: var(--item-color-red);
+}
+.darkRed-color {
+  background-color: var(--item-color-darkRed);
+}
+.grey-color {
+  background-color: var(--item-color-grey);
+}
+.white-color {
+  background-color: var(--item-color-white);
+}
+.blue-color {
+  background-color: var(--item-color-blue);
+}
+.brown-color {
+  background-color: var(--item-color-brown);
+}
+.yellow-color {
+  background-color: var(--item-color-yellow);
+}
+.darkGreen-color {
+  background-color: var(--item-color-DarkGreen);
+}
+.lightBlue-color {
+  background-color: var(--item-color-lightBlue);
+}
+.purple-color {
+  background-color: var(--item-color-purple);
+}
+.green-color {
+  background-color: var(--item-color-green);
+}
+.lightBrown-color {
+  background-color: var(--item-color-lightBrown);
+}
+
+.gray-color {
+  background-color: var(--gray-color);
+}
+
+.main-color {
+  background-color: var(--main-color);
+}
+
+.marked {
+  border: 1px solid var(--color-dark);
+  background-color: var(--color-white);
+}
+
+.circle-border {
+  outline: 1px solid var(--color-dark);
+  outline-offset: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  .color-circle {
+    height: 20px;
+    width: 20px;
+  }
+  .product-page-color {
+    height: 35px;
+    width: 35px;
+  }
+  .product-page-size {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .item-img .color-circle {
     height: 15px;
     width: 15px;
   }
-
-  .product-page-color{
-    height: 28px;
-    width: 28px;
-  }
-  .product-page-size{
-    height: 35px;
-    width: 35px;
-    color: var(--color-white);
-  }
-
-
-.orange-color{
-    background-color: var(--item-color-orange);
-  }
-  .black-color{
-    background-color: var(--item-color-black);
-  }
-  .red-color{
-    background-color: var(--item-color-red);
-  }
-  .darkRed-color{
-    background-color: var(--item-color-darkRed);
-  }
-  .grey-color{
-    background-color: var(--item-color-grey);
-  }
-  .white-color{
-    background-color: var(--item-color-white);
-  }
-  .blue-color{
-    background-color: var(--item-color-blue);
-  }
-  .brown-color{
-    background-color: var(--item-color-brown);
-  }
-  .yellow-color{
-    background-color: var(--item-color-yellow);
-  }
-  .darkGreen-color{
-    background-color: var(--item-color-DarkGreen);
-  }
-  .lightBlue-color{
-    background-color: var(--item-color-lightBlue);
-  }
-  .purple-color{
-    background-color: var(--item-color-purple);
-  }
-  .green-color{
-    background-color: var(--item-color-green);
-  }
-  .lightBrown-color{
-    background-color: var(--item-color-lightBrown);
-  }
-
-  .gray-color{
-    background-color: var(--gray-color);
-  }
-
-  .main-color{
-    background-color: var(--main-color);
-    
-  }
-
-  .marked{
-    border: 1px solid var(--color-dark);
-    background-color: var(--color-white);
-  }
-
-  .circle-border {
-    outline: 1px solid var(--color-dark);
-    outline-offset: 5px;
-  }
-  
-
-  @media screen and (min-width: 500px){
-    .color-circle{
-      height: 20px;
-      width: 20px;
-    }
-    .product-page-color{
-      height: 35px;
-      width: 35px;
-    }
-    .product-page-size{
-      height: 45px;
-      width: 45px;
-
-    }
-
-  }
-
-  @media screen and (min-width: 992px){
-    .item-img .color-circle{
-      height: 15px;
-      width: 15px;
-    }
-  }
+}

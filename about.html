@@ -1,334 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="RainyDays - About Us">
-    <meta name="description" content="Our passion - your hiking dream. Read about us and how our buissness come to life!">
-    <meta name="keywords" content="rainydays, outdoor, hiking, clothes, jackets, ">
-    <meta name="language" content="English">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="RainyDays - About Us" />
+    <meta
+      name="description"
+      content="Our passion - your hiking dream. Read about us and how our buissness come to life!"
+    />
+    <meta
+      name="keywords"
+      content="rainydays, outdoor, hiking, clothes, jackets, "
+    />
+    <meta name="language" content="English" />
     <title>About Us</title>
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/RainyDays_Logo.png">
-</head>
-<body>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/RainyDays_Logo.png"
+    />
+  </head>
+  <body>
     <div class="main-container">
-        <header class="header sticky">
-            <img class="header-logo" src="assets/images/RainyDays_Logo.png" alt="logo"> 
-            
+      <header class="header sticky">
+        <img
+          class="header-logo"
+          src="assets/images/RainyDays_Logo.png"
+          alt="logo"
+        />
 
-            <a href="home.html" class="hidden-on-desktop back-button">
-                <div class="circle-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </a>
+        <a href="home.html" class="hidden-on-desktop back-button">
+          <div class="circle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
 
-            <nav id="menu">
-                <input id="burgerMenu" type="checkbox"/>
-                <label for="burgerMenu" class="circle-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <nav id="menu">
+          <input id="burgerMenu" type="checkbox" />
+          <label for="burgerMenu" class="circle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
 
-                </label>
+          <ul class="menu-items menu-layout">
+            <img
+              class="hidden-on-desktop"
+              src="assets/images/RainyDays_Logo.png"
+              alt="RainyDays-logo"
+            />
+            <li><a href="home.html">Home</a></li>
+            <p class="hidden-on-desktop">Products ></p>
+            <li><a href="new-arrivals.html">New Arrivals</a></li>
+            <li><a href="allProducts-male.html">Men</a></li>
+            <li><a href="allProducts-female.html">Women</a></li>
+            <li><a href="allProducts.html">All</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html" class="bold-font">About</a></li>
+            <label
+              for="shopping-cart-toggle"
+              class="shoppingCart-button hidden-on-desktop"
+            >
+              <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
+            </label>
+          </ul>
+        </nav>
 
-                <ul class="menu-items menu-layout">
-                        <img class="hidden-on-desktop" 
-                            src="assets/images/RainyDays_Logo.png" 
-                            alt="RainyDays-logo">  
-                    <li><a href="home.html">Home</a></li>
-                    <p class="hidden-on-desktop">Products ></p>
-                    <li><a href="new-arrivals.html">New Arrivals</a></li>
-                    <li><a href="allProducts-male.html">Men</a></li>
-                    <li><a href="allProducts-female.html">Women</a></li>
-                    <li><a href="allProducts.html">All</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html" class="bold-font">About</a></li>
-                    <label for="shopping-cart-toggle" class="shoppingCart-button hidden-on-desktop">
-                        <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
-                    </label>
-                </ul>
-            </nav>
-            
-            <section class="hidden-on-mobile search">
-                <label>
-                    <img src="assets/icons/searchsvg.svg" alt="search-icon">
-                    <input id="search-bar" type="text" placeholder="search" class="search-bar">
-                </label>
-                <menu class="search-menu-container">
-                    <div class="search-menu">
-                        <ul>
-                            <li>
-                                <a href="allProducts-forExploring.html">
-                                    <h3>Exploring</h3>
-                                <p>All jackets for exploring. Explore a diverse range of outdoor jackets tailored for every adventure. From women's lightweight hiking shells to men's insulated parkas, our collection features versatile styles suitable for various climates and activities.</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-male.html">
-                                    <h3>Expedition Pro Jacket</h3>
-                                <p>Durable nylon with waterproof coating. Breathable Fabric. Multiple external and internal pockets. Underarm zippers for airflow.</p>
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="search-results.html"><h2>View All</h2></a>
-                    </div>
-                </menu>
-            </section>
-                
-                    <div class="shopping-cart">
-                        <input class="hidden-on-mobile" type="checkbox" id="shopping-cart-toggle">
-                        <label class="shoppingCart-button hidden-on-mobile" for="shopping-cart-toggle">
-                            <img src="assets/icons/shoppingcart.svg" alt="shopping-cart"/>
-                        </label>
-
-                    <section id="shopping-cart" class="left-shadow">
-                        <div class="items">
-                            <label class="closeButton" for="shopping-cart-toggle">
-                                <span></span>
-                            </label>
-                            
-                            <h2>Your Cart</h2>
-
-                            <section class="centered-col">
-                                <input id="cart-item-1" type="checkbox"/>
-                                <div id="item-1" class="added-items box-shadow">
-                                    <div class="item-img">
-                                        <img src="assets/images/products/RainyDays_Jacket1transparent.png" alt="cart-item-male-jacket">
-                                        <div class="color-circle orange-color"></div>
-                                    </div>
-                                    
-                                    <div class="item-info">
-                                        <label class="delete-item" for="cart-item-1"></label>
-                                        <table>
-                                            <tr>
-                                                <td><h3>Rabot V2 3L Jacket</h3></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="gray-font-s">Wind and waterproof. Light and durable. Long ventilation zips for efficient ventilation.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Size: <b>L</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td><h3>598,-</h3></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-
-                                <input id="cart-item-2" type="checkbox"/>
-                                <div id="item-2" class="added-items box-shadow">
-                                    <div class="item-img">
-                                        <img src="assets\images\products\RainyDays_Jacket244.png" alt="cart-item-womens-jacket">
-                                        <div class="color-circle"></div>
-                                    </div>
-
-                                    <div class="item-info">
-                                        <label class="delete-item" for="cart-item-2"></label>
-                                        <table>
-                                            <tr>
-                                                <td><h3>Cecilie Light Wind Anorak</h3></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="gray-font-s">Light and sporty anorak for outdoor activities. Wind-resistant, water-repellent and breathable material. Practical and compressible.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Size: <b>S</b></td>
-                                            </tr>
-                                            <tr>
-                                                <td><h3>349,-</h3></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-
-                                <section class="cart-order-info">
-                                    <div id="info-item-1">
-                                        <b>1 x Rabot V2 3L Jacket</b>
-                                        <h4>598,-</h4>
-                                    </div>
-                                    <div id="info-item-2">
-                                        <b>1 x Cecilie Light Wind Anorak</b>
-                                        <h4>349,-</h4>
-                                    </div>
-                                    <div id="info-total">
-                                        <b>Total</b>
-                                        <h4>947,-</h4>
-                                    </div>
-                                </section>
-
-                                <div class="empty-cart">
-                                    <h1>Oops!</h1>
-                                    <p>Looks like your Cart is Empty!</p>
-                                    <a class="white-button" href="new-arrivals.html">
-                                        <button class="font-size">View the New Arrivals</button>
-                                    </a>
-                                    <h1>OR</h1>
-                                    <a class="colored-button" href="home.html">
-                                        <button class="font-size">Continue shopping</button>
-                                    </a>
-                                </div>
-                                <a class="colored-button bottom checkout-button" href="checkout.html">
-                                    <button class="font-size">Checkout</button>
-                                </a>
-                            </section>
-                            
-
-                            
-                        </div>
-                    </section>
-                </div>     
-        </header>
-
-
-
-
-
-
-
-        <main>
-            <section class="side-margin">
-
-                        <div>
-                            <h1 class="bold">About Us</h1>
-                            <p class="remove-margin">Welcome to <b>RainyDays</b>, where we believe in pushing the comfort zone for outdoor enthusiasts. Our passion lies in equipping men and women aged 30 to 50 with durable rain jackets designed for all their adventurous pursuits.</p>
-                            <p>Whether it's hiking through rugged terrain, skiing down snowy slopes, or camping under the stars, our mid-range jackets are crafted to withstand diverse weather conditions while ensuring ultimate comfort.</p>
-                        </div>
-
-                            <div>
-                                <h3>Our Story</h3>
-                                <p>Our story began on a stormy night during a hiking trip in the Pacific Northwest. Founders Sarah and Mike, avid adventurers themselves, found their expedition cut short by inadequate gear. Inspired by this experience, they set out to create a brand that ensures no adventure is hindered by the elements. Thus, RainyDays was born. Their vision was to develop high-quality, reliable, and stylish rain jackets that could withstand the harshest weather conditions and keep adventurers comfortable and protected.</p>
-                                
-                            </div>
-                        </section>
-                       
-                        <section>
-                            <div class="card-img-full background-full-img-about">
-                                <div class="center-text align-self-top">
-                                    <h1 class="freehand-title remove-margin">Pushing the Comfort Zone</h1>
-                                </div>
-                                <img class="img-icon img-logo-left" src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert – Kopi.png" alt="icon">
-                            </div>
-                    </section>
-
-                        <section class="side-margin">
-                            <div>
-                                <h3>Our Goal</h3>
-                                <p>At RainyDays, our goal is to empower outdoor enthusiasts to embrace the elements and make the most out of every adventure. We aim to provide gear that combines durability, comfort, and style, ensuring that our customers can explore with confidence regardless of the weather. We are committed to continuous innovation and improvement, always seeking to enhance our products and exceed our customers' expectations.</p>
-                                <p>Whether it's hiking through rugged terrain, skiing down snowy slopes, or camping under the stars, our mid-range jackets are crafted to withstand diverse weather conditions while ensuring ultimate comfort.</p>
-                                <p>At RainyDays, we understand the importance of quality and versatility. Each jacket is meticulously designed to cater to a variety of outdoor activities, enriching lives with every adventure. Our products undergo rigorous testing in the harshest conditions to guarantee they meet the highest standards of durability and performance.</p>
-                                <p>We’re not just selling jackets; we’re empowering you to embrace the elements and make the most out of your outdoor experiences. Join us in exploring the great outdoors with confidence. Discover your perfect companion for every adventure at RainyDays.</p>
-                            </div>
-                            <div>
-                                <h3>Sustainability Commitment</h3>
-                                <p>Our commitment to sustainability is also at the heart of our brand. We prioritize eco-friendly materials and ethical manufacturing practices to minimize our environmental footprint. When you choose RainyDays, you’re not only investing in quality gear but also supporting a brand that cares about preserving the beauty of nature for future generations.</p>
-                                <p>At RainyDays, we understand the importance of quality and versatility. Each jacket is meticulously designed to cater to a variety of outdoor activities, enriching lives with every adventure.</p>
-                                <p>We're not just selling jackets; we're empowering you to embrace the elements and make the most out of your outdoor experiences.</p>
-                            </div>
-
-                        </section>
- 
-
-           
-
-
-            <section class="side-margin center-text bottom-margin top-margin mid-text-box">
-                <p>Join us in exploring the great outdoors with confidence. Discover your perfect companion for every adventure at RainyDays.</p>
-            </section>
-
-
-            <b class="side-margin center-text mid-text-box img-font hidden-on-mobile">We’d Love to Hear From You</b>
-            <section>
-                    <div class="card-img expnand-grid background-aboutus-img img-position-left ">
-                        <div class="col2 coli-flex grid-placement-start center-text">
-                            <b class="img-font hidden-on-desktop font-right">We’d Love to Hear From You</b>
-                            <p class="img-font font-right">Have any feedback, questions, or need assistance? Our team at RainyDays is here to help! Whether you want to share your outdoor adventures, inquire about our products, or seek advice on choosing the perfect rain jacket, we’re all ears.</p>
-                            <a href="contact.html" class="font-right">
-                                <b class="img-font">Contact us today and let’s make your next adventure even better!</b>
-                            </a>
-                        </div>
-                        <img class="col1 img-icon img-logo-left" src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert – Kopi.png" alt="icon">
-                    </div>
-            </section>
-
-
-            <a href="about.html" class="side-margin back-to-top-button">
-                <div class="circle-button">
-                    <span></span>
-                    <span></span>
-                </div>
-            </a>
-        </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer class="top-shadow">
-            <div class="footer-logo">
-                <img src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert.png" alt="logo">
+        <section class="hidden-on-mobile search">
+          <label>
+            <img src="assets/icons/searchsvg.svg" alt="search-icon" />
+            <input
+              id="search-bar"
+              type="text"
+              placeholder="search"
+              class="search-bar"
+            />
+          </label>
+          <menu class="search-menu-container">
+            <div class="search-menu">
+              <ul>
+                <li>
+                  <a href="allProducts-forExploring.html">
+                    <h3>Exploring</h3>
+                    <p>
+                      All jackets for exploring. Explore a diverse range of
+                      outdoor jackets tailored for every adventure. From women's
+                      lightweight hiking shells to men's insulated parkas, our
+                      collection features versatile styles suitable for various
+                      climates and activities.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="product-male.html">
+                    <h3>Expedition Pro Jacket</h3>
+                    <p>
+                      Durable nylon with waterproof coating. Breathable Fabric.
+                      Multiple external and internal pockets. Underarm zippers
+                      for airflow.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+              <a href="search-results.html"><h2>View All</h2></a>
             </div>
+          </menu>
+        </section>
 
-            <div class="info-grid-name">
+        <div class="shopping-cart">
+          <input
+            class="hidden-on-mobile"
+            type="checkbox"
+            id="shopping-cart-toggle"
+          />
+          <label
+            class="shoppingCart-button hidden-on-mobile"
+            for="shopping-cart-toggle"
+          >
+            <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
+          </label>
 
-                <nav class="footer-menu">
-                    <a href="allProducts.html">Shop</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">FAQ</a>
-                </nav>
-                <p class="hidden-on-mobile bottom-in-info"><b>2024 © RainyDays™ All rights reserved.</b></p>
-            </div>
-                    <div class="footer-some">
-                        <h2>Follow us</h2>
-                        <p>Stay connected with us for the latest updates, promotions and outdoot tips.</p>
-                        <div>
-                            <img src="assets/icons/facebook-icon.svg" alt="facebook-icon">
-                            <img src="assets/icons/x-icon.svg" alt="x-icon">
-                            <img src="assets/icons/instagram-icon.svg" alt="instagram-icon">
-                        </div>
+          <section id="shopping-cart" class="left-shadow">
+            <div class="items">
+              <label class="closeButton" for="shopping-cart-toggle">
+                <span></span>
+              </label>
 
+              <h2>Your Cart</h2>
+
+              <section class="centered-col">
+                <input id="cart-item-1" type="checkbox" />
+                <div id="item-1" class="added-items box-shadow">
+                  <div class="item-img">
+                    <img
+                      src="assets/images/products/RainyDays_Jacket1transparent.png"
+                      alt="cart-item-male-jacket"
+                    />
+                    <div class="color-circle orange-color"></div>
+                  </div>
+
+                  <div class="item-info">
+                    <label class="delete-item" for="cart-item-1"></label>
+                    <table>
+                      <tr>
+                        <td><h3>Rabot V2 3L Jacket</h3></td>
+                      </tr>
+                      <tr>
+                        <td class="gray-font-s">
+                          Wind and waterproof. Light and durable. Long
+                          ventilation zips for efficient ventilation.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Size: <b>L</b></td>
+                      </tr>
+                      <tr>
+                        <td><h3>598,-</h3></td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
 
+                <input id="cart-item-2" type="checkbox" />
+                <div id="item-2" class="added-items box-shadow">
+                  <div class="item-img">
+                    <img
+                      src="assets\images\products\RainyDays_Jacket244.png"
+                      alt="cart-item-womens-jacket"
+                    />
+                    <div class="color-circle"></div>
+                  </div>
 
-            <div class="footer-contact-info">
-                <ul>
-                    <img src="assets/icons/phone-icon.svg" alt="phone-icon">
-                    <li>+ 12 345 67 890</li>
-                </ul>
-                <ul>
-                    <img src="assets/icons/mail-icon.svg" alt="email-icon">
-                    <li>support@rainydays.com</li>
-                </ul>
-                <ul>
-                    <img src="assets/icons/location-icon.svg" alt="map-icon">
-                    <li>
-                        <p>RainyDays Headquarters</p>
-                        <p>123 Adventure Lane, Suite 456</p>
-                        <p>Outdoor City, OC 78901</p>
-                    </li>
-                </ul>
+                  <div class="item-info">
+                    <label class="delete-item" for="cart-item-2"></label>
+                    <table>
+                      <tr>
+                        <td><h3>Cecilie Light Wind Anorak</h3></td>
+                      </tr>
+                      <tr>
+                        <td class="gray-font-s">
+                          Light and sporty anorak for outdoor activities.
+                          Wind-resistant, water-repellent and breathable
+                          material. Practical and compressible.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Size: <b>S</b></td>
+                      </tr>
+                      <tr>
+                        <td><h3>349,-</h3></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+                <section class="cart-order-info">
+                  <div id="info-item-1">
+                    <b>1 x Rabot V2 3L Jacket</b>
+                    <h4>598,-</h4>
+                  </div>
+                  <div id="info-item-2">
+                    <b>1 x Cecilie Light Wind Anorak</b>
+                    <h4>349,-</h4>
+                  </div>
+                  <div id="info-total">
+                    <b>Total</b>
+                    <h4>947,-</h4>
+                  </div>
+                </section>
+
+                <div class="empty-cart">
+                  <h1>Oops!</h1>
+                  <p>Looks like your Cart is Empty!</p>
+                  <a class="white-button" href="new-arrivals.html">
+                    <button class="font-size">View the New Arrivals</button>
+                  </a>
+                  <h1>OR</h1>
+                  <a class="colored-button" href="home.html">
+                    <button class="font-size">Continue shopping</button>
+                  </a>
+                </div>
+                <a
+                  class="colored-button bottom checkout-button"
+                  href="checkout.html"
+                >
+                  <button class="font-size">Checkout</button>
+                </a>
+              </section>
             </div>
+          </section>
+        </div>
+      </header>
 
+      <main>
+        <section class="side-margin">
+          <div>
+            <h1 class="bold">About Us</h1>
+            <p class="remove-margin">
+              Welcome to <b>RainyDays</b>, where we believe in pushing the
+              comfort zone for outdoor enthusiasts. Our passion lies in
+              equipping men and women aged 30 to 50 with durable rain jackets
+              designed for all their adventurous pursuits.
+            </p>
+            <p>
+              Whether it's hiking through rugged terrain, skiing down snowy
+              slopes, or camping under the stars, our mid-range jackets are
+              crafted to withstand diverse weather conditions while ensuring
+              ultimate comfort.
+            </p>
+          </div>
 
-            <div class="bottom-footer">
-                <p class="hidden-on-desktop"><b>2024 © RainyDays™ All rights reserved.</b></p>
-                <p>Your adventure begins here. RainyDays is committed to providing top-quality outdoor gear and exceptional customer service. All trademarks and copyrights belong to their respective owners. Unauthorized use is prohibited.</p>
+          <div>
+            <h3>Our Story</h3>
+            <p>
+              Our story began on a stormy night during a hiking trip in the
+              Pacific Northwest. Founders Sarah and Mike, avid adventurers
+              themselves, found their expedition cut short by inadequate gear.
+              Inspired by this experience, they set out to create a brand that
+              ensures no adventure is hindered by the elements. Thus, RainyDays
+              was born. Their vision was to develop high-quality, reliable, and
+              stylish rain jackets that could withstand the harshest weather
+              conditions and keep adventurers comfortable and protected.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div class="card-img-full background-full-img-about">
+            <div class="center-text align-self-top">
+              <h1 class="freehand-title remove-margin">
+                Pushing the Comfort Zone
+              </h1>
             </div>
-            
-        </footer>
+            <img
+              class="img-icon img-logo-left"
+              src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert – Kopi.png"
+              alt="icon"
+            />
+          </div>
+        </section>
 
+        <section class="side-margin">
+          <div>
+            <h3>Our Goal</h3>
+            <p>
+              At RainyDays, our goal is to empower outdoor enthusiasts to
+              embrace the elements and make the most out of every adventure. We
+              aim to provide gear that combines durability, comfort, and style,
+              ensuring that our customers can explore with confidence regardless
+              of the weather. We are committed to continuous innovation and
+              improvement, always seeking to enhance our products and exceed our
+              customers' expectations.
+            </p>
+            <p>
+              Whether it's hiking through rugged terrain, skiing down snowy
+              slopes, or camping under the stars, our mid-range jackets are
+              crafted to withstand diverse weather conditions while ensuring
+              ultimate comfort.
+            </p>
+            <p>
+              At RainyDays, we understand the importance of quality and
+              versatility. Each jacket is meticulously designed to cater to a
+              variety of outdoor activities, enriching lives with every
+              adventure. Our products undergo rigorous testing in the harshest
+              conditions to guarantee they meet the highest standards of
+              durability and performance.
+            </p>
+            <p>
+              We’re not just selling jackets; we’re empowering you to embrace
+              the elements and make the most out of your outdoor experiences.
+              Join us in exploring the great outdoors with confidence. Discover
+              your perfect companion for every adventure at RainyDays.
+            </p>
+          </div>
+          <div>
+            <h3>Sustainability Commitment</h3>
+            <p>
+              Our commitment to sustainability is also at the heart of our
+              brand. We prioritize eco-friendly materials and ethical
+              manufacturing practices to minimize our environmental footprint.
+              When you choose RainyDays, you’re not only investing in quality
+              gear but also supporting a brand that cares about preserving the
+              beauty of nature for future generations.
+            </p>
+            <p>
+              At RainyDays, we understand the importance of quality and
+              versatility. Each jacket is meticulously designed to cater to a
+              variety of outdoor activities, enriching lives with every
+              adventure.
+            </p>
+            <p>
+              We're not just selling jackets; we're empowering you to embrace
+              the elements and make the most out of your outdoor experiences.
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="side-margin center-text bottom-margin top-margin mid-text-box"
+        >
+          <p>
+            Join us in exploring the great outdoors with confidence. Discover
+            your perfect companion for every adventure at RainyDays.
+          </p>
+        </section>
+
+        <b
+          class="side-margin center-text mid-text-box img-font hidden-on-mobile"
+          >We’d Love to Hear From You</b
+        >
+        <section>
+          <div
+            class="card-img expnand-grid background-aboutus-img img-position-left"
+          >
+            <div class="col2 coli-flex grid-placement-start center-text">
+              <b class="img-font hidden-on-desktop font-right"
+                >We’d Love to Hear From You</b
+              >
+              <p class="img-font font-right">
+                Have any feedback, questions, or need assistance? Our team at
+                RainyDays is here to help! Whether you want to share your
+                outdoor adventures, inquire about our products, or seek advice
+                on choosing the perfect rain jacket, we’re all ears.
+              </p>
+              <a href="contact.html" class="font-right">
+                <b class="img-font"
+                  >Contact us today and let’s make your next adventure even
+                  better!</b
+                >
+              </a>
+            </div>
+            <img
+              class="col1 img-icon img-logo-left"
+              src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert – Kopi.png"
+              alt="icon"
+            />
+          </div>
+        </section>
+
+        <a href="about.html" class="side-margin back-to-top-button">
+          <div class="circle-button">
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </main>
+
+      <footer class="top-shadow">
+        <div class="footer-logo">
+          <img
+            src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="info-grid-name">
+          <nav class="footer-menu">
+            <a href="allProducts.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">FAQ</a>
+          </nav>
+          <p class="hidden-on-mobile bottom-in-info">
+            <b>2024 © RainyDays™ All rights reserved.</b>
+          </p>
+        </div>
+        <div class="footer-some">
+          <h2>Follow us</h2>
+          <p>
+            Stay connected with us for the latest updates, promotions and
+            outdoot tips.
+          </p>
+          <div>
+            <img src="assets/icons/facebook-icon.svg" alt="facebook-icon" />
+            <img src="assets/icons/x-icon.svg" alt="x-icon" />
+            <img src="assets/icons/instagram-icon.svg" alt="instagram-icon" />
+          </div>
+        </div>
+
+        <div class="footer-contact-info">
+          <ul>
+            <img src="assets/icons/phone-icon.svg" alt="phone-icon" />
+            <li>+ 12 345 67 890</li>
+          </ul>
+          <ul>
+            <img src="assets/icons/mail-icon.svg" alt="email-icon" />
+            <li>support@rainydays.com</li>
+          </ul>
+          <ul>
+            <img src="assets/icons/location-icon.svg" alt="map-icon" />
+            <li>
+              <p>RainyDays Headquarters</p>
+              <p>123 Adventure Lane, Suite 456</p>
+              <p>Outdoor City, OC 78901</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-footer">
+          <p class="hidden-on-desktop">
+            <b>2024 © RainyDays™ All rights reserved.</b>
+          </p>
+          <p>
+            Your adventure begins here. RainyDays is committed to providing
+            top-quality outdoor gear and exceptional customer service. All
+            trademarks and copyrights belong to their respective owners.
+            Unauthorized use is prohibited.
+          </p>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

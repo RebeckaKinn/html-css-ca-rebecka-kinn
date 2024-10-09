@@ -2,28 +2,27 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-white: #FFFFFF;
+  --color-white: #ffffff;
   --color-dark: #000000;
-  --main-color: #0A3641;
-  --gray-color: #D3D3D3;
+  --main-color: #0a3641;
+  --gray-color: #d3d3d3;
   --dark-gray-color: #9f9c9c;
 
-  --blue-link-color: #004CFF;
-  --item-color-orange: #E85836;
+  --blue-link-color: #004cff;
+  --item-color-orange: #e85836;
   --item-color-black: black;
-  --item-color-red: #D70000;
+  --item-color-red: #d70000;
   --item-color-darkRed: #890000;
-  --item-color-grey: #918B8A;
-  --item-color-white: #FFFFFF;
-  --item-color-blue: #22267B;
-  --item-color-brown: #8D6602;
-  --item-color-yellow: #F5EF61;
+  --item-color-grey: #918b8a;
+  --item-color-white: #ffffff;
+  --item-color-blue: #22267b;
+  --item-color-brown: #8d6602;
+  --item-color-yellow: #f5ef61;
   --item-color-DarkGreen: #287222;
-  --item-color-lightBlue: #6194F5;
-  --item-color-purple: #54227B;
-  --item-color-green: #248A59;
-  --item-color-lightBrown: #7E7450;
-
+  --item-color-lightBlue: #6194f5;
+  --item-color-purple: #54227b;
+  --item-color-green: #248a59;
+  --item-color-lightBrown: #7e7450;
 
   --shadow-color: rgba(0, 0, 0, 0.595);
 
@@ -35,7 +34,7 @@
   --desktop-width-large: 1200px;
 
   --background-img: url(../../assets/images/turgåere.jpg);
-  
+
   --card-img-1: url(../../assets/images/man_with_sunshine.jpg);
   --card-img-2: url(../../assets/images/woman_and_mountains.jpg);
   --card-img-3: url(../../assets/images/three_on_a_hike.jpg);
@@ -45,9 +44,8 @@
 
   --about-us-img-1: url(../../assets/images/elderly_smiling.jpg);
   --about-us-img-2: url(../../assets/images/elderly_and_mountain.jpg);
-  
-  --product-background-img: url(../../assets/images/group_by_a_hill.jpg);
 
+  --product-background-img: url(../../assets/images/group_by_a_hill.jpg);
 
   --product-male-1: url(../../assets/images/products/RainyDays_Jacket1transparent.png);
   --product-male-2: url(../../assets/images/products/RainyDays_Jacket33.png);
@@ -65,14 +63,14 @@ desktop-width: 992px;
 desktop-width-large: 1200px;
 */
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   :root {
     --font-size-p: 14px;
     --font-size-menu: 13px;
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   :root {
     --font-size-menu: 15px;
   }

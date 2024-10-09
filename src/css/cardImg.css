@@ -1,0 +1,411 @@
+.card-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "col1 col2";
+}
+
+.col1 {
+  grid-area: col1;
+  h1 {
+    font-weight: 600;
+    margin: 0;
+  }
+}
+
+.col2 {
+  grid-area: col2;
+}
+
+.turgåere2-background {
+  background-image: var(--card-img-4);
+  background-position: center left;
+  border-radius: 1em;
+  width: 90%;
+}
+
+.turgåere1-background {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.164) 10%,
+      rgba(255, 255, 255, 1)
+    ),
+    var(--background-img);
+  background-position: left top;
+  width: 100%;
+}
+
+.turgåere1-background,
+.turgåere2-background {
+  height: 100%;
+  padding: 5%;
+}
+
+.background-img-gradient-right {
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 0, 36, 0) 40%,
+      rgba(255, 255, 255, 1) 60%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    var(--card-img-1);
+}
+.background-img-gradient-left {
+  background-image: linear-gradient(
+      to left,
+      rgba(2, 0, 36, 0) 40%,
+      rgba(255, 255, 255, 1) 60%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    var(--card-img-2);
+  background-position: right top;
+}
+
+.background-img-product-page {
+  background-image: linear-gradient(
+      to left,
+      rgba(2, 0, 36, 0) 40%,
+      rgba(255, 255, 255, 1) 60%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    var(--product-background-img);
+  background-position: right center;
+}
+
+.background-contact-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 0, 36, 0) 30%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    var(--card-img-3);
+}
+.background-aboutus-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 0, 36, 0) 30%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    var(--about-us-img-2);
+  height: 100%;
+  padding: 3%;
+}
+
+.card-img-full {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.background-full-img-about {
+  background-image: var(--about-us-img-1);
+  background-position: center 25%;
+  min-height: 200px;
+  padding: 1% 3% 3% 3%;
+}
+
+.img-position-left {
+  background-position: left top;
+}
+
+.background-img-gradient-left,
+.background-img-gradient-right,
+.background-img-product-page,
+.background-contact-img {
+  background-size: 500px auto;
+  min-height: 230px;
+  padding: 3%;
+  margin-top: 3%;
+}
+
+.coli-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  a {
+    align-self: center;
+  }
+}
+
+.grid-placement-end {
+  justify-self: end;
+  text-align: start;
+}
+.grid-placement-start {
+  justify-self: start;
+  text-align: end;
+}
+
+.img-icon {
+  width: 60px;
+}
+.img-logo-left {
+  justify-self: start;
+  align-self: end;
+}
+.img-logo-right {
+  justify-self: end;
+  align-self: end;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-info-background {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 20%,
+        rgba(255, 255, 255, 1) 60%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-5);
+    background-position: right top;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .contact-info-background-full {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 20%,
+        rgba(255, 255, 255, 1) 60%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-5);
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "info1 ."
+      "info2 .";
+    div {
+      margin-right: 5%;
+    }
+  }
+
+  .info1 {
+    grid-area: info1;
+  }
+  .info2 {
+    grid-area: info2;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .col1-full {
+    grid-column-start: col1;
+    grid-column-end: col2;
+  }
+  .expnand-grid {
+    grid-template-columns: 1fr 2fr;
+  }
+  .background-contact-img {
+    background-size: 400px auto;
+    min-height: 300px;
+    padding: 3%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .background-img-gradient-right {
+    background-image: linear-gradient(
+        to right,
+        rgba(2, 0, 36, 0) 60%,
+        rgba(255, 255, 255, 1) 90%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-1);
+  }
+  .background-img-gradient-left {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 60%,
+        rgba(255, 255, 255, 1) 90%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-2);
+  }
+  .background-img-product-page {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 60%,
+        rgba(255, 255, 255, 1) 90%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--product-background-img);
+  }
+
+  .background-img-gradient-left,
+  .background-img-gradient-right,
+  .background-img-product-page,
+  .background-contact-img {
+    background-size: 550px auto;
+    min-height: 250px;
+    margin-top: 2%;
+  }
+  .grid-placement-end,
+  .grid-placement-start {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .turgåere2-background,
+  .turgåere1-background {
+    border-radius: 0;
+    width: 100%;
+    padding: 3%;
+  }
+  .coli-flex {
+    width: 80%;
+  }
+  .grid-placement-end,
+  .grid-placement-start {
+    justify-self: center;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "section0 ."
+      "section1 section2"
+      "section1 .";
+    column-gap: 10%;
+    .section0 {
+      grid-area: section0;
+    }
+    .section1 {
+      grid-area: section1;
+    }
+    .section2 {
+      grid-area: section2;
+    }
+  }
+
+  .background-full-img-about {
+    min-height: 300px;
+    padding: 3%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .background-img-gradient-right {
+    background-image: linear-gradient(
+        to right,
+        rgba(2, 0, 36, 0) 70%,
+        rgba(255, 255, 255, 1) 100%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-1);
+  }
+  .background-img-gradient-left {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 70%,
+        rgba(255, 255, 255, 1) 100%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-2);
+    background-position: right 10%;
+  }
+  .background-img-product-page {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 70%,
+        rgba(255, 255, 255, 1) 100%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--product-background-img);
+  }
+  .background-contact-img {
+    background-image: linear-gradient(
+        to right,
+        rgba(2, 0, 36, 0) 70%,
+        rgba(255, 255, 255, 1) 100%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--card-img-3);
+  }
+  .img-position-left {
+    background-position: left 20%;
+  }
+
+  .background-img-gradient-left,
+  .background-img-gradient-right,
+  .background-img-product-page,
+  .background-contact-img {
+    background-size: 700px auto;
+  }
+
+  .coli-flex {
+    width: 60%;
+  }
+
+  .info-grid {
+    grid-template-rows: 160px auto;
+    grid-template-areas:
+      "section0 section2"
+      "section1 section2";
+  }
+
+  .contact-info-background-full {
+    grid-template-rows: 160px auto auto;
+    grid-template-areas:
+      ". ."
+      "info1 ."
+      "info2 .";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .background-img-product-page {
+    background-image: linear-gradient(
+        to left,
+        rgba(2, 0, 36, 0) 50%,
+        rgba(255, 255, 255, 1) 70%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      var(--product-background-img);
+    background-size: 100% auto;
+    .coli-flex {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .background-img-gradient-left,
+  .background-img-gradient-right,
+  .background-contact-img {
+    background-size: 800px auto;
+    min-height: 300px;
+    margin-top: 0;
+  }
+  .background-img-gradient-right {
+    margin-top: 5%;
+  }
+
+  .coli-flex {
+    width: 50%;
+  }
+
+  .background-full-img-about {
+    background-position: center 35%;
+    min-height: 420px;
+    padding: 0 3% 1% 3%;
+  }
+}

@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -7,8 +9,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
-
 }

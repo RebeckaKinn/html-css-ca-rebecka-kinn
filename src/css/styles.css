@@ -12,6 +12,7 @@
 @import url("./mainpage.css");
 @import url("./footer.css");
 
+@import url("./cardImg.css");
 @import url("./shoppingcart.css");
 @import url("./color-circles.css");
 @import url("./welcomePage.css");
@@ -19,8 +20,8 @@
 @import url("./product.css");
 
 /*font*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
 
 body {
   color: var(--color-dark);
@@ -28,126 +29,112 @@ body {
   font-family: var(--main-font);
 }
 
-img{
+img {
   max-width: 100%;
-} 
+}
 
-
-
-ul{
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-ul.bullet{
-  list-style-type:disc;
-  padding:initial;
+ul.bullet {
+  list-style-type: disc;
+  padding: initial;
   margin: inherit;
 }
 
-
 /*BOX SHADOW*/
 
-.box-shadow{
+.box-shadow {
   box-shadow: 0px 5px 10px -5px var(--shadow-color);
 }
 
-.top-shadow{
+.top-shadow {
   box-shadow: 0px 5px 10px 10px var(--shadow-color);
 }
 
-.left-shadow{
+.left-shadow {
   box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
-.bottom-shadow{
+.bottom-shadow {
   box-shadow: 0px 8px 10px -5px var(--shadow-color);
 }
 
-
 /*MARGINS*/
 
-.remove-margin{
+.remove-margin {
   margin: 0;
 }
-.bottom{
+.bottom {
   margin-top: auto;
 }
 
-.side-margin{
+.side-margin {
   margin-left: 5%;
   margin-right: 5%;
 }
-.left-side-margin{
+.left-side-margin {
   margin-left: 5%;
 }
-.product-margin{
+.product-margin {
   margin-left: 2%;
   margin-right: 2%;
 }
 
-
-.bottom-margin{
+.bottom-margin {
   margin-bottom: 3%;
 }
-.top-margin{
+.top-margin {
   margin-top: 3%;
 }
 
-
-
-
-
-
-@media screen and (max-width: 991px){
-  .hidden-on-mobile{
+@media screen and (max-width: 991px) {
+  .hidden-on-mobile {
     display: none;
     z-index: -1;
   }
-  
 }
-@media screen and (min-width: 992px){
-
-  
-  .sticky{
+@media screen and (min-width: 992px) {
+  .sticky {
     width: 100%;
     position: fixed;
-    top: 0; 
+    top: 0;
   }
-  
-  .hidden-on-desktop{
+
+  .hidden-on-desktop {
     display: none;
     z-index: -1;
   }
-  
-  .side-margin{
+
+  .side-margin {
     margin-left: 10%;
     margin-right: 10%;
   }
-  .left-side-margin{
+  .left-side-margin {
     margin-left: 10%;
   }
-  .product-margin{
+  .product-margin {
     margin-left: 7%;
     margin-right: 7%;
   }
 }
 
-@media screen and (min-width: 1300px){
-  .side-margin{
+@media screen and (min-width: 1300px) {
+  .side-margin {
     margin-left: 20%;
     margin-right: 20%;
   }
-  .left-side-margin{
+  .left-side-margin {
     margin-left: 20%;
   }
-  .product-margin{
+  .product-margin {
     margin-left: 15%;
     margin-right: 15%;
   }
-  ul.bullet{
-    
+  ul.bullet {
     padding: 0 3% 0 3%;
     margin: 0 3% 0 3%;
   }
