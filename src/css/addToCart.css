@@ -25,6 +25,12 @@ position: fixed;
 
 
 
-@media screen and (min-width: 992px){
-    
+@media screen and (min-width: 900px){
+    .addToCart-message{
+        bottom: 10%;
+        width: 530px;
+        padding: 15px;
+        border-radius: 1em;
+       
+    }
 }
