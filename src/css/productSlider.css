@@ -198,7 +198,8 @@
   }
   .item-slider {
     gap: 2%;
-    height: 100%;
+    max-height: 500px;
+    height: auto;
     margin-left: 7%;
     margin-right: 7%;
     overflow-x: hidden;
@@ -206,10 +207,10 @@
   }
 
   .item-slider .img-card-item {
-    min-width: 200px;
+    /* min-width: 200px; */
     max-width: 250px;
     height: auto;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0;
     box-shadow: none;
     p {
@@ -249,12 +250,13 @@
 
   .item-slider .view-more-card {
     display: flex;
-    height: 235px;
+    height: 260px;
     box-shadow: 0px 5px 10px -5px var(--shadow-color);
     border-radius: 1em;
 
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     text-align: center;
+    padding: 5%;
     padding-top: 2%;
   }
 }
