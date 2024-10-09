@@ -59,3 +59,7 @@
   align-self: end;
 }
 
+
+.remove-text-wrap{
+  text-wrap: nowrap;
+}
