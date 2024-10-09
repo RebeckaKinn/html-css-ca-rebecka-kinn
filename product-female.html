@@ -295,17 +295,45 @@
             </ul>
 
             <div class="centered space-between-desktop">
-              <a class="colored-button" href="">
+              <label for="addToCart-toggle" class="colored-button">
                 <button class="font-size">Add To Cart</button>
                 <img
                   src="assets/icons/add-shopping-cart.svg"
                   alt="add-to-card-logo"
                 />
-              </a>
+              </label>
               <h2 class="title remove-margin hidden-on-mobile">349,-</h2>
+
+              <section class="addToCart-message bottom-shadow">
+                <div class="flex-colum gap">
+                  <div class="flex-row">
+                      <label class="closeButton margin-left-small" for="addToCart-toggle">
+                        <span></span>
+                      </label>
+                      <img class="top-margin" src="assets/icons/added-to-cart.svg" alt="Added to cart icon">
+                        <div class="top-margin">
+                          <h3 class="remove-margin">Item added to your cart</h3>
+                          <p class="remove-margin gray-font-s">2 items total in cart</p>
+      
+                        </div>
+                    </div>
+                    
+                    <div class="flex-row align-items-center justify-content-center">
+                      <a class="white-button remove-text-wrap" href="new-arrivals.html">
+                        <button>Continue Shopping</button>
+                      </a>
+                      
+                      <a class="colored-button remove-text-wrap" href="">
+                        <button>Open cart</button>
+                      </a>
+                    </div>
+                  </div>
+              </section>
+              
             </div>
           </div>
         </section>
+
 
         <section class="side-margin flex-colum top-line">
           <h3 id="description-section">Description</h3>
