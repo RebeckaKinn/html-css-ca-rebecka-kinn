@@ -115,10 +115,7 @@
 }
 
 .item-slider .view-more-card > a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   div {
     width: 100px;
     height: 100px;
@@ -207,7 +204,6 @@
   }
 
   .item-slider .img-card-item {
-    
     max-width: 250px;
     min-height: 100%;
     max-height: 100%;
@@ -255,14 +251,14 @@
   }
 
   .item-slider .view-more-card {
-    display: flex;
-    height: 260px;
+
+    height: 250px;
     box-shadow: 0px 5px 10px -5px var(--shadow-color);
     border-radius: 1em;
 
-    /* justify-content: flex-start; */
+
     text-align: center;
-    padding: 5%;
+
     padding-top: 2%;
   }
 }

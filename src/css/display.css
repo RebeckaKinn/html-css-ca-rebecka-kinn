@@ -52,3 +52,7 @@
 .flex-align-self{
   align-self: start;
 }
+.align-self-center{
+  align-self: center;
+}
+
