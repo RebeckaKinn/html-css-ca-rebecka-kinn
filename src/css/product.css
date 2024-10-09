@@ -34,8 +34,7 @@ Lage en egen main, og bruke class til der det er behov?
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         grid-template-areas: 'productInfo productImg'
-                            '. slideshowButtons'
-                            'productDesc productDesc';
+                            '. slideshowButtons';
 
         .img-container{
             grid-area: productImg;

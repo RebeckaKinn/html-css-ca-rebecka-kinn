@@ -1,4 +1,32 @@
+.center-text{
+  text-align: center;
+}
+.font-right{
+  text-align: end;
+}
+
+
+h1{
+  font-weight: 300;
+  font-style: normal;
+}
+
+.white-text{
+  color: var(--color-white);
+}
+.blue-font-color{
+  color: var(--blue-link-color);
+}
+
+.bold{
+  font-weight: 700;
+}
+.medium{
+  font-weight: 500;
+}
+
 /*FONT-SIZES*/
+
 p.img-font,
 b.img-font{
     font-size: 12px;

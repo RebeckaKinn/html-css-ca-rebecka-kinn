@@ -96,3 +96,10 @@
     }
 
   }
+
+  @media screen and (min-width: 992px){
+    .item-img .color-circle{
+      height: 15px;
+      width: 15px;
+    }
+  }
