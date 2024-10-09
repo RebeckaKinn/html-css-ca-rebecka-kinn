@@ -48,3 +48,7 @@
 .flex-grow {
   flex-grow: 1;
 }
+
+.flex-align-self{
+  align-self: start;
+}
