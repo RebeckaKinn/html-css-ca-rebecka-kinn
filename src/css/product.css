@@ -1,8 +1,4 @@
 .product-container {
-  display: flex;
-  flex-direction: column;
-
-
   .colored-button {
     width: 70%;
     display: flex;
