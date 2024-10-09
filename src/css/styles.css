@@ -45,6 +45,15 @@ ul.bullet {
   margin: inherit;
 }
 
+.ellipsis{
+  line-height: 1.4; 
+  max-height: 100px; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  display: block;
+}
+
+
 /*BOX SHADOW*/
 
 .box-shadow {
@@ -72,6 +81,9 @@ ul.bullet {
   margin-top: auto;
 }
 
+.remove-bottom-margin{
+  margin-bottom: 0;
+}
 .side-margin {
   margin-left: 5%;
   margin-right: 5%;
