@@ -17,12 +17,15 @@
   
     background-color: var(--color-white);
     z-index: 20; 
+
+    padding: 10%;
 }
 
 .filter-button{
     background-color: var(--color-white);
     border: none;
-    padding: 5% 15% 5% 15%;
+    /* padding: 5% 15% 5% 15%; */
+    padding: 5px 15px 5px 15px;
     border-radius: 2em;
     text-align: center;
 }

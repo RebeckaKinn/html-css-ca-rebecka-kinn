@@ -69,6 +69,10 @@
   align-self: end;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 
 .remove-text-wrap{
   text-wrap: nowrap;
