@@ -28,16 +28,21 @@
 
   --main-font: "Poppins", sans-serif;
 
-  --font-12: 12px;
-  --font-15: 15px;
-  --font-18: 18px;
-  --font-20: 20px;
+  --size-12: 12px;
+  --size-14: 14px;
+  --size-15: 15px;
+  --size-17: 17px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-30: 30px;
+  --size-40: 40px;
+  --size-50: 50px;
 
-  --font-size-p: 18px;
+  /* --font-size-p: 18px; */
   --font-size-menu: 20px;
 
-  --desktop-width: 992px;
-  --desktop-width-large: 1200px;
+  /* --desktop-width: 992px;
+  --desktop-width-large: 1200px; */
 
   --background-img: url(../../assets/images/turgåere.jpg);
 
@@ -71,7 +76,7 @@ desktop-width-large: 1200px;
 
 @media screen and (min-width: 992px) {
   :root {
-    --font-size-p: 14px;
+    /* --font-size-p: 14px; */
     --font-size-menu: 13px;
   }
 }
