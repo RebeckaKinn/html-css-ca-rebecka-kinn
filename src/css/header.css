@@ -63,7 +63,7 @@
   background-color: var(--color-white);
   box-shadow: -3px 5px 5px -3px var(--shadow-color);
   padding: 3% 5% 5% 5%;
-  margin: 0 5% 0 5%;
+  margin: 0;
 }
 .search-menu {
   display: flex;
@@ -71,33 +71,34 @@
   white-space: nowrap;
   width: 100%;
 
-  ul li a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 2%;
-  }
-  ul li a h3,
-  ul li a p {
-    margin: 0;
-    font-size: 12px;
-    letter-spacing: normal;
-  }
-  ul li a p {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    color: var(--dark-gray-color);
-  }
-  ul li a h3 {
-    padding-right: 20px;
-    font-size: 14px;
-  }
   a {
     align-self: center;
   }
   a h2 {
     margin: 50% 0 0 0;
-    font-size: 17px;
+    font-size: var(--size-17);
+  }
+  ul li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2%;
+
+    p, h3{
+      margin: 0;
+      letter-spacing: normal;
+    }
+    p{
+      font-size: var(--size-12);
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: var(--dark-gray-color);
+    }
+    h3{
+
+      padding-right: 20px;
+      font-size: var(--size-14);
+    }
   }
 }
 
@@ -192,7 +193,6 @@
 }
 
 .menu-items li {
-  
   font-size: var(--font-size-menu);
 }
 
@@ -258,18 +258,20 @@
 
   .search-menu-container {
     left: 0;
+    /* margin-top: 10px; */
     width: 150%;
   }
   .search-menu {
-    ul li a h3,
-    ul li a p {
-      font-size: 15px;
-    }
-    ul li a h3 {
-      font-size: 17px;
-    }
     a h2 {
-      font-size: 18px;
+      font-size: var(--size-14);
+    }
+    ul li a{
+      p{
+        font-size: var(--size-14);
+      }
+      h3{
+        font-size: var(--size-15);
+      }
     }
   }
 

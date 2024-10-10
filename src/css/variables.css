@@ -38,11 +38,8 @@
   --size-40: 40px;
   --size-50: 50px;
 
-  /* --font-size-p: 18px; */
+  --font-size-p: 18px; 
   --font-size-menu: 20px;
-
-  /* --desktop-width: 992px;
-  --desktop-width-large: 1200px; */
 
   --background-img: url(../../assets/images/turgåere.jpg);
 
@@ -76,7 +73,7 @@ desktop-width-large: 1200px;
 
 @media screen and (min-width: 992px) {
   :root {
-    /* --font-size-p: 14px; */
+    --font-size-p: 14px;
     --font-size-menu: 13px;
   }
 }
