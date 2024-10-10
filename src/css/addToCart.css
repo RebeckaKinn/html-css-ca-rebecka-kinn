@@ -12,7 +12,7 @@ position: fixed;
   transition: transform 0.5s ease, opacity 0.5s ease;
 
   background-color: var(--color-white);
-  z-index: 50;
+  z-index: 10;
     
 
 }
@@ -38,6 +38,7 @@ position: fixed;
 /*
 TODO: 
 
+Se på skjermbildene på telefonen og gjør endringer
 Endre navn på bildene, de om de funker på io link da
 Lage filter
 Lage order-pages
