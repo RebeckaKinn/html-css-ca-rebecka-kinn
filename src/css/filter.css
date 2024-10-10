@@ -16,5 +16,17 @@
     transition: transform 0.5s ease, opacity 0.5s ease;
   
     background-color: var(--color-white);
-    z-index: 10; 
+    z-index: 20; 
+}
+
+.filter-button{
+    background-color: var(--color-white);
+    border: none;
+    padding: 5% 15% 5% 15%;
+    border-radius: 2em;
+    text-align: center;
+}
+.chosen-filter{
+    color: var(--color-white);
+    background-color: var(--main-color);
 }

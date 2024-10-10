@@ -38,13 +38,14 @@
 
 .shopping-cart input,
 #addToCart-toggle,
-#filter-toggle {
+#filter-toggle{
   display: none;
 }
 
 .shopping-cart input:checked ~ #shopping-cart,
 #menu input:checked ~ .menu-items,
-#addToCart-toggle:checked ~ .addToCart-message{
+#addToCart-toggle:checked ~ .addToCart-message,
+#filter-toggle:checked ~ .pop-up{
   transform: translateX(0);
   opacity: 1;
 }
