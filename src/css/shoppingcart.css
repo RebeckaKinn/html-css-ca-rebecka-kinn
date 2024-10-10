@@ -66,9 +66,9 @@
   border-radius: 1em;
 }
 
-.img-section{
+/* .img-section{
   grid-area: image;
-}
+} */
 .item-img {
   grid-area: image; 
   width: 100%;
