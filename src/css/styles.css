@@ -53,6 +53,9 @@ ul.bullet {
   text-overflow: ellipsis;
   display: block;
 }
+.max-height-50{
+  max-height: 50px; 
+}
 
 
 /*BOX SHADOW*/
