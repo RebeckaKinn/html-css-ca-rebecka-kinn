@@ -27,6 +27,12 @@
   --shadow-color: rgba(0, 0, 0, 0.595);
 
   --main-font: "Poppins", sans-serif;
+
+  --font-12: 12px;
+  --font-15: 15px;
+  --font-18: 18px;
+  --font-20: 20px;
+
   --font-size-p: 18px;
   --font-size-menu: 20px;
 

@@ -32,7 +32,7 @@ h1 {
 
 p.img-font,
 b.img-font {
-  font-size: 12px;
+  font-size: var(--font-12);
 }
 
 .font-size {
@@ -100,9 +100,6 @@ h1.freehand-title {
   }
 }
 
-/*gjøre boksen til bildene i card litt større 
-  på pc. 
-  tynnere tittel? (navn på produkt)*/
 
 @media screen and (min-width: 1400px) {
   p.img-font,
