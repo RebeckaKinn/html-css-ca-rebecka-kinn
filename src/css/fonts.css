@@ -24,6 +24,10 @@ h1 {
   font-weight: 500;
 }
 
+.text-shadow{
+  text-shadow: 0px 2px 5px var(--color-dark);
+}
+
 /*FONT-SIZES*/
 
 p.img-font,
@@ -58,6 +62,11 @@ h1.freehand-title {
   color: var(--color-white);
 }
 
+.front-page-font{
+  color: var(--color-white);
+  font-size: 25px;
+}
+
 @media screen and (min-width: 700px) {
   p.img-font,
   b.img-font {
@@ -69,6 +78,13 @@ h1.freehand-title {
   }
   h1.freehand-title {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .front-page-font{
+    color: var(--main-color);
+    font-size: 30px;
   }
 }
 
