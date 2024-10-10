@@ -37,7 +37,8 @@
 }
 
 .shopping-cart input,
-#addToCart-toggle {
+#addToCart-toggle,
+#filter-toggle {
   display: none;
 }
 
