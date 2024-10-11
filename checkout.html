@@ -232,7 +232,7 @@
         </div>
       </header>
 
-      <main class="side-margin flex-colum">
+      <main class="full-height  side-margin flex-colum">
         <div class="checkout-flex">
           <h2>Overview</h2>
           <section>
@@ -301,10 +301,10 @@
                 <label for="shipping-option-1" class="order-info-grid align-items-center side-padding-3">
                   <div class="flex-row align-items-center">
                     <div class="color-circle medium-20x20 gray-color"></div>
-                    <h3 class="remove-margin">Standard</h3>
+                    <p class="remove-margin">Standard</p>
                   </div>
                   <p class="gray-font-s justify-self-end">5-7 business days</p>
-                  <h3 class="justify-self-end remove-margin">FREE</h3>
+                  <p class="justify-self-end remove-margin">FREE</p>
                 </label>
 
                 <input id="shipping-option-2" type="radio" name="shipping-options">
@@ -312,44 +312,47 @@
                 <label for="shipping-option-2" class="order-info-grid align-items-center side-padding-3">
                   <div class="flex-row align-items-center">
                     <div class="color-circle medium-20x20 gray-color"></div>
-                    <h3 class="remove-margin">Express</h3>
+                    <p class="remove-margin">Express</p>
                   </div>
-                  <p class="gray-font-s justify-self-end">5-7 business days</p>
-                  <h3 class="justify-self-end remove-margin">129,-</h3>
+                  <p class="gray-font-s justify-self-end">1-2 business days</p>
+                  <p class="justify-self-end remove-margin">129,-</p>
                 </label>
 
               </div>
             </section>
             
-            <section class="align-self-center cart-order-info">
+            <section class="side-padding-3 full-width cart-order-info">
               
               <div id="info-total">
-                <b>Total</b>
-                <h4>947,-</h4>
+                <h3>Total</h3>
+                <h3 class="justify-self-end">947,-</h3>
               </div>
 
-              <div class="flex-row justify-content-center margin-bottom-2-em">
-                <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="home.html">
-                  <button>Back</button>
-                </a>
-                
-                <label for="filter-toggle" class="colored-button full-width remove-text-wrap">
-                  <button>Choose payment method</button>
-                </label>
-              </div>
             </section>
+            <div class="flex-row justify-content-center margin-bottom-2-em">
+              <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="home.html">
+                <button>Back</button>
+              </a>
+              
+              <label for="filter-toggle" class="colored-button full-width remove-text-wrap">
+                <button>Choose payment method</button>
+              </label>
+            </div>
 
         </div>
 
 
-        <div class="flex-colum">
+        <!-- <div class="flex-colum">
           <a href="checkout.html" class="side-margin back-to-top-button">
             <div class="circle-button">
               <span></span>
               <span></span>
             </div>
           </a>
-        </div>
+        </div> 
+        
+        Fjernet siden main har en klasse med full-height med 100vh. 
+        -->
       </main>
 
       <footer class="top-shadow">

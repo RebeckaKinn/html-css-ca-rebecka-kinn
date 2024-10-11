@@ -6,7 +6,7 @@
 
 .order-info-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: auto;
 
     background-color: var(--light-gray-color);
@@ -25,6 +25,9 @@
 
     .color-circle{
         background-color: var(--main-color);
+    }
+    .remove-margin{
+        font-weight: 700;
     }
 }
 
