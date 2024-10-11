@@ -58,6 +58,11 @@ ul.bullet {
   max-height: 50px; 
 }
 
+.full-size{
+  height: 100%;
+  width: 100%;
+}
+
 
 /*BOX SHADOW*/
 
