@@ -63,6 +63,10 @@ ul.bullet {
   width: 100%;
 }
 
+.full-width{
+  width: 100%;
+}
+
 
 /*BOX SHADOW*/
 
@@ -115,6 +119,10 @@ ul.bullet {
 
 .margin-left-small{
   margin-left: 5%;
+}
+
+.margin-bottom-2-em{
+  margin-bottom: 2em;;
 }
 
 

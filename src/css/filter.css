@@ -19,6 +19,8 @@
     z-index: 20; 
 
     padding: 10%;
+
+
 }
 
 .filter-button{
@@ -53,5 +55,6 @@
 @media screen and (min-width: 1500px) {
     .pop-up{
         width: 20%;
+        padding: 2%;
     }
 }
