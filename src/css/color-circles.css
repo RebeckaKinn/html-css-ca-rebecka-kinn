@@ -62,6 +62,9 @@
 .gray-color {
   background-color: var(--gray-color);
 }
+.light-gray-color {
+  background-color: var(--light-gray-color);
+}
 
 .main-color {
   background-color: var(--main-color);
