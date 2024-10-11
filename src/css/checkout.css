@@ -12,15 +12,19 @@
     background-color: var(--light-gray-color);
     border-radius: 1em;
     transition: all 0.3s ease-in-out;
-}
 
-.highlightChosen{
-    background-color: var(--gray-color);
+    .color-circle{
+        border: 2px solid var(--color-white);
+    }
 }
 
 
 #shipping-option-1:checked + label,
 #shipping-option-2:checked + label{
     background-color: var(--gray-color);
+
+    .color-circle{
+        background-color: var(--main-color);
+    }
 }
 
