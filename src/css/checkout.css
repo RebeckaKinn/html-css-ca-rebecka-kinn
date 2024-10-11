@@ -1,8 +1,6 @@
 
 
-.checkout-flex{
 
-}
 
 .order-info-grid{
     display: grid;
@@ -31,3 +29,13 @@
     }
 }
 
+
+
+@media screen and (min-width: 800px){
+    .checkout-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        column-gap: 5%;
+    }
+}

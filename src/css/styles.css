@@ -135,6 +135,8 @@ ul.bullet {
 }
 
 
+
+
 /*PADDING*/
 .padding-right-5{
   padding-right: 5%;
@@ -151,6 +153,10 @@ ul.bullet {
   .hidden-on-mobile {
     display: none;
     z-index: -1;
+  }
+
+  .removed-header-placeholder{
+    padding-top: 80px;
   }
 }
 @media screen and (min-width: 992px) {
