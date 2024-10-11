@@ -16,6 +16,11 @@
   color: var(--color-white);
 }
 
+
+.main-color-item{
+  color: var(--main-color);
+}
+
 .orange-color {
   background-color: var(--item-color-orange);
 }
