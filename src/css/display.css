@@ -51,8 +51,15 @@
   justify-content: center;
 }
 
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 .gap{
   gap: 2em;
+}
+.gap-small{
+  gap: 1em;
 }
 
 .flex-grow {
@@ -71,6 +78,13 @@
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.justify-self-end{
+  justify-self: end;
+}
+.justify-self-center{
+  justify-self: center;
 }
 
 

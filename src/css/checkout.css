@@ -1,0 +1,26 @@
+
+
+.checkout-flex{
+
+}
+
+.order-info-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+
+    background-color: var(--light-gray-color);
+    border-radius: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.highlightChosen{
+    background-color: var(--gray-color);
+}
+
+
+#shipping-option-1:checked + label,
+#shipping-option-2:checked + label{
+    background-color: var(--gray-color);
+}
+

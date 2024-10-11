@@ -3,7 +3,414 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="title" content="Checkout" />
+    <meta name="description" content="Jackets for your every hiking need!" />
+    <meta
+      name="keywords"
+      content="rainydays, outdoor, hiking, clothes, jackets, "
+    />
+    <meta name="language" content="English" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/RainyDays_Logo.png"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <header class="header sticky">
+        <img
+          class="header-logo hidden-on-mobile"
+          src="assets/images/RainyDays_Logo.png"
+          alt="logo"
+        />
+
+        <a href="home.html" class="hidden-on-desktop back-button">
+          <div class="circle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+
+        <nav id="menu">
+          <input id="burgerMenu" type="checkbox" />
+          <label for="burgerMenu" class="circle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <ul class="menu-items menu-layout">
+            <img
+              class="hidden-on-desktop"
+              src="assets/images/RainyDays_Logo.png"
+              alt="RainyDays-logo"
+            />
+            <li><a href="home.html">Home</a></li>
+            <p class="hidden-on-desktop">Products ></p>
+            <li><a href="new-arrivals.html">New Arrivals</a></li>
+            <li><a href="allProducts-male.html">Men</a></li>
+            <li><a href="allProducts-female.html">Women</a></li>
+            <li><a href="allProducts.html">All</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <label
+              for="shopping-cart-toggle"
+              class="shoppingCart-button hidden-on-desktop"
+            >
+              <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
+            </label>
+          </ul>
+        </nav>
+
+        <section class="hidden-on-mobile search">
+          <label>
+            <img src="assets/icons/searchsvg.svg" alt="search-icon" />
+            <input
+              id="search-bar"
+              type="text"
+              placeholder="search"
+              class="search-bar"
+            />
+          </label>
+          <menu class="search-menu-container">
+            <div class="search-menu">
+              <ul>
+                <li>
+                  <a href="allProducts-forExploring.html">
+                    <h3>Exploring</h3>
+                    <p>
+                      All jackets for exploring. Explore a diverse range of
+                      outdoor jackets tailored for every adventure. From women's
+                      lightweight hiking shells to men's insulated parkas, our
+                      collection features versatile styles suitable for various
+                      climates and activities.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="product-male.html">
+                    <h3>Expedition Pro Jacket</h3>
+                    <p>
+                      Durable nylon with waterproof coating. Breathable Fabric.
+                      Multiple external and internal pockets. Underarm zippers
+                      for airflow.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+              <a href="search-results.html"><h2>View All</h2></a>
+            </div>
+          </menu>
+        </section>
+
+        <div class="shopping-cart">
+          <input
+            class="hidden-on-mobile"
+            type="checkbox"
+            id="shopping-cart-toggle"
+          />
+          <label
+            class="shoppingCart-button hidden-on-mobile"
+            for="shopping-cart-toggle"
+          >
+            <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
+          </label>
+
+          <section id="shopping-cart" class="left-shadow">
+            <div class="items">
+              <label class="closeButton" for="shopping-cart-toggle">
+                <span></span>
+              </label>
+
+              <h2>Your Cart</h2>
+
+              <section class="centered-col">
+                <input id="cart-item-1" type="checkbox" />
+                <div id="item-1" class="added-items box-shadow">
+                  <div class="item-img">
+                    <img
+                      src="assets/images/products/RainyDays_Jacket1transparent.png"
+                      alt="Image of Rabot V2 3L Jacket - male"
+                    />
+                    <div class="color-circle orange-color"></div>
+                  </div>
+
+                  <div class="item-info">
+                    <label class="delete-item" for="cart-item-1"></label>
+                    <table>
+                      <tr>
+                        <td><h3>Rabot V2 3L Jacket</h3></td>
+                      </tr>
+                      <tr>
+                        <td class="gray-font-s">
+                          Wind and waterproof. Light and durable. Long
+                          ventilation zips for efficient ventilation.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Size: <b>L</b></td>
+                      </tr>
+                      <tr>
+                        <td><h3>598,-</h3></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+                <input id="cart-item-2" type="checkbox" />
+                <div id="item-2" class="added-items box-shadow">
+                  <div class="item-img">
+                    <img
+                      src="assets\images\products\RainyDays_Jacket244.png"
+                      alt="Image of Cecilie Light Wind Anorak - women"
+                    />
+                    <div class="color-circle"></div>
+                  </div>
+
+                  <div class="item-info">
+                    <label class="delete-item" for="cart-item-2"></label>
+                    <table>
+                      <tr>
+                        <td><h3>Cecilie Light Wind Anorak</h3></td>
+                      </tr>
+                      <tr>
+                        <td class="gray-font-s">
+                          Light and sporty anorak for outdoor activities.
+                          Wind-resistant, water-repellent and breathable
+                          material. Practical and compressible.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Size: <b>S</b></td>
+                      </tr>
+                      <tr>
+                        <td><h3>349,-</h3></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+                <section class="cart-order-info">
+                  <div id="info-item-1">
+                    <b>1 x Rabot V2 3L Jacket</b>
+                    <h4>598,-</h4>
+                  </div>
+                  <div id="info-item-2">
+                    <b>1 x Cecilie Light Wind Anorak</b>
+                    <h4>349,-</h4>
+                  </div>
+                  <div id="info-total">
+                    <b>Total</b>
+                    <h4>947,-</h4>
+                  </div>
+                </section>
+
+                <div class="empty-cart">
+                  <h1>Oops!</h1>
+                  <p>Looks like your Cart is Empty!</p>
+                  <a class="white-button" href="new-arrivals.html">
+                    <button class="font-size">View the New Arrivals</button>
+                  </a>
+                  <h1>OR</h1>
+                  <a class="colored-button" href="home.html">
+                    <button class="font-size">Continue shopping</button>
+                  </a>
+                </div>
+                <a
+                  class="colored-button bottom checkout-button"
+                  href="checkout.html"
+                >
+                  <button class="font-size">Checkout</button>
+                </a>
+              </section>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <main class="side-margin flex-colum">
+        <div class="checkout-flex">
+          <h2>Overview</h2>
+          <section>
+            <div class="added-items box-shadow">
+              <div class="item-img padding-right-5 bottom-margin top-margin">
+                <img
+                  src="assets/images/products/RainyDays_Jacket1transparent.png"
+                  alt="Image of Rabot V2 3L Jacket - male"
+                />
+              </div>
+  
+              <div class="flex-row product-margin">
+                <div class="flex-grow item-info line-height-seamless">
+                  <table>
+                    <tr>
+                      <td><h3>1 x Rabot V2 3L Jacket</h3></td>
+                    </tr>
+                    <tr>
+                      <td>Size: L</td>
+                    </tr>
+                    <tr>
+                      <td>Color: Bright Orange</td>
+                    </tr>
+                  </table>
+                </div>
+                <h3 class="align-self-center medium">598,-</h3>
+
+              </div>
+            </div>
+  
+            <div class="added-items box-shadow">
+              <div class="item-img padding-right-5 bottom-margin top-margin">
+                <img
+                  src="assets\images\products\RainyDays_Jacket244.png"
+                  alt="Image of Cecilie Light Wind Anorak - women"
+                />
+              </div>
+  
+              <div class="flex-row product-margin">
+                <div class="flex-grow item-info line-height-seamless">
+                  <table>
+                    <tr>
+                      <td><h3>1 x Cecilie Light Wind Anorak</h3></td>
+                    </tr>
+                    <tr>
+                      <td>Size: S</td>
+                    </tr>
+                    <tr>
+                      <td>Color: Jet Black</td>
+                    </tr>
+                  </table>
+                </div>
+                <h3 class="align-self-center medium">349,-</h3>
+
+              </div>
+            </div>
+  
+            </section>
+
+            <section class="flex-colum">
+              <h1>Shipping Options</h1>
+              <div class="flex-colum gap-small">
+                
+                <input id="shipping-option-1" type="radio" checked="checked" name="shipping-options">
+                <label for="shipping-option-1" class="order-info-grid align-items-center side-padding-5">
+                  <div class="flex-row">
+                    <h3 class="remove-margin">Standard</h3>
+                  </div>
+                  <p class="gray-font-s justify-self-end">5-7 business days</p>
+                  <h3 class="justify-self-end remove-margin">FREE</h3>
+                </label>
+
+                <input id="shipping-option-2" type="radio" name="shipping-options">
+                <label for="shipping-option-2" class="order-info-grid align-items-center side-padding-5">
+                  <div class="flex-row">
+                    <h3 class="remove-margin">Express</h3>
+                  </div>
+                  <p class="gray-font-s justify-self-end">5-7 business days</p>
+                  <h3 class="justify-self-end remove-margin">129,-</h3>
+                </label>
+
+              </div>
+            </section>
+            
+            <section class="align-self-center cart-order-info">
+              
+              <div id="info-total">
+                <b>Total</b>
+                <h4>947,-</h4>
+              </div>
+
+              <div class="flex-row justify-content-center margin-bottom-2-em">
+                <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="home.html">
+                  <button>Back</button>
+                </a>
+                
+                <label for="filter-toggle" class="colored-button full-width remove-text-wrap">
+                  <button>Choose payment method</button>
+                </label>
+              </div>
+            </section>
+
+        </div>
+
+
+        <div class="flex-colum">
+          <a href="checkout.html" class="side-margin back-to-top-button">
+            <div class="circle-button">
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+        </div>
+      </main>
+
+      <footer class="top-shadow">
+        <div class="footer-logo">
+          <img
+            src="assets/images/RainyDays_Logo – Kopi-photoaidcom-invert.png"
+            alt="logo"
+          />
+        </div>
+
+        <div class="info-grid-name">
+          <nav class="footer-menu">
+            <a href="allProducts.html">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">FAQ</a>
+          </nav>
+          <p class="hidden-on-mobile bottom-in-info">
+            <b>2024 © RainyDays™ All rights reserved.</b>
+          </p>
+        </div>
+        <div class="footer-some">
+          <h2>Follow us</h2>
+          <p>
+            Stay connected with us for the latest updates, promotions and
+            outdoot tips.
+          </p>
+          <div>
+            <img src="assets/icons/facebook-icon.svg" alt="facebook-icon" />
+            <img src="assets/icons/x-icon.svg" alt="x-icon" />
+            <img src="assets/icons/instagram-icon.svg" alt="instagram-icon" />
+          </div>
+        </div>
+
+        <div class="footer-contact-info">
+          <ul>
+            <img src="assets/icons/phone-icon.svg" alt="phone-icon" />
+            <li>+ 12 345 67 890</li>
+          </ul>
+          <ul>
+            <img src="assets/icons/mail-icon.svg" alt="email-icon" />
+            <li>support@rainydays.com</li>
+          </ul>
+          <ul>
+            <img src="assets/icons/location-icon.svg" alt="map-icon" />
+            <li>
+              <p>RainyDays Headquarters</p>
+              <p>123 Adventure Lane, Suite 456</p>
+              <p>Outdoor City, OC 78901</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-footer">
+          <p class="hidden-on-desktop">
+            <b>2024 © RainyDays™ All rights reserved.</b>
+          </p>
+          <p>
+            Your adventure begins here. RainyDays is committed to providing
+            top-quality outdoor gear and exceptional customer service. All
+            trademarks and copyrights belong to their respective owners.
+            Unauthorized use is prohibited.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
