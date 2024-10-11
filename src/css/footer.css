@@ -16,11 +16,11 @@
 
 footer p,
 footer li {
-  font-size: 10px;
+  font-size: var(--size-11);
 }
 footer a,
 footer h2 {
-  font-size: 11px;
+  font-size: var(--size-12);
 }
 
 .info-grid-name {
@@ -122,11 +122,11 @@ footer h2 {
 @media screen and (min-width: 550px) {
   footer p:not(.bottom-footer p, .info-grid-name p),
   footer li {
-    font-size: 14px;
+    font-size: var(--size-14);
   }
   footer a,
   footer h2 {
-    font-size: 16px;
+    font-size:  var(--size-17);
   }
   .footer-contact-info ul {
     grid-template-columns: 50px 200px;
