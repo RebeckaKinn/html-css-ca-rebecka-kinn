@@ -22,7 +22,12 @@
     background-color: var(--gray-color);
 
     .color-circle{
+        content: "";
         background-color: var(--main-color);
+    }
+    .color-circle::after{
+        color: var(--color-white);
+        content: "✔";
     }
     .remove-margin{
         font-weight: 700;
@@ -61,8 +66,12 @@ Not working.
         column-gap: 5%;
     }
 
-    .checkout-total-desktop{
-        
-
+    .checkout-total{
+        #info-total{
+            gap: 30px;
+            justify-content: flex-end !important;
+        }
+         
     }
+
 }
