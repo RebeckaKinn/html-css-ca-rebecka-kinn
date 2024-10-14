@@ -94,9 +94,9 @@ h1.freehand-title {
 }
 
 @media screen and (min-width: 1100px) {
-  .gray-font-s {
+  /* .gray-font-s {
     font-size: var(--size-14);
-  }
+  } */
   h4.title {
     font-size: var(--size-15);
   }
