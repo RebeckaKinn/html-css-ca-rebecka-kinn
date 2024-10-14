@@ -42,7 +42,8 @@
   font-family: var(--main-font);
   font-size: var(--font-size-p);
 }
-.search input:focus {
+.search input:focus,
+.text-input:focus  {
   outline: none;
 }
 .search:focus-within .search-menu-container {

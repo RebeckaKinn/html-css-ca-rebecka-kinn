@@ -76,6 +76,11 @@ ul.bullet {
   height: 100%;
 }
 
+.border{
+  border: none;
+  border-radius: 0.7em;;
+}
+
 
 /*BOX SHADOW*/
 

@@ -22,6 +22,11 @@
   color: var(--color-white);
 }
 
+.gray{
+  color: var(--dark-gray-color);
+}
+
+
 
 .main-color-item{
   color: var(--main-color);
