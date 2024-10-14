@@ -35,13 +35,13 @@ i.gray-font-s{
 p.img-font,
 b.img-font,
 .gray-font-s,
-.shopping-cart-item-info {
+.cart-item-fontSize {
   font-size: var(--size-12);
 }
 
 
 h4.title,
-.shopping-cart-item-title {
+h3.cart-item-fontSize {
   font-size: var(--size-14);
 }
 h4.title{
