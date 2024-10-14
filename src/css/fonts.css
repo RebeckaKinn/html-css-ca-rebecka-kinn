@@ -32,6 +32,10 @@ i.gray-font-s{
   color: var(--dark-gray-color);
 }
 
+.small-font{
+  font-size: var(--size-11);
+}
+
 p.img-font,
 b.img-font,
 .gray-font-s,
