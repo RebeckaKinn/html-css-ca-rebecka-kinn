@@ -59,7 +59,7 @@
   gap: 2em;
 }
 .gap-small{
-  gap: 1em;
+  gap: .5em;
 }
 
 .flex-grow {

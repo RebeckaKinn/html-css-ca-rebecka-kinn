@@ -34,14 +34,19 @@ i.gray-font-s{
 
 p.img-font,
 b.img-font,
-.gray-font-s {
+.gray-font-s,
+.shopping-cart-item-info {
   font-size: var(--size-12);
 }
 
 
-h4.title {
+h4.title,
+.shopping-cart-item-title {
   font-size: var(--size-14);
+}
+h4.title{
   font-weight: 500;
+
 }
 
 h3.title,
