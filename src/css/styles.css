@@ -156,12 +156,15 @@ ul.bullet {
   padding-right: 5%;
 }
 
+.padding-top-50{
+  padding-top: 50px;
+}
 
 
 @media screen and (max-width: 991px) {
   .hidden-on-mobile {
-    display: none;
-    z-index: -1;
+    display: none !important;
+    z-index: -1 !important;
   }
 
   .removed-header-placeholder{
@@ -176,8 +179,8 @@ ul.bullet {
   }
 
   .hidden-on-desktop {
-    display: none;
-    z-index: -1;
+    display: none !important;
+    z-index: -1 !important;
   }
 
   .side-margin {
