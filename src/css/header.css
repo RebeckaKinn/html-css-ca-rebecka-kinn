@@ -105,20 +105,20 @@
 
 #menu {
   position: fixed;
-  top: 5%;
-  right: 5%;
+  top: 2%;
+  right: 3%;
   z-index: 13;
 }
 
 .back-button {
   position: fixed;
-  top: 5%;
-  left: 5%;
+  top: 2%;
+  left: 3%;
   z-index: 13;
 
   span {
     display: block;
-    width: 30px;
+    width: 20px;
     height: 3px;
 
     background-color: var(--main-color);
@@ -128,16 +128,16 @@
   }
   span:nth-child(1),
   span:nth-child(3) {
-    width: 20px;
-    margin-right: 15px;
+    width: 15px;
+    margin-right:16px;
   }
   span:nth-child(1) {
-    margin-bottom: 3px;
-    transform: rotate(-40deg);
+    transform: rotate(-45deg);
+    margin-bottom: 1px;
   }
   span:nth-child(3) {
-    margin-top: 3px;
-    transform: rotate(40deg);
+    margin-top: 1px;
+    transform: rotate(45deg);
   }
 }
 
@@ -152,9 +152,9 @@
 
 #menu label span {
   display: block;
-  width: 40px;
+  width: 29px;
   height: 3px;
-  margin: 4px 0 4px 0;
+  margin: 3px 0 3px 0;
   background-color: var(--main-color);
   border-radius: 3px;
   position: relative;
@@ -166,7 +166,7 @@
   box-shadow: none;
 }
 #menu input:checked ~ label span {
-  transform: rotate(-33deg);
+  transform: rotate(-40deg);
 }
 
 #menu input:checked ~ label span:nth-last-child(2) {
@@ -176,7 +176,7 @@
 }
 
 #menu input:checked ~ label span:nth-last-child(3) {
-  transform: rotate(33deg);
+  transform: rotate(40deg);
 }
 
 .menu-items {
