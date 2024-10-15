@@ -62,71 +62,52 @@ div.order-info-grid{
   width: 100%;
   
 }
-/* button:disabled,
-button[disabled]{
-    
-} */
 
 
 
 
-.switch {
+.save-info-switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 30px;
-  }
-  
 
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 34px;
+
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    span:before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 4px;
+      bottom: 4px;
+      background-color: var(--color-white);
+      border-radius: 50%;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
   }
   
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 22px;
-    width: 22px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
+  .save-info-switch input:checked + span {
     background-color: var(--main-color);
   }
-  
-
-  
-  input:checked + .slider:before {
+  .save-info-switch input:checked + span:before {
     -webkit-transform: translateX(30px);
     -ms-transform: translateX(30px);
     transform: translateX(30px);
   }
 
-  .slider.round {
-    border-radius: 34px;
-  }
   
-  .slider.round:before {
-    border-radius: 50%;
-  }
 
 
 
@@ -143,31 +124,7 @@ button[disabled]{
       border: 1px solid var(--payment-border-color);
   }
 
-  
-/* 
-Not working. 
-#shipping-option-1:checked ~ #info-total {
-    #checkout-total {
-      visibility: hidden;
-    }
-    #checkout-total::after {
-      visibility: visible;
-      content: "947,-";
-    }
-  }
-  #shipping-option-2:checked ~ #info-total {
-    #checkout-total {
-      visibility: hidden;
-    }
-    #checkout-total::after {
-      visibility: visible;
-      content: "1.076,-";
-    }
-  } */
-
   .input-width{
-    /* max-width: 200px;
-    min-width: 100px; */
     width: 100%;
   }
   @media screen and (max-width: 500px){

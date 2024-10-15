@@ -82,6 +82,9 @@ ul.bullet {
   border-radius: 0.7em;;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
 
 /*BOX SHADOW*/
 

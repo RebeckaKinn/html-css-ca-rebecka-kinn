@@ -154,7 +154,8 @@
 #cart-item-1:checked:checked
   ~ #cart-item-2:checked
   ~ .cart-order-info
-  #info-total {
+  #info-total,
+  .save-info-switch input {
   display: none;
 }
 
