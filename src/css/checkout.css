@@ -37,6 +37,8 @@
 .text-input{
   font-family: var(--main-font);
   padding: 0.5em 0.5em;
+
+  width: 100%;
   
 }
 /* button:disabled,
@@ -133,12 +135,26 @@ Not working.
     }
   } */
 
-
+  .input-width{
+    max-width: 200px;
+    min-width: 100px;
+    width: 90%;
+  }
+  @media screen and (max-width: 500px){
+    .wrap-under-500{
+        flex-wrap: wrap;
+    }
+  }
 
 @media screen and (max-width: 799px){
     .bottom-mobile{
         margin-top: auto;
     }
+    .hidden-to-800{
+        display: none;
+        z-index: -1;
+    }
+    
 }
 @media screen and (min-width: 800px){
     .checkout-grid{

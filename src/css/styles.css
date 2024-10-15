@@ -112,6 +112,9 @@ ul.bullet {
 .remove-bottom-margin{
   margin-bottom: 0;
 }
+.remove-top-margin{
+  margin-top: 0;
+}
 .side-margin {
   margin-left: 5%;
   margin-right: 5%;
