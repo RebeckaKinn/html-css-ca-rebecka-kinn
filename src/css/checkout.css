@@ -101,6 +101,11 @@
 
 
 
+  .payment-icons{
+    border-radius: 0.7em;
+    height: 6rem;
+  }
+
 /* 
 Not working. 
 #shipping-option-1:checked ~ #info-total {
