@@ -5,7 +5,7 @@
 .order-info-grid{
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 42px;
 
     background-color: var(--light-gray-color);
     border-radius: 1em;
@@ -18,7 +18,7 @@
 div.order-info-grid{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 42px;
 
     background-color: var(--gray-color);
     border-radius: 1em;

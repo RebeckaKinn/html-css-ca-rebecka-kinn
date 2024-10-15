@@ -76,6 +76,10 @@ ul.bullet {
   height: 100%;
 }
 
+.full-height-vh{
+  height: 100vh;
+}
+
 .border{
   border: none;
   border-radius: 0.7em;;
@@ -164,7 +168,7 @@ ul.bullet {
   }
 
   .removed-header-placeholder{
-    padding-top: 40px;
+    padding-top: 50px;
   }
 }
 @media screen and (min-width: 992px) {
