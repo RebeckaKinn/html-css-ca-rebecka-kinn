@@ -46,6 +46,14 @@ div.order-info-grid{
         font-weight: 700;
     }
 }
+.confirm-checkout-sircle::before{
+    content: "";
+}
+.confirm-checkout-sircle::after{
+    color: var(--color-white);
+    content: "✔";
+    font-size: var(--size-50);
+}
 
 .text-input{
   font-family: var(--main-font);

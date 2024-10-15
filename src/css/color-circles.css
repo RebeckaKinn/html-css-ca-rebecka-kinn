@@ -25,6 +25,15 @@
 .gray{
   color: var(--dark-gray-color);
 }
+.checkout-green-color{
+  background-color: var(--checkout-success-circle-color);
+}
+
+.confirm-checkout-sircle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
 
 
 
