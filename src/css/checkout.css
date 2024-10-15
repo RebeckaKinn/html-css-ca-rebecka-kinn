@@ -124,7 +124,11 @@ Not working.
 
 
 
-
+@media screen and (max-width: 799px){
+    .bottom-mobile{
+        margin-top: auto;
+    }
+}
 @media screen and (min-width: 800px){
     .checkout-grid{
         display: grid;
