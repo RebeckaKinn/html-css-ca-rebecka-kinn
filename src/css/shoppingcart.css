@@ -41,7 +41,8 @@
 #addToCart-toggle,
 #filter-toggle,
 #shipping-option-1,
-#shipping-option-2{
+#shipping-option-2,
+.remove-input{
   display: none;
 }
 

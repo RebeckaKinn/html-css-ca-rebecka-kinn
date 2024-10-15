@@ -15,6 +15,19 @@
         border: 2px solid var(--color-white);
     }
 }
+div.order-info-grid{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+
+    background-color: var(--gray-color);
+    border-radius: 1em;
+    transition: all 0.3s ease-in-out;
+
+    .color-circle{
+        border: 2px solid var(--color-white);
+    }
+}
 
 
 #shipping-option-1:checked + label,
@@ -112,8 +125,17 @@ button[disabled]{
   .payment-icons{
     border-radius: 0.7em;
     height: 6rem;
+    width: 6rem;
+    border: none;
+    transition: all 0.3s ease-in-out;
   }
 
+.payment-chooser input:checked + label{
+
+      border: 1px solid var(--payment-border-color);
+  }
+
+  
 /* 
 Not working. 
 #shipping-option-1:checked ~ #info-total {
@@ -136,9 +158,9 @@ Not working.
   } */
 
   .input-width{
-    max-width: 200px;
-    min-width: 100px;
-    width: 90%;
+    /* max-width: 200px;
+    min-width: 100px; */
+    width: 100%;
   }
   @media screen and (max-width: 500px){
     .wrap-under-500{

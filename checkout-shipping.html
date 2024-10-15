@@ -27,7 +27,7 @@
           alt="logo"
         />
 
-        <a href="checkout.html" class="hidden-on-desktop back-button">
+        <a href="checkout-payment.html" class="hidden-on-desktop back-button">
           <div class="circle-button">
             <span></span>
             <span></span>
@@ -301,50 +301,46 @@
                 <p class="gray-font-s justify-self-end">5-7 business days</p>
                 <p class="justify-self-end remove-margin">FREE</p>
               </label>
+
+              
+              <div class="order-info-grid align-items-center full-width side-padding-3">
+                <div class="flex-row align-items-center">
+                  <div class="medium-20x20 centered">
+                    <img src="assets/icons/payment/mastercard-icon.svg" alt="mastercard-icon">
+                  </div>
+                  <p>●●●● ●●●● ●●●● 1234</p>
+                </div>
+                <p class="justify-self-end remove-margin bold">15/24</p>
+              </div>
+
     
             </section>
 
             <section class="flex-colum full-size">
-              <h1 class="bottom-margin top-margin medium-title">Choose payment method</h1>
-              <div class="flex-colum gap-medium">
-                
-                <div class="full-width centered flex-row space-evenly payment-chooser">
+              <h1 class="bottom-margin top-margin medium-title">Shipping Adress</h1>
+              
 
-                  <input type="radio" checked="checked" id="chosen-payment-1" name="chosen-payment-buttons" class="remove-input">
-                  <label for="chosen-payment-1" class="payment-icons bottom-shadow flex-grow centered">
-                    <img src="assets/icons/payment/mastercard-icon.svg" alt="mastercard-icon">
-                  </label>
-
-                  <input type="radio" id="chosen-payment-2" name="chosen-payment-buttons" class="remove-input">
-                  <label for="chosen-payment-2" class="payment-icons bottom-shadow flex-grow centered">
-                    <img src="assets/icons/payment/paypal-icon.svg" alt="paypal-icon">
-                  </label>
-
-                  <input type="radio" id="chosen-payment-3" name="chosen-payment-buttons" class="remove-input">
-                  <label for="chosen-payment-3" class="payment-icons bottom-shadow flex-grow centered">
-                    <img src="assets/icons/payment/apple-pay-icon.svg" alt="apple-pay-icon">
-                  </label>
-
-                </div>
-
-                <label for="cardNumber" class="gray">Card number</label>
-                <input type="password" maxlength="16" id="cardNumber" class="text-input gray-color border medium-title">
-                <label for="password" class="gray">Password</label>
-                <input type="password" id="password" class="text-input gray-color border medium-title">
+                <label for="cardNumber" class="gray">Name</label>
+                <input type="text" id="cardNumber" class="text-input gray-color border medium-title">
+                <label for="password" class="gray">Street</label>
+                <input type="text" id="password" class="text-input gray-color border medium-title">
                 <div class="flex-row space-between wrap-under-500">
                   <div class="flex-colum">
-                    <label for="cvv" class="gray">CVV</label>
-                    <input type="password" maxlength="3" id="cvv" class="text-input gray-color border medium-title input-width">
+                    <label for="cvv" class="gray">Country</label>
+                    <input type="text" id="cvv" class="text-input gray-color border medium-title input-width">
                   </div>
 
                   <div class="flex-colum">
-                    <label for="date-exp" class="gray">Expiry date</label>
-                    <input type="text" maxlength="5"  placeholder="01/25" id="date-exp" class="text-input gray-color border medium-title input-width">
+                    <label for="date-exp" class="gray">ZIP/Postal</label>
+                    <input type="text" maxlength="4"  placeholder="01/25" id="date-exp" class="text-input gray-color border medium-title input-width">
                   </div>
                 </div>
+                <label for="password" class="gray">Phone Number*</label>
+                <input type="text" id="password" class="text-input gray-color border medium-title">
+                <p class="gray-font-s">*Optional</p>
 
                 <div class="flex-row space-between align-items-center">
-                  <h3>Save this card</h3>
+                  <h3>Save my shipping information</h3>
 
                   <label class="switch">
                   <input type="checkbox">
@@ -356,7 +352,7 @@
               </div>
             </section>
             
-          </div>
+          <!-- </div> -->
             <section class="align-self-end full-width side-padding-3 cart-order-info checkout-total hidden-on-mobile">
               
               <div id="info-total">
@@ -367,18 +363,19 @@
             </section>
 
             <div class="flex-row justify-content-center margin-bottom-2-em bottom-mobile">
-              <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="checkout.html">
+              <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="checkout-payment.html">
                 <button>Back</button>
               </a>
               
-              <a href="checkout-shipping.html" class="colored-button full-width remove-text-wrap">
-                <button>Confirm Payment</button>
+              <a href="" class="colored-button full-width remove-text-wrap">
+                <button>Confirm Adress</button>
               </a>
             </div>
 
+          </main>
 
-
-        <!-- <div class="flex-colum">
+            
+            <!-- <div class="flex-colum">
           <a href="checkout.html" class="side-margin back-to-top-button">
             <div class="circle-button">
               <span></span>
@@ -389,7 +386,6 @@
         
         Fjernet siden main har en klasse med full-height med 100vh. 
         -->
-      </main>
 
       <!-- <footer class="top-shadow">
         <div class="footer-logo">
