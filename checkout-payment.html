@@ -306,7 +306,7 @@
 
             <section class="flex-colum">
               <h1 class="bottom-margin top-margin medium-title">Choose payment method</h1>
-              <div class="flex-colum gap-small">
+              <div class="flex-colum gap-medium">
                 
                 <div class="full-width centered flex-row space-evenly">
                   <div class="payment-icons bottom-shadow flex-grow centered">
@@ -322,18 +322,18 @@
                 </div>
 
                 <label for="cardNumber" class="gray">Card number</label>
-                <input type="text" id="cardNumber" class="text-input gray-color border">
+                <input type="password" maxlength="16" id="cardNumber" class="text-input gray-color border medium-title">
                 <label for="password" class="gray">Password</label>
-                <input type="text" id="password" class="text-input gray-color border">
-                <div class="flex-row">
-                  <div class="flex-colum flex-grow">
+                <input type="password" id="password" class="text-input gray-color border medium-title">
+                <div class="flex-row space-between flex-wrap">
+                  <div class="flex-colum">
                     <label for="cvv" class="gray">CVV</label>
-                    <input type="text" id="cvv" class="text-input gray-color border">
+                    <input type="password" maxlength="3" id="cvv" class="text-input gray-color border medium-title">
                   </div>
 
-                  <div class="flex-colum flex-grow">
+                  <div class="flex-colum">
                     <label for="date-exp" class="gray">Expiry date</label>
-                    <input type="text" id="date-exp" class="text-input gray-color border">
+                    <input type="text" maxlength="5"  placeholder="01/25" id="date-exp" class="text-input gray-color border medium-title">
                   </div>
                 </div>
 
@@ -361,12 +361,12 @@
             </section>
 
             <div class="flex-row justify-content-center margin-bottom-2-em bottom-mobile">
-              <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="home.html">
+              <a class="white-button full-width remove-text-wrap hidden-on-mobile" href="checkout.html">
                 <button>Back</button>
               </a>
               
               <label for="filter-toggle" class="colored-button full-width remove-text-wrap">
-                <button>Choose payment method</button>
+                <button disabled>Confirm Payment</button>
               </label>
             </div>
 

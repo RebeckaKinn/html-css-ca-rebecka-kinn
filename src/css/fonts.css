@@ -56,6 +56,9 @@ h4.title{
 .medium-title{
   font-size: var(--size-20);
 }
+input.medium-title{
+  font-size: var(--size-16);
+}
 
 h3.title,
 i.gray-font-s,

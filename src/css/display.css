@@ -61,6 +61,9 @@
 .gap{
   gap: 2em;
 }
+.gap-medium{
+  gap: 1em;
+}
 .gap-small{
   gap: .5em;
 }

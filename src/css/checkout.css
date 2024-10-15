@@ -37,7 +37,13 @@
 .text-input{
   font-family: var(--main-font);
   padding: 0.5em 0.5em;
+  
 }
+/* button:disabled,
+button[disabled]{
+    
+} */
+
 
 
 
