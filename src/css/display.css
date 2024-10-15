@@ -3,7 +3,7 @@
 .main-container {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%; /*changed from 100vh*/
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
