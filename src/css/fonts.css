@@ -89,8 +89,9 @@ h1.freehand-title {
     font-size: var(--size-14);
   }
   button.font-size,
-  a.font-size {
-    font-size: var(--size-18);
+  a.font-size,
+  b.font-size {
+    font-size: var(--size-16);
   }
   h1.freehand-title {
     font-size: var(--size-40);

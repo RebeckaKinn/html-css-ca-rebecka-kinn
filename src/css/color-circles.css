@@ -35,7 +35,9 @@
   border-radius: 100%;
 }
 
-
+.dark-white-background{
+  background-color: var(--dark-white);
+}
 
 .main-color-item{
   color: var(--main-color);
