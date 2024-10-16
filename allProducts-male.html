@@ -277,21 +277,38 @@
                     <div>
                       <h3>Fit</h3>
                       <ul class="flex-row">
-                        <button class="filter-button light-gray-color">All</button>
-                        <button class="filter-button light-gray-color">Women</button>
-                        <button class="filter-button light-gray-color chosen-filter">Men</button>
+                        <input class="remove-input filter-input" id="filter-fit-all" type="radio" name="filter-fit">
+                        <label for="filter-fit-all" class="filter-button light-gray-color">All</label>
+                        
+                        <input class="remove-input filter-input" id="filter-fit-women" type="radio" name="filter-fit">
+                        <label for="filter-fit-women" class="filter-button light-gray-color chosen-filter">Women</label>
+                        
+                        <input class="remove-input filter-input" id="filter-fit-men" checked="checked" type="radio" name="filter-fit">
+                        <label for="filter-fit-men" class="filter-button light-gray-color">Men</label>
                       </ul>
 
                       <h3>Category</h3>
                       <ul class="flex-row flex-wrap">
-                        <button class="filter-button light-gray-color chosen-filter">All</button>
-                        <button class="filter-button light-gray-color">Cycling</button>
-                        <button class="filter-button light-gray-color">Canoeing</button>
-                        <button class="filter-button light-gray-color">Hiking</button>
-                        <button class="filter-button light-gray-color">Exploring</button>
-                        <button class="filter-button light-gray-color">Camping</button>
-                        <button class="filter-button light-gray-color">Skiing</button>
-                        <button class="filter-button light-gray-color">Canoeing</button>
+                        <input class="remove-input filter-input" id="filter-fit-all2" checked="checked" type="radio" name="filter-category">
+                        <label for="filter-fit-all2" class="filter-button light-gray-color chosen-filter">All</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Cycling" type="radio" name="filter-category">
+                        <label for="filter-fit-Cycling" class="filter-button light-gray-color">Cycling</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Canoeing" type="radio" name="filter-category">
+                        <label for="filter-fit-Canoeing" class="filter-button light-gray-color">Canoeing</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Hiking" type="radio" name="filter-category">
+                        <label for="filter-fit-Hiking" class="filter-button light-gray-color">Hiking</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Exploring" type="radio" name="filter-category">
+                        <label for="filter-fit-Exploring" class="filter-button light-gray-color">Exploring</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Camping" type="radio" name="filter-category">
+                        <label for="filter-fit-Camping" class="filter-button light-gray-color">Camping</label>
+
+                        <input class="remove-input filter-input" id="filter-fit-Skiing" type="radio" name="filter-category">
+                        <label for="filter-fit-Skiing" class="filter-button light-gray-color">Skiing</label>
                       </ul>
                     </div>
   

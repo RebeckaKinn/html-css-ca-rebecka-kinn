@@ -25,13 +25,14 @@
 
 .filter-button{
     border: none;
-    /* padding: 5% 15% 5% 15%; */
     padding: 5px 15px 5px 15px;
     border-radius: 2em;
     text-align: center;
     margin-bottom: 1em;
+    transition: all 0.2s ease-in-out;
 }
-.chosen-filter{
+
+.filter-input:checked + label{
     color: var(--color-white);
     background-color: var(--main-color);
 }
