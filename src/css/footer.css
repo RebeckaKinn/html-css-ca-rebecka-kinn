@@ -116,7 +116,7 @@ footer h2 {
   grid-area: bottomText;
   padding: 0 5% 0 5%;
   text-align: center;
-  color: var(--dark-gray-color);
+  color: var(--gray-color);
 }
 
 @media screen and (min-width: 550px) {

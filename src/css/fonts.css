@@ -11,6 +11,7 @@ h1 {
 }
 
 
+
 .blue-font-color {
   color: var(--blue-link-color);
 }
@@ -44,11 +45,11 @@ b.img-font,
 }
 
 
-h4.title,
+h3.title,
 h3.cart-item-fontSize {
   font-size: var(--size-14);
 }
-h4.title{
+h3.title{
   font-weight: 500;
 
 }
@@ -60,7 +61,7 @@ input.medium-title{
   font-size: var(--size-16);
 }
 
-h3.title,
+h4.title,
 i.gray-font-s,
 .font-size {
   font-size: var(--size-15);
@@ -109,10 +110,10 @@ h1.freehand-title {
   /* .gray-font-s {
     font-size: var(--size-14);
   } */
-  h4.title {
+  h3.title {
     font-size: var(--size-15);
   }
-  h3.title {
+  h4.title {
     font-size: var(--size-17);
   }
 }

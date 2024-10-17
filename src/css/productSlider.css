@@ -65,7 +65,7 @@
     h3 {
       margin: 0;
     }
-    h3 {
+    h4 {
       margin-left: 2%;
     }
   }
@@ -221,12 +221,12 @@
       }
     }
     p,
-    div h3,
+    div h4,
     ul {
       margin-right: 7%;
     }
     p,
-    div h4,
+    div h3,
     ul {
       margin-left: 7%;
     }
