@@ -9,8 +9,6 @@ main {
 }
 
 .category-icons {
-  width: 100%;
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
