@@ -26,6 +26,9 @@ h1 {
 .text-shadow{
   text-shadow: 0px 2px 5px var(--color-dark);
 }
+.dark-text-shadow{
+  text-shadow: 0px 5px 4px var(--color-dark);
+}
 
 /*FONT-SIZES*/
 .gray-font-s,
