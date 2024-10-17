@@ -67,6 +67,10 @@ i.gray-font-s,
   font-size: var(--size-15);
 }
 
+h2.title{
+  font-size: var(--size-18);
+}
+
 h1.freehand-title {
   font-family: "Freehand", cursive;
   font-size: var(--size-30);
