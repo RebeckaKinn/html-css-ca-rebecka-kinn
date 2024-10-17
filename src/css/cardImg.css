@@ -22,7 +22,10 @@
 }
 
 .turgåere2-background {
-  background-image: var(--card-img-4);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.192),
+      rgba(0, 0, 0, 0.192)
+    ), var(--card-img-4);
   background-position: center left;
   border-radius: 1em;
   width: 90%;
