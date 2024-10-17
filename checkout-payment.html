@@ -306,11 +306,13 @@
             </section>
 
             <section class="flex-colum full-size">
-              <h1 class="bottom-margin top-margin medium-title">Choose payment method</h1>
-              <div class="flex-colum gap-medium">
-                
-                <fieldset class="full-width centered flex-row space-evenly payment-chooser">
+              <legend>
+                <h1 class="bottom-margin top-margin medium-title">Choose payment method</h1>
+              </legend>
+              
+              <fieldset class="flex-colum gap-medium">
 
+                <div class="full-width centered flex-row space-evenly payment-chooser">
                   <input type="radio" checked="checked" id="chosen-payment-1" name="chosen-payment-buttons" class="remove-input">
                   <label for="chosen-payment-1" class="payment-icons bottom-shadow flex-grow centered">
                     <img src="assets/icons/payment/mastercard-icon.svg" alt="mastercard-icon">
@@ -325,10 +327,8 @@
                   <label for="chosen-payment-3" class="payment-icons bottom-shadow flex-grow centered">
                     <img src="assets/icons/payment/apple-pay-icon.svg" alt="apple-pay-icon">
                   </label>
+                </div>
 
-                </fieldset>
-
-                <fieldset>
                 <label for="cardNumber" class="gray">Card number</label>
                 <input type="password" maxlength="16" id="cardNumber" class="text-input light-gray-color border medium-title">
                 <label for="password" class="gray">Password</label>
@@ -343,20 +343,17 @@
                     <label for="date-exp" class="gray">Expiry date</label>
                     <input type="text" maxlength="5"  placeholder="01/25" id="date-exp" class="text-input light-gray-color border medium-title input-width">
                   </div>
-                </fieldset>
                 </div>
 
                 <div class="flex-row space-between align-items-center">
                   <h3>Save this card</h3>
-
                   <label class="save-info-switch">
-                  <input type="checkbox">
-                  <span class="gray-color cursor-pointer"></span>
+                    <input type="checkbox">
+                    <span class="gray-color cursor-pointer"></span>
                   </label>
-
                 </div>
 
-              </div>
+              </fieldset>
             </section>
             
           </div>
