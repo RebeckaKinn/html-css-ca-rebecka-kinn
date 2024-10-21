@@ -263,11 +263,17 @@
 
             <ul>
               <li class="medium"><p>Select Color</p></li>
-              <ul class="flex-row">
-                <li class="color-circle product-page-color grey-color"></li>
-                <li class="color-circle product-page-color black-color circle-border"></li>
-                <li class="color-circle product-page-color darkRed-color"></li>
-              </ul>
+              <fieldset class="flex-row">
+                <input class="remove-input color-chooser-input" type="radio" name="color-picker" id="color-picker-1" />
+                <label class="color-circle product-page-color grey-color" for="color-picker-1"></label>
+                
+                <input class="remove-input color-chooser-input" type="radio" checked="checked" name="color-picker" id="color-picker-2" />
+                <label class="color-circle product-page-color black-color" for="color-picker-2"></label>
+
+                <input class="remove-input color-chooser-input" type="radio" name="color-picker" id="color-picker-3" />
+                <label class="color-circle product-page-color darkRed-color" for="color-picker-3"></label>
+              </fieldset>
+
               <li class="medium"><p>Select Size</p></li>
               <ul class="flex-row">
                 <li class="centered color-circle product-page-size gray-color">
