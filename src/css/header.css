@@ -85,7 +85,7 @@
     margin: 50% 0 0 0;
     font-size: var(--size-17);
   }
-  ul li a{
+   li a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -272,7 +272,7 @@
     a h2 {
       font-size: var(--size-14);
     }
-    ul li a{
+     li a{
       p{
         font-size: var(--size-14);
       }
@@ -322,7 +322,7 @@
     padding: 0;
   }
 
-  #menu input:checked ~ ul {
+  #menu input:checked ~ .search-menu {
     transform: none;
   }
 
