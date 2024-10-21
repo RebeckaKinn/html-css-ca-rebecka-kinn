@@ -55,20 +55,18 @@ footer h2 {
   justify-content: end;
   margin-bottom: 5%;
 
-  li {
+  li p{
     grid-area: contactInfo;
     align-self: start;
-  }
-  li p {
     margin: 0;
   }
-  img {
+  li img {
     grid-area: contactIcon;
     justify-self: center;
     width: 15px;
   }
 }
-.footer-contact-info ul:nth-of-type(-n + 2) img {
+.footer-contact-info ul:nth-of-type(-n + 2) li img {
   align-self: center;
 }
 
@@ -131,7 +129,7 @@ footer h2 {
   .footer-contact-info ul {
     grid-template-columns: 50px 200px;
 
-    img {
+    li img {
       width: 20px;
     }
   }
