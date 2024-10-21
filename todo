@@ -4,4 +4,22 @@
 - be done with the CA report
 
 - make changes by the feedback from WAVE and Valitador-checker. 
-* add li tags in the ul tags accordingly. Made in header in Home - need to make that in the other ones as well. 
+
+
+Pages changed after valitator check: 
+* About
+* AllProducts-female
+* AllProducts-male
+* AllProducts
+* Checkout-payment-success
+* Checkout-payment
+* Checkout-shipping
+* Checkout-summary
+* Checkout
+* Contact
+Home DONE 
+Index DONE
+* New-arrivals
+* Product-felame
+* Product-male
+* Search-results
