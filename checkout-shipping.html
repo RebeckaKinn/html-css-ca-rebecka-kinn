@@ -45,29 +45,33 @@
           </label>
 
           <ul class="menu-items menu-layout">
-            <img
-              class="hidden-on-desktop"
-              src="assets/images/RainyDays_Logo.png"
-              alt="RainyDays-logo"
-            />
+            <li>
+              <img
+                class="hidden-on-desktop"
+                src="assets/images/RainyDays_Logo.png"
+                alt="RainyDays-logo"
+              />
+            </li>
             <li><a href="home.html">Home</a></li>
-            <p class="hidden-on-desktop">Products ></p>
+            <li class="hidden-on-desktop"><p>Products ></p></li>
             <li><a href="new-arrivals.html">New Arrivals</a></li>
             <li><a href="allProducts-male.html">Men</a></li>
             <li><a href="allProducts-female.html">Women</a></li>
             <li><a href="allProducts.html">All</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
-            <label
-              for="shopping-cart-toggle"
-              class="shoppingCart-button hidden-on-desktop"
-            >
-              <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
-            </label>
+            <li>
+              <label
+                for="shopping-cart-toggle"
+                class="shoppingCart-button hidden-on-desktop"
+              >
+                <img src="assets/icons/shoppingcart.svg" alt="shopping-cart" />
+              </label>
+            </li>
           </ul>
         </nav>
 
-        <section class="hidden-on-mobile search">
+        <div class="hidden-on-mobile search">
           <label>
             <img src="assets/icons/searchsvg.svg" alt="search-icon" />
             <input
@@ -77,9 +81,8 @@
               class="search-bar"
             />
           </label>
-          <menu class="search-menu-container">
-            <div class="search-menu">
-              <ul>
+          <section class="search-menu-container">
+            <menu class="search-menu">
                 <li>
                   <a href="allProducts-forExploring.html">
                     <h3>Exploring</h3>
@@ -102,11 +105,12 @@
                     </p>
                   </a>
                 </li>
-              </ul>
-              <a href="search-results.html"><h2>View All</h2></a>
-            </div>
-          </menu>
-        </section>
+                <li class="align-self-center">
+                  <a href="search-results.html"><h2>View All</h2></a>
+                </li>
+            </menu>
+          </section>
+        </div>
 
         <div class="shopping-cart">
           <input
@@ -143,14 +147,22 @@
 
                   <div class="item-info">
                     <label class="delete-item" for="cart-item-1"></label>
-                    <ul class="flex-colum gap-xsmall">
-                      <h3 class="cart-item-fontSize remove-margin">Rabot V2 3L Jacket</h3>
-                      <p class="gray-font-s ellipsis max-height-50 remove-margin">
-                        Wind and waterproof. Light and durable. Long
-                        ventilation zips for efficient ventilation.
-                      </p>
-                      <p class="cart-item-fontSize remove-margin">Size: <b>L</b></p>
-                      <h3 class="cart-item-fontSize remove-margin">598,-</h3>
+                   <ul class="flex-colum gap-xsmall">
+                      <li>
+                        <h3 class="cart-item-fontSize remove-margin">Rabot V2 3L Jacket</h3>
+                      </li>
+                      <li>
+                        <p class="gray-font-s ellipsis max-height-50 remove-margin">
+                          Wind and waterproof. Light and durable. Long
+                          ventilation zips for efficient ventilation.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="cart-item-fontSize remove-margin">Size: <b>L</b></p>
+                      </li>
+                      <li>
+                        <h3 class="cart-item-fontSize remove-margin">598,-</h3>
+                      </li>
                   </ul>
                 </div>
               </div>
@@ -168,15 +180,23 @@
                 <div class="item-info">
                   <label class="delete-item" for="cart-item-2"></label>
                   <ul class="flex-colum gap-xsmall">
+                    <li>
                       <h3 class="cart-item-fontSize remove-margin">Cecilie Light Wind Anorak</h3>
+                    </li>
+                    <li>
                       <p class="gray-font-s ellipsis max-height-50 remove-margin">
                         Light and sporty anorak for outdoor activities.
                         Wind-resistant, water-repellent and breathable
                         material. Practical and compressible.
                       </p>
+                    </li>
+                    <li>
                       <p class="cart-item-fontSize remove-margin">Size: <b>S</b></p>
+                    </li>
+                    <li>
                       <h3 class="cart-item-fontSize remove-margin">349,-</h3>
-                    </ul>
+                    </li>
+                  </ul>
                 </div>
               </div>
                 <section class="cart-order-info line-height-seamless">
@@ -195,22 +215,15 @@
                 </section>
 
                 <div class="empty-cart">
-                  <h1>Oops!</h1>
+                  <h2>Oops!</h2>
                   <p>Looks like your Cart is Empty!</p>
-                  <a class="white-button" href="new-arrivals.html">
-                    <button class="font-size">View the New Arrivals</button>
-                  </a>
-                  <h1>OR</h1>
-                  <a class="colored-button" href="home.html">
-                    <button class="font-size">Continue shopping</button>
-                  </a>
+                  <a class="white-button font-size" href="new-arrivals.html">View the New Arrivals</a>
+                  <h3>OR</h3>
+                  <a class="colored-button font-size" href="home.html">Continue shopping</a>
                 </div>
                 <a
-                  class="colored-button bottom checkout-button"
-                  href="checkout.html"
-                >
-                  <button class="font-size">Checkout</button>
-                </a>
+                  class="colored-button bottom checkout-button font-size"
+                  href="checkout.html">Checkout</a>
               </section>
             </div>
           </section>
