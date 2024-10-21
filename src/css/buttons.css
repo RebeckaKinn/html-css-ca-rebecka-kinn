@@ -48,9 +48,7 @@ button {
   border-radius: 2em;
   margin: 3% 0 3% 0;
   text-align: center;
-  button {
-    font-weight: 700;
-  }
+  font-weight: 700;
 }
 .white-button button {
   color: var(--main-color);
