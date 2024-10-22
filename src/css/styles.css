@@ -175,6 +175,11 @@ fieldset {
   padding-top: 50px;
 }
 
+.padding-top-bottom-small{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 
 @media screen and (max-width: 991px) {
   .hidden-on-mobile {
