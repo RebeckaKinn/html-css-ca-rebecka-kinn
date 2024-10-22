@@ -152,7 +152,7 @@ div.order-info-grid{
     }
 
     .checkout-total{
-        #info-total{
+        .info-total{
             gap: 30px;
             justify-content: flex-end !important;
         }
