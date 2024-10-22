@@ -42,7 +42,7 @@ div.order-info-grid{
         color: var(--color-white);
         content: "✔";
     }
-    .remove-margin{
+    .enhance{
         font-weight: 700;
     }
 }
