@@ -6,3 +6,21 @@
 - make changes by the feedback from WAVE 
 
 - change the div-elements around img (maybe more) to more apropriate tags. Ex pop ups 
+
+In header: 
+* <div class="search"> => <form class="search" action="search-results.html" method="get"> ?
+* <menu class="search-menu"> => <ul class="search-menu"> ?
+* add <nav id="menu" role="navigation" aria-label="Main navigation"> in nav id menu ? 
+
+
+In footer: 
+* add <nav class="footer-menu" aria-label="Footer navigation"> in nav class footer-menu
+* add adress tag instead?:
+<address>
+   <p>RainyDays Headquarters</p>
+   <p>123 Adventure Lane, Suite 456</p>
+   <p>Outdoor City, OC 78901</p>
+</address>
+* The contact details could be more semantically clear by using <dl> (definition list) instead of multiple <ul> elements. This helps to semantically represent the contact information.
+* The social media icons can be wrapped in an unordered list for better structure, indicating that they are a list of items. 
+* Make sure the heading levels are appropriate. If this is the first heading within the footer, it can remain as <h2>. If it’s the only heading, consider using <h3> instead.
