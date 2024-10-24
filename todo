@@ -1,13 +1,9 @@
-- refactor css
+- refactor css (if time!)
 - remove useless classes and reuse what you can
-
-- be done with the CA report
 
 - make changes by the feedback from WAVE 
 
-- change the div-elements around img (maybe more) to more apropriate tags. Ex pop ups 
+- change the div-elements around img (maybe more) to more apropriate tags. 
 
 In header: 
 * <div class="search"> => <form class="search" action="search-results.html" method="get"> ?
-* <menu class="search-menu"> => <ul class="search-menu"> ?
-* add <nav id="menu" role="navigation" aria-label="Main navigation"> in nav id menu ? 
