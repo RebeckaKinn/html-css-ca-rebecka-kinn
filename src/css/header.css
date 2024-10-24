@@ -29,7 +29,7 @@
   position: relative;
 }
 
-.search > label {
+.search > form {
   width: 100%;
   border: 1px solid var(--main-color);
   padding: 0.2em 0.2em;
@@ -254,7 +254,7 @@
     max-width: 300px;
   }
 
-  .search > label {
+  .search > form {
     border: none;
     padding: 0;
   }
