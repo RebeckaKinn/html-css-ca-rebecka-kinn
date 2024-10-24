@@ -5,5 +5,4 @@
 
 - change the div-elements around img (maybe more) to more apropriate tags. 
 
-In header: 
-* <div class="search"> => <form class="search" action="search-results.html" method="get"> ?
+- Add form-tag other places than in header?
