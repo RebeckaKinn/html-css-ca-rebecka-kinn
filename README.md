@@ -1,33 +1,73 @@
-# HTML & CSS Course Assignment
+<h1 align="center" id="title">Rainydays</h1>
 
-## Brief
+<p align="center"><img src="https://raw.githubusercontent.com/RebeckaKinn/html-css-ca-rebecka-kinn/refs/heads/main/assets/images/RainyDays_Logo.png" alt="project-image"></p>
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+<p id="description">This project was an HTML and CSS Course Assignment. The project showcases a responsive layout modern design patterns and core HTML/CSS skills.</p>
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+<h2>🚀 Demo</h2>
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique `<meta name="description">`, `<title>`, and `<h1>`.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+[https://rebeckakinn.github.io/html-css-ca-rebecka-kinn/](https://rebeckakinn.github.io/html-css-ca-rebecka-kinn/)
 
-## Process
+<h2>About</h2>
+<p>This website is made using **HTML and CSS**. It demonstrates:</p>
+<ul>
+  <li>Semantic HTML structure</li>
+  <li>Responsive design for mobile, tablet, and desktop</li>
+  <li>Clean visual layout with typography and spacing focus</li>
+  <li>Navigation with a header and content sections</li>
+</ul>
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+<h2>🛠️ Installation Steps:</h2>
 
-## Delivery
+<p>1. Clone the repository</p>
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+```
+git clone https://github.com/RebeckaKinn/html-css-ca-rebecka-kinn.git
+```
+
+<p>2. Navigate into the project folder</p>
+
+```
+cd html-css-ca-rebecka-kinn
+```
+
+<p>3. Open the page in your browser</p>
+
+```
+Double‑click index.html or open it with Live Server in your editor.
+```
+No build tools or package managers are needed — this is a plain HTML/CSS project.
+
+<h2>📱 Responsive Behavior</h2>
+
+<p>This site was built with a responsive mindset, so it adapts to:</p>
+<ul>
+  <li>Mobile phones</li>
+  <li>Tablets</li>
+  <li>Desktops</li>
+</ul>
+<p>Try resizing the browser to see how the layout adjusts.</p>
+
+<h2>🎨 Design & Layout Notes</h2>
+<ul>
+  <li>Simple and clear navigation</li>
+  <li>Focus on legible fonts and accessible contrast</li>
+  <li>Modular CSS files for easier maintenance</li>
+  <li>Header and footer styles split into separate files</li>
+</ul>
+
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   HTML
+*   CSS
+*   Responsive layout principles
+*   Mobile-first design
+*   Basic CSS Flexbox / Grid
+
+<h2>🤝 Credits</h2>
+
+<p>This project was created by Rebecka Kinn as part of course requirements in HTML & CSS.</p>
+Visit my portfolio: https://rebeckakinn.github.io/rk.dev/
