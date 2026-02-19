@@ -12,7 +12,7 @@ const products = [
         category: "exploring",
         colors: ["grey", "black", "darkRed"],
         sizes: ["XS", "S", "M", "L", "XL"],
-        cardDescription: [ //on product card
+        cardDescription: [ 
             "Waterproof up to 20 000 mm.",
             "Sits comfortable to the body.",
             "Light and breathable",
@@ -94,7 +94,7 @@ const products = [
         category: "other", 
         colors: ["orange", "black"],
         sizes: ["XS", "S", "M", "L", "XL"],
-        cardDescription: [ //on product card
+        cardDescription: [ 
             "Waterproof Construction - 15 000 mm.",
             "Breathable Fabric.",
             "Adjustable Fit.",
@@ -166,20 +166,22 @@ const products = [
     },
     {
         id: "003",
-        title: "",
+        title: "Alpine Windbreaker",
         collection: "",
         image: {
-            src: "",
-            alt: ""
+            src: "./assets/images/products/RainyDays_Jacket4r.png",
+            alt: "Image of Alpine Windbreaker - women"
         },
-        price: 0,
-        type: "", //women / men
-        category: "", //exploring / other
-        colors: ["", ""],
+        price: 499,
+        type: "women", 
+        category: "other", 
+        colors: ["black", "yellow", "darkGreen", "lightBlue"],
         sizes: ["", ""],
-        cardDescription: [ //on product card
-            "",
-            "",
+        cardDescription: [ 
+            "Polyester with windproof membrane.",
+            "Featherlight for easy packing.",
+            "Athletic fit for unrestricted movement.",
+            "Elastic cuffs and adjustable hem."
         ],
 
         itemDescription: "",
@@ -205,25 +207,24 @@ const products = [
         },
 
     },
-]
-
-/*
-{
-        id: "",
-        title: "",
+    {
+        id: "004",
+        title: "Teddy Fleece Jakcet",
         collection: "",
         image: {
-            src: "",
-            alt: ""
+            src: "./assets/images/products/RainyDays_Jacket7.png",
+            alt: "Image of Teddy Fleece Jakcet - women"
         },
-        price: 0,
-        type: "", //women / men
-        category: "", //exploring / other
-        colors: ["", ""],
+        price: 598,
+        type: "women", 
+        category: "exploring", 
+        colors: ["lightBrown", "white", "purple", "green"],
         sizes: ["", ""],
-        cardDescription: [ //on product card
-            "",
-            "",
+        cardDescription: [ 
+            "Multiple external and internal pockets.",
+            "Featherlight for easy packing.",
+            "Athletic fit for unrestricted movement.",
+            "Warm and sweat free."
         ],
 
         itemDescription: "",
@@ -249,4 +250,133 @@ const products = [
         },
 
     },
-*/
+    {
+        id: "005",
+        title: "Expedition Pro Jacket",
+        collection: "",
+        image: {
+            src: "./assets/images/products/RainyDays_Jacket33.png",
+            alt: "Image of Expedition Pro Jacket - male"
+        },
+        price: 399,
+        type: "men", 
+        category: "other", 
+        colors: ["red", "black", "grey"],
+        sizes: ["", ""],
+        cardDescription: [ 
+            "Durable nylon with waterproof coating.",
+            "Breathable Fabric.",
+            "Multiple external and internal pockets.",
+            "Underarm zippers for airflow."
+        ],
+
+        itemDescription: "",
+        description: "",
+        keyFeatures: [
+            {
+                title: "",
+                description: ""
+            },
+        ],
+        materialAndBuild: {
+            description: "",
+            information: [
+                {
+                    title: "",
+                    description: ""
+                },
+            ]
+        },
+        footerText: {
+            title: "",
+            description: ""
+        },
+
+    },
+    {
+        id: "006",
+        title: "Trailblazer Rain Shell",
+        collection: "",
+        image: {
+            src: "./assets/images/products/RainyDays_Jacket5.png",
+            alt: "Image of Trailblazer Rain Shell - male"
+        },
+        price: 799,
+        type: "men", 
+        category: "exploring", 
+        colors: ["grey", "white", "blue"],
+        sizes: ["", ""],
+        cardDescription: [ 
+            "Ripstop nylon with waterproof coating.",
+            "Seam-sealed for complete waterproofing.",
+            "Packs into its own pocket for convenience.",
+            "Reflective details for low-light visibility."
+        ],
+
+        itemDescription: "",
+        description: "",
+        keyFeatures: [
+            {
+                title: "",
+                description: ""
+            },
+        ],
+        materialAndBuild: {
+            description: "",
+            information: [
+                {
+                    title: "",
+                    description: ""
+                },
+            ]
+        },
+        footerText: {
+            title: "",
+            description: ""
+        },
+
+    },
+    {
+        id: "007",
+        title: "Glacier Parka",
+        collection: "",
+        image: {
+            src: "./assets/images/products/RainyDays_Jacket6.png",
+            alt: "Image of lacier Parka - male"
+        },
+        price: 849,
+        type: "men", 
+        category: "exploring", 
+        colors: ["grey", "white", "brown", "black"],
+        sizes: ["", ""],
+        cardDescription: [ 
+            "Synthetic fill for warmth.",
+            "Durable water-repellent (DWR) finish.",
+            "Extended coverage for added warmth.",
+            "Relaxed fit for layering."
+        ],
+
+        itemDescription: "",
+        description: "",
+        keyFeatures: [
+            {
+                title: "",
+                description: ""
+            },
+        ],
+        materialAndBuild: {
+            description: "",
+            information: [
+                {
+                    title: "",
+                    description: ""
+                },
+            ]
+        },
+        footerText: {
+            title: "",
+            description: ""
+        },
+
+    },
+];
