@@ -164,6 +164,47 @@ const products = [
         },
 
     },
+    {
+        id: "003",
+        title: "",
+        collection: "",
+        image: {
+            src: "",
+            alt: ""
+        },
+        price: 0,
+        type: "", //women / men
+        category: "", //exploring / other
+        colors: ["", ""],
+        sizes: ["", ""],
+        cardDescription: [ //on product card
+            "",
+            "",
+        ],
+
+        itemDescription: "",
+        description: "",
+        keyFeatures: [
+            {
+                title: "",
+                description: ""
+            },
+        ],
+        materialAndBuild: {
+            description: "",
+            information: [
+                {
+                    title: "",
+                    description: ""
+                },
+            ]
+        },
+        footerText: {
+            title: "",
+            description: ""
+        },
+
+    },
 ]
 
 /*
