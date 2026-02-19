@@ -119,7 +119,7 @@ function displaySingleProduct(id){
           <h3>${product.footerText.title}</h3>
           <p>${product.footerText.description}</p>
         </section>
-        ${backToTopButton("product-male.html")}
+        ${backToTopButton()}
     `;
 }
 
