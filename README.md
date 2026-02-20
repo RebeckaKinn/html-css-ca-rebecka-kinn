@@ -3,6 +3,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/RebeckaKinn/html-css-ca-rebecka-kinn/refs/heads/main/assets/images/RainyDays_Logo.png" alt="project-image"></p>
 
 <p id="description">This project was an HTML and CSS Course Assignment. The project showcases a responsive layout modern design patterns and core HTML/CSS skills.</p>
+<p><b>Update: </b>It is now using JS for data and component handeling.</p>
 
 <h2>🚀 Demo</h2>
 
@@ -63,6 +64,7 @@ Technologies used in the project:
 
 *   HTML
 *   CSS
+*   JavaScript
 *   Responsive layout principles
 *   Mobile-first design
 *   Basic CSS Flexbox / Grid
